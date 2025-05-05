@@ -53,6 +53,5 @@ Here are some criteria to consider while selecting a project.
 
 Some examples to consider
 
-* CEAL by Niel K
-* Home assistant
-* 
+* [Home assistant](https://www.home-assistant.io/integrations/)
+* [Grafana](https://grafana.com/docs/grafana/latest/developers/contribute/)
