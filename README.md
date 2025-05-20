@@ -21,6 +21,13 @@ This is a **preliminary** list motivated by the mission of the software engineer
 
 And as a reminder *"A BYU education should be (1) spiritually strengthening, (2) intellectually enlarging, and (3) character building, leading to (4) lifelong learning and service."*
 
+## Generative AI Policy
+
+You are encouraged to make use of the various generative AI tools that can help. Please consider two things:
+
+1. Your use of code generation tools, needs to be consistent with the rules and culture of the OSS project you are participating in. 
+2. As an engineer you remain responsible for the code you produce. You need to ensure it meets the quality standards of the project (is readable, follows style guides, is well designed, defect free, etc.).
+
 ## Topics to cover
 
 1. Criteria for selecting a project; licensing; open source manifesto; history of open source
