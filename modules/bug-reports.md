@@ -115,3 +115,32 @@ Note there can be important differences between documented procedures and actual
 * In what way is analytical thinking relevant to bug reporting and triage?
 * Briefly summarize how bug reporting and fixing is handled in your OSS project. Provide some reflection on *why* things are done the way they are.
 * What (if any) opportunities do you see for contributing to bug reporting and handling in your OSS project?
+
+## Appendix
+
+Additional email conversation with 340 student. Instructor questions in bold.
+
+> **Is that post duplicated in the UI AND the story table or just the UI?**
+
+> It was just in the UI but I found someone had a similar issue in slack and it was a rendering issue that needed to be resolved.
+
+> **Not updating correctly or not updating at all? I guess the feed table can’t be updated properly without the followers/followees table being updated correctly? Right? Though I guess maybe only the “followers” are needed. I get the two mixed up ... **
+
+> This actually ended up being an issue similar to one I had before. I noticed the request was sending a user object instead of a UserDto object so I fixed that in the front end. This fixed a lot of the issues I was having.
+
+> **Great idea. Does the followees and feed also get updated correctly when you call the appropriate services from main.ts on your laptop?**
+
+> **Do you mean this is what is returned from the server when you look at the responses in the network tab of your browser dev tools? Or just that the UI shows a list of undefined users and empty feed page?**
+
+> **When you say “payloads" do you mean both the request and the response? Like, is the server returning the right json object in the response? This should help us figure out if it is a client issue or a server issue.**
+
+> I forgot to check the actual requests and responses which helped me figure out that it was a data type issue between the client and server. After checking the requests, I was able to resolve the issue for the followees list. Once I got that working, I was able to figure out some of the logic issues I had with the feed table never getting updated with each post status.
+
+> This should work as long as you are looking at the correct “log group”. That is, you need to find the log group for the particular lambda function that was called. Is that not what you are finding. 
+Though as always, if you can debug by running the server (services, say) on your laptop that’s easiest. 
+
+> In addition to the cloud watch logs, I would also consider checking the monitoring tab for your DynamoDB tables and lambdas. I’m not sure that is relevant in this case, but can be useful in general. For example, you can see if DB reads or writes are being “throttled”.
+
+> In some cases, I was throwing an error before the console.log statement which meant the program stopped before it reached the print code. I'll try using the monitor tab as well in DynamoDB. Eventually, I was able to find the console.log statements — I was checking the wrong lambda function at times as well so that helped to double check that! It also really helped to be reminded to check the requests and responses for each lambda call. I was able to work out most of the bugs.
+
+> I just have a little more to work out with the feed (it displays the logged in user's alias rather than the alias of the user who posted the status) but everything else seems to be working now for Milestone 4a. This helped a lot, thank you so much!
