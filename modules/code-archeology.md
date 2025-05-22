@@ -4,6 +4,19 @@ Status: Under development
 
 *Note: Code or Software Archeology may not be the best term as it specificly refers to working with undocmumented legacy code.  But sometimes that describes an open source project. :-)*
 
+## JS NOTES
+
+Thanks for the draft Tom. Here are some initial thoughts and/or questions.
+
+* Would it make sense to talk about learning programming languages and frameworks in this context? Or would that be better in its own module? Of course it is hard to understand a code base if you don't understand the programming languages, key frameworks, et.
+
+* One thing I was thinking about (that may be worth considering as we refine this topic) is that code archeology is a fairly general term and it may be worth considering thinking about more specific versions. So for example ...
+
+  * Questions based vs. task based vs. general familiarization ...
+  * Static structure vs. control flow vs. data flow
+
+* Also, would it help to refine the exercise perhaps by giving the students a couple questions to answer or tasks to perform or ?
+
 ## Learning outcomes
 By discussing code archeology, our aim is to:
 
