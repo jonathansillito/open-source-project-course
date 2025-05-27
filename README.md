@@ -21,6 +21,20 @@ This is a **preliminary** list motivated by the mission of the software engineer
 
 And as a reminder *"A BYU education should be (1) spiritually strengthening, (2) intellectually enlarging, and (3) character building, leading to (4) lifelong learning and service."*
 
+## Course structure
+
+Each week of the course will be focused on one main topic, related to one or more of the course learning outcomes. A typical week will look something like the following (beginning on **Tuesday** and then spilling into **Thursday**).
+
+1. **Reading:** Each week students will be assigned some reading of substance. We expect that students who do the reading *in advance* will get far more out of the class.
+
+2. **Discussing:** Class will begin with a discussion of the topic, in part based on the reading. We hope students will come prepared to ask questions and contribute to the discussion.
+
+3. **Practicing:** Students will then break into small groups to practice skills related to the topic. This practice time will be highly interactive, with interruptions for class discussion and feedback from instructors.
+
+4. **Applying:** Students will independently apply what is learned in their open source project to deepen their understanding of the topic and contribute to the project.
+
+5. **Reflecting:** At the end of the week students will submit a reflection on the topic based on some assigned questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
+
 ## Generative AI Policy
 
 You are encouraged to make use of the various generative AI tools that can help. Please consider two things:
@@ -28,26 +42,19 @@ You are encouraged to make use of the various generative AI tools that can help.
 1. Your use of code generation tools, needs to be consistent with the rules and culture of the OSS project you are participating in. 
 2. As an engineer you remain responsible for the code you produce. You need to ensure it meets the quality standards of the project (is readable, follows style guides, is well designed, defect free, etc.).
 
-## Topics to cover
+## Course topics
 
 1. Criteria for selecting a project; licensing; open source manifesto; history of open source
 2. Project management, processes (governance), understanding collaboration in their project and generally 
-4. Build and run
-3. Code archeology (tooling, practices), up and running
+3. [Code archeology](modules/code-archeology.md), including relevant tools and practices
+4. [Analytical thinking in software engineering](modules/analytical-thinking.md), including [writing bug reports](modules/bug-reports.md) and [debugging](modules/debugging.md)
 
-* Writing good bug reports
+
 * Code reviews (both directions)
 * Learning how to learn (and loving it!)
 * Writing effective documentation (articulating design decisions)
 * Mentoring; compile a list and have students reach out
 
-Formula for major topics (learning outcomes)
-
-1. Reading (of substance)
-2. Class discussion
-3. In class practice with feedback (looping)
-4. Plan and apply in OSS project
-5. Reflection
 
 ## Project steps
 
