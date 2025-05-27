@@ -46,12 +46,11 @@ You are encouraged to make use of the various generative AI tools that can help.
 
 1. Criteria for selecting a project; licensing; open source manifesto; history of open source
 2. Project management, processes (governance), understanding collaboration in their project and generally 
-3. [Code archeology](modules/code-archeology.md), including relevant tools and practices
+3. [Tools and techniques for investigating code](modules/code-archeology.md)
 4. [Analytical thinking in software engineering](modules/analytical-thinking.md), including [writing bug reports](modules/bug-reports.md) and [debugging](modules/debugging.md)
 
-
-* Code reviews (both directions)
 * Learning how to learn (and loving it!)
+* Code reviews (both directions)
 * Writing effective documentation (articulating design decisions)
 * Mentoring; compile a list and have students reach out
 

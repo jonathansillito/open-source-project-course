@@ -37,6 +37,10 @@ To introduce these ideas we will discuss the Slack incident linked above, which 
     4. Logical Reasoning – 
     5. Evaluation – 
 
+#### NASA bug report and debugging example
+
+* Likelihood issue #90
+
 ## Modules
 
 In software engineering, analytical thinking is needed when debugging code, assessing pros and cons of a design decision, troubleshooting a system (as just discussed), and in other contexts. In this course we will discuss the following activities more specifically.
