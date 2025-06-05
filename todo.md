@@ -1,8 +1,10 @@
-* Email for alumni [JS] - Draft complete, discussing with Sarah
+* Email for alumni [JS] 
+    - Draft complete, discussing with Sarah
 * Work on topic modules
     * Code archeology [TS]
-    * Analytic thinking/debugging [JS] - Find code with defects
     * Licensing and OSS history [TS]
+    * Analytic thinking/debugging [JS] 
+        - Find code with defects [Kan or generate]
 
 NOTES
 

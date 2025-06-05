@@ -1,4 +1,4 @@
-# Debugging
+# Debugging tools and techniques
 
 Status: Overview with many details missing. We need to find some code for the students to use in the debugging exercise, and we need to decide what to discuss as a class.
 
@@ -29,7 +29,7 @@ Possible discussion topics:
 
 ## Exercise
 
-*The following are to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions.*
+*The following are to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions. Also, please expect interruptions and be open to feedback!*
 
 Given a small system with one or more defects illustrated by some failure, do the following in a loop (you do not need to follow a strict order).
 
