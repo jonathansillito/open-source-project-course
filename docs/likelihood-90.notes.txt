@@ -1,0 +1,164 @@
+.fit():
+- self.composite = SummedLikelihood object
+- optimizer = Minuit
+- calls _errors():
+
+in _errors():
+- myOpt = Minuit object (derived from Optimizer object)
+
+in Minuit constructor (which takes the SummedLikelihood object as a parameter):
+- a pointer to the SummedLikelihood object is stored as a member variable, m_stat(in the Optimizer constructor)
+
+back in _errors() :
+- call myOpt.find_min:
+  - this is just a delagate to the minimize() function
+  - minimize() seem to just be calling a bunch of C functions to do the fit.  Will double check the C++ calls if memory use not found elsewhere
+- call myOpt.getUncertainty():
+  - calls computeHessian()
+    - calls to get & set FreeParamValues on m_stat
+  - calls choleskyDecompose(): just math
+  - more get & set FreeParamValues calls
+- call to myOpt.covarianceMatrix()
+  - more get & set FreeParamValues calls
+- call self._set_errors:
+  - call getExtraSourceAttributes() on the first component
+  - call list() with the passed in errors object (from the getUncertainty() call above)
+  - call setErrors() on the self.composite object
+  - loop over the components in self.components
+    - set component.model to a NEW SourceModel (Python) object
+    - loop over sources in source_atrribute object (from the getExtraSourceAttributes() call above)
+      - update the model attribute dictionary
+
+Let's look ata the Python SourceModel constructor:
+- stores the passed in logLike object (which comes from the self.
+- calls _loadSources():
+  - gets the source names
+  - for each name, create a new Python Source() object passing in the object returned from self.logLike.getSource(name)
+    - self.logLike is a BinnedAnalysis object's logLike attribute
+      - which in turn is a C++ BinnedLikelihood object
+    - self.logLike.getSource() returns a C++ Source object pointer (method is in granparent class SourceModel)
+    - Python Source() constructor:
+      - makes a map/dictionary with funcation name as key and point to C++ Function object as item
+      - for each key, creates a Python Function object from the C++ Function and source name
+        - creates a dictionary of Python Parameter objects from the C++ Parameter objects (returned as a reference) in the C++ Function object
+        
+----- break -----
+
+Both Minuit and NewMinuit produce the same result.  Memory is being used in the following stack trace:
+ n3: 1959072192 0x66F1211: tip::FitsTypedImage<float>::get(std::vector<float, std::allocator<float> >&) const (in /home/fermidev/miniconda/envs/fermidev/lib/fermitools/_pyLikelihood.so)
+  n1: 1922784192 0x6BCDEEF: Likelihood::FileUtils::read_fits_image_to_float_vector(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<float, std::allocator<float> >&, int&) (in /home/fermidev/miniconda/envs/fermidev/lib/fermitools/libLikelihood.so)
+   n1: 1922784192 0x6C70C10: Likelihood::SourceMap::readImage(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/fermidev/miniconda/envs/fermidev/lib/fermitools/libLikelihood.so)
+    n2: 1922784192 0x6C732FB: Likelihood::SourceMap::readModel(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/fermidev/miniconda/envs/fermidev/lib/fermitools/libLikelihood.so)
+     n1: 1791784512 0x6C73AAA: Likelihood::SourceMap::setSource(Likelihood::Source const&) (in /home/fermidev/miniconda/envs/fermidev/lib/fermitools/libLikelihood.so)
+      n1: 1791784512 0x6C7610F: Likelihood::SourceMapCache::getSourceMap(Likelihood::Source const&, bool, Likelihood::BinnedLikeConfig const*) const (in /home/fermidev/miniconda/envs/fermidev/lib/fermitools/libLikelihood.so)
+       n1: 1791784512 0x6B6A2AF: Likelihood::BinnedLikelihood::fixedModelUpdated() const (in /home/fermidev/miniconda/envs/fermidev/lib/fermitools/libLikelihood.so)
+        n1: 1791784512 0x6B6AC75: Likelihood::BinnedLikelihood::computeModelMap_internal(bool) const (in /home/fermidev/miniconda/envs/fermidev/lib/fermitools/libLikelihood.so)
+         n1: 1791784512 0x6B6F085: Likelihood::BinnedLikelihood::value(optimizers::Arg const&, bool) const (in /home/fermidev/miniconda/envs/fermidev/lib/fermitools/libLikelihood.so)
+          n1: 1791784512 0x6C83288: Likelihood::SummedLikelihood::value() const (in /home/fermidev/miniconda/envs/fermidev/lib/fermitools/libLikelihood.so)
+So let's look at this, starting at the bottom:
+Likelihood::SummedLikelihood::value():
+ - For each component creates a dummy optimizers::Arg object and calls the component's value() function
+   which in this case is a BinnedLikelihood object
+Likelihood::BinnedLikelihood::value():
+ - calls computeModelMap_interal(true)
+Likelihood::BinnedLikelihood::computeModelMap_internal:
+ - creates a vector<double> and resizes it to the filled size of the m_dataCache variable
+ - calls fixedModelUpdated() as part of an if()
+Likelihood::BinnedLikelihood::fixedModelUpdated():
+ - Does some check on the m_fixed_counts_spec and m_fixedSources variables and possibly returns true
+ - If not, hen loops over m_sources create a local fixedSources vector and compare the size to m_fixedSources
+ - If it still hasn't returned, loop over m_sources:
+   - create a pointer to a Source object (src) that points to the object in m_sources
+   - if it is a fixed spectrum source:
+     - create a SourceMap pointer (srcMap) that gets the return value of m_srcMapCache.getSourceMap(*src)
+     - check to see if the object pointed to by (srcMap) has had it's spectrum changed
+Likelihood::SourceMapCache::getSourceMap():
+ - The Source object is passed by reference
+ - Create a string reference to the name of the source
+ - create a null SourceMap pointer (srcMap)
+ - check to see if the SourceMap already exists in the cache (based on its name):
+   - if it does:
+     - set the srcMap pointer to point to the object
+     - call setSource() of this SourceMap object wiht the passed in source (src)
+     - call update_drm_cache()
+   - if not:
+     <skipped for now as the offending call is the setSource() call
+Likelihood::SourceMap::setSource():
+ - source is passed by reference (src)
+ - if the Source pointer stored as a member varialbe (m_src) equals the address of the passed in source (src)
+   - if ( m_model.size() == 0 && m_sparseModel.size() == 0 )
+     - if ( m_filename.size() > 0 )
+       - call readModel(m_filename)
+       - I wonder if there should be a return right here after reading the modle because it then
+         resets m_src to point to &src (which it already was), calls set_energies() and then 
+         clears a bunch of stuff, which seems odd.
+Likelihood::SourceMap::readModel():
+ - clears m_model
+ - sets m_filename to the passed in filename
+ - sets m_model_is_local to false
+ - clears a bunch of member variables
+ - sets status=0
+ - switch on m_dataCace->countsMap().projection().method()
+   - in our case (astro::ProjBase::WCS), calls readImage with the filename
+Likelihood::SourceMap::readImage():
+ - set m_mapType (a SrcMapType enum variable) to the source map type by calling get_src_map_type()
+ - create nEvals = 0.
+ - Call FileUtils::read_fits_image_to_float_vector(sourceMapsFile,m_name,m_model,nEvals) where
+   - sourcMapFile is a reference to a string with the filename 
+   - m_name is a string with the name of the source
+   - m_model is a vector<float>
+   - and nEval is set to 0. as per the creation on the line before
+   - all of these are passed by reference
+Likelihood::FileUtils::read_fits_image_to_float_vector():
+ - creates a unique_ptr to a const tip::Image object
+ - That pointer (called image) is initialized using a call to 
+   tip::IFileSvc::instance().readImage(filename,extension) where
+   - filename is the passed in filename
+   - and extension is the passed in extension
+ - a reference tip::Header object is created and assigned to the header
+ - nEvals is filled with the value of the "NAXIS3" header keyword
+ - the passed in vect (m_model from the caller) is cleared
+ - the object pointed to by the image variable (a tip::FitsTypedImage<float> object) has 
+   its get() method called to filled the passed in vect object
+tip::FitsTypedImage<float>::get():
+ - this is on line 324 of tip::FitsImage.h
+ - this is a template function and we are using the <float> version
+ - the vector<float> object is passed in by referee and called image in the function
+ - create the status variable initialize to 0
+ - loop over the image dimensions and determine the size of the data vector needed to hold 
+   all the data (image_size)
+ - create a float* variable (image_tmp) using the new float[image_size] command
+ - create a PixOrd_t (signed long) pointer (coord) to an array equal to the dimensions of the image
+ - store the image dimesions in coord
+ - read the data in using fits_read_pix() method
+   - if errors, delete coord and image_tmp and throw exception
+   - if no errors:
+     - call the assign method - image.assign(image_tmp, image_tmp + image_size);
+     - delete coord and image_tmp
+
+It would seem that the memory is being used up on the creation of the image_tmp object
+  and then not being properly cleared.  Or the issue is that these SourceMap objects are
+  being created over and over again instead of reusing the already existing ones.  Considering
+  that the function call in tip seems to be doing the right thing, I'm leaning toward the latter
+  but that's going to take a lot of more work to track down.
+
+Since we've hit the bottom, let's roll back up and make sure everything is being deleted.
+tip::FitsTypedImage<float>::get():
+ - Has all the proper delete [] calls, should be clean
+Likelihood::FileUtils::read_fits_image_to_float_vector():
+
+
+
+valgrind --tool=massif python test_memory.py
+valgrind --tool=massif --xtree-memory=full python test_memory.py
+valgrind --leak-check=full python test_memory.py >& valgrind2.out
+
+
+The problem may be in the BinnedLikelihood::addFixedSources() method.  If it's a fixed source, it removes the
+  SourcMap data (but not the object) and doesn't eremove the fixed source from the list of sources.  So when
+  the fit happens, it goes and recreates the map even though it doesn't really need it.
+  
+Also, in the SourceMap::clear_model() method, it swaps out m_model for an empty vector which clears it
+  completely, but only calls .clear() on m_sparceModel which sets the size() to zero but doesn't reduce
+  memory allocation for its maximum capacity.  Should probably swap that out as well.  Or use the new C++11
+  shrink_to_fit() method on both.
