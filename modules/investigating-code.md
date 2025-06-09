@@ -81,6 +81,14 @@ This is an example of a focused investigation looking for the source of an error
 
 A user reported this bug in the science analysis software distrubuted by Fermi's Gamma-ray Space Telescope mission: [Memory use and delete_local_fixed](https://github.com/fermi-lat/Likelihood/issues/90).  I'd never worked with this particular part of the codebase before and had to dive in to figure out what was happening.  Here are my [notes from tracing the program flow](../docs/likelihood-90.notes.txt).  Let's walk through the entire process.  These notes were made between the 8th (Aug 25, 2020) and 9th (Sep 24, 2020) comments on the issue thread.
 
+## Tools
+There are a number of various tools you can use to help understand your codebase:
+* Your IDE - view and navigate through the code
+* Memory profilers - the valgrind suite on Linux, leaks on Mac
+* AI - analyze, interpret, & summarize code
+*
+*
+ 
 ## Exercise
 The purpose here is to actually spend some time in a large, unfamiliar codebase to gain a high-level understanding of the code.  All the students will be in the same codebase but working in small groups of 2-3 people.  
 
