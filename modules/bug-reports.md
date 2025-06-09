@@ -11,7 +11,7 @@ By discussing these topics in the context of analytical thinking our aim is to:
 
 ## Reading
 
-* Mozilla project documents (you will also want to read relevant documents fro your OSS project)
+* Mozilla project documents (you will also want to read relevant documents from your OSS project)
     * [Contributors guide for writing a good bug](https://support.mozilla.org/en-US/kb/contributors-guide-writing-good-bug) for the Mozilla project
     * [Bug Writing Guidelines](https://bugzilla.mozilla.org/page.cgi?id=bug-writing.html) for the Mozilla project
     * [Bugzilla Etiquette](https://bugzilla.mozilla.org/page.cgi?id=etiquette.html)
