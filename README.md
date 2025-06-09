@@ -1,69 +1,82 @@
 # Open source Project Course
 
-The goals of this course are to help students develop a better resume (or even better portfolio of work), connect professionally and develop important software engineering skills. Each student will choose an open source project to contribute to, improving their technical depth in an area of interest to them. We hope this course will help students stand out, find a job, and thrive in the work place.
-
-* Advanced engineering principles, techniques and tools.
+The goals of this course are to help students develop a better resume (or portfolio of work), connect professionally and develop important software engineering skills. Each student will choose an open source project to contribute to, improving their technical depth in an area of interest to them. We hope this course will help students stand out, find a job, and thrive in their careers.
 
 ## Learning outcomes
 
-This is a **preliminary** list motivated by the mission of the software engineering emphasis: *"We develop Christlike leaders in software engineering who bless others by being creative, collaborative, capable and curious."*
+These learning outcomes are motivated by the mission of the software engineering emphasis: *"We develop Christlike leaders in software engineering who bless others by being creative, collaborative, capable and curious."* And by the aims of a BYU education: *"A BYU education should be (1) spiritually strengthening, (2) intellectually enlarging, and (3) character building, leading to (4) lifelong learning and service."*
 
-1. Example of a believer in professional contexts, including in remote interaction
-2. Seek inspiration in work and life
-3. Clearly define & generate (possible) solutions to engineering problems
-4. Evaluate the effectiveness of creative solutions based on context & constraints
-5. Learn & apply tools & techniques for understanding of existing code
-6. Learn how to develop expertise in new technology independently (openness and curiosity)
-7. Effectively use appropriate (project specific) collaboration tools (VCSs, PRs, ...)
-8. Communicate about technical topics, design rationale, while being open to input (humility and confidence)
-9. Debug, troubleshoot & fix challenging technical problems (analytic thinking)
-10. Contribute changes, meeting (non-)functional requirements (seeing them through)
+**Creative**
 
-And as a reminder *"A BYU education should be (1) spiritually strengthening, (2) intellectually enlarging, and (3) character building, leading to (4) lifelong learning and service."*
+1. Apply a structured problem-solving process (Design Thinking or CPS, say) to identify problems or opportunities, and ...
+2. Generate, evaluate and select solutions based on project priorities and constraints (**divergent** and **convergent** thinking)
+
+* *Prayerfully seek inspiration and apply creativity in solving problems professionally, personally and in service to others* 
+
+**Collaborative**
+
+3. Effectively use (project-specific) collaboration tools and processes
+4. Communicate clearly and persuasively about technical topics, while engaging constructively with feedback 
+
+* *Be an uplifting influence and an example of a believer in professional and personal relationships and collaborations*
+
+**Curious**
+
+5. Develop expertise in tools and techniques for investigating and understanding an existing code base
+6. Develop strategies for independently learning new programming languages, frameworks and other technology
+
+* *Develop the skills, confidence and desire to learn independently--including both spiritually and intellectually*
+
+**Capable**
+
+7. Apply analytical thinking to debug, troubleshoot and resolve complex technical problems
+8. Apply engineering skills to make meaningful, high quality contributions, following appropriate processes
+
+* *Develop talents with diligence, faith, resilience, humility and a desire to grow*
+
+Note that the spiritual learning outcomes listed under each category above are not generally assessed in the course. However, they are prominent in the reading, discussing, and reflecting parts of the course and we hope students apply them (see below).
 
 ## Course structure
 
-Each full week of the course will be focused on one main topic, related to one or more of the course learning outcomes. Outside of class time student work in the course will primarily involve contributing to an open source project of their choice. The open source project is how students *apply* what is discussed and practiced during class time. A typical week will look something like the following (beginning on **Tuesday** and then spilling into **Thursday**).
+Each full week of the course will be focused on one main topic, related to a course learning outcome. Outside of class time student work in the course will primarily involve contributing to an open source project of their choice. The open source project is how students *apply* what is discussed and practiced during class time. A typical week will look something like the following (beginning on **Tuesday** and then spilling into **Thursday**).
 
 1. **Reading:** Each week students will be assigned some reading of substance. We expect that students who do the reading *in advance* will get far more out of the class.
 
-2. **Discussing:** Class will begin with a discussion of the topic, in part based on the reading. We hope students will come prepared to ask questions and contribute to the discussion.
+2. **Discussing:** Tuesday class will begin with a discussion of the topic, in part based on the reading. We hope students will come prepared to ask questions and contribute to the discussion.
 
 3. **Practicing:** Next, students will break into small groups to practice skills related to the topic. Practice will be highly interactive, with interruptions for class *discussion* and *feedback*.
 
-4. **Applying:** Students will independently apply what is learned in an open source project to deepen their understanding of the topic and to contribute to the project.
+4. **Applying:** Students will independently apply what is learned in an open source project to deepen their understanding of the topic and of course to contribute to the project.
 
 5. **Reflecting:** At the end of the week students will submit a reflection on the topic based on some assigned questions. There is no "right answer" here, but reflections will be graded on the depth of insights and understanding displayed.
 
-Throughout the course we will use project X as a running example. Together we will discussion topics, practice skills, and explore tooling in the often in the context of project X. Independently you will apply the same ideas on an open source project of your choice.
+Throughout the course we will use project X as a running example. Together we will discussion topics, practice skills, and explore tooling often in the context of project X. Independently students will apply the same ideas on an open source project of your choice.
 
-TODO: What should X be? Kan? Home Assistant? My choice?
+**TODO:** What should X be? Kan? Home Assistant?
 
-## Open source project work
+## Open source project work schedule
 
-The course schedule is designed to move you through the process of finding, joining and contributing to an open source project. We hope that the course topics will give you the skills and confidence you need, so don't stress out if you do not feel ready to contribute. The steps to contribute will look roughly like the following. However, for particular projects and particular students a different approach than suggested above may well be more effective. Feel free to adapt this schedule as appropriate.
+The course schedule is designed to move students through the process of finding, joining and contributing to an open source project. We hope that the course topics will give students the skills and confidence they need to succeed in this effort. The schedule or steps we will follow are summarized below, however, students should feel free to adapt this schedule as appropriate.
 
 1. Select a project
-2. Technical learning (upfront and throughout)
+2. Learn about the technology
     * Programming languages and relevant frameworks
-    * Source code and build tools, including key abstractions and design rationale
-3. Process learning (upfront and throughout)
-    * Collaboration tools
-    * Processes and culture
+    * Source code (including key abstractions and design rationale) and build tools
+3. Learn about the process
+    * Communication tooling and culture
+    * Contribution tooling and processes
 4. Participate socially
     * Join discussions
     * Report and triage bugs
 5. Engineering work
     * Identify possible contribution based on project goals
     * Develop and socialize the contribution
-6. Contribute
+6. Contribute your work
     * Submit pull request (or similar)
     * Work through review process
-7. Repeat steps 5 and 6 as possible
+7. Continue steps 2, 3 and 4 throughout the course, and repeat steps 5 and 6 as possible
 
-Your ability to contribute to an open source project, will be influenced by how well you connect with people in the project, and how well you understand the culture and follow the processes used by the team. Over time your ability to contribute will be enhanced as you further develop your reputation and relationships.
-
-There are many ways to contribute beyond changes to the core systems. There are support systems, documentation, bug triage and reporting, answering questions, ... However, to pass this course, your contributions will need to be meaningful and represent sufficient engineering effort.
+There are many ways to contribute beyond changes to the core systems. There are support systems, documentation, bug triage and reporting, answering questions, ... However, to pass this course, contributions will need to be meaningful and represent significant engineering effort.
 
 ## Course topics by week
 
