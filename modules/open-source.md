@@ -40,6 +40,11 @@ Possible discussion topics:
 *The following is to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions. Also, please expect interruptions and be open to feedback!*
 
 * Identify the licences being used by the following projects (pick ones that have a variety of different licences, i.e. GPL, MIT, BSD, Apache, etc):
+  * [Mozilla Firefox](https://mozilla.org)
+  * [OpenSSL](https://github.com/openssl/openssl)
+  * [React web framework](https://react.dev/)
+  * [git](https://git-scm.com/)
+  * [The Linux Kernel](https://github.com/torvalds/linux)
 * Compare and contrast the licenses from those projects.  What are the similarities? What are the differences? Do you understand the meaning of the language used in the licences? 
 * Find the license being used by a project you are considering. Discuss top options each student is considering. Evaluate them based on the criteria above.
 
