@@ -4,7 +4,7 @@ Status: Preliminary sketch
 
 ## Learning outcomes
 
-1. Develop an understanding of the 
+1. Develop an understanding of the Open Source Software model and community. 
 2. Understand OSS licenses and the (practical) implications of those licenses.
 
 ## Reading
@@ -22,33 +22,45 @@ Status: Preliminary sketch
 Possible discussion topics:
 
 * History of open source
-* Types of OSS licenses, their implications, and philosophical 
+  * When did "open source software" start?
+  * Why did we move away from it?
+  * why did we move back?
+* What advantages does open source software provide?
+* What are its disadvantages?
+* Types of OSS licenses, their implications, and philosophical differences.  
+* Does the licence a project uses affect your willingness to contribute to the project?
 * Criteria for selecting an open source project for this class
     * Your personal level of interest
     * Activity level (i.e., avoid a "dead" project)
     * Contribution opportunities that are tractable for newcomers (check for open issues, bug reports, ...)
-* Example projects to consider (*Note: We should probably make a page of example projects and link it it from here*)
-    * [Home assistant](https://www.home-assistant.io/integrations/)
-    * [Grafana](https://grafana.com/docs/grafana/latest/developers/contribute/)
-    * [SEAL](https://signmydata.com/?about) - **S**ecure **E**vidence **A**ttribution **L**abel (SEAL) is an open solution for assigning attribution with authentication to media. It can be easily applied to pictures, audio files, videos, documents, and other file formats. [SEAL Discord](https://discord.gg/qWt4krtTPD) Related blog posts:
-      * [VIDA: The Simple Life](https://www.hackerfactor.com/blog/index.php?/archives/1028-VIDA-The-Simple-Life.html)
-      * [From VIDA to SEAL](https://www.hackerfactor.com/blog/index.php?/archives/1044-From-VIDA-to-SEAL.html)
-      * [SEAL of Approval](https://www.hackerfactor.com/blog/index.php?/archives/1049-SEAL-of-Approval.html)
-      * [Signed and SEALed](https://www.hackerfactor.com/blog/index.php?/archives/1050-Signed-and-SEALed.html)
-    * 
+* [Example projects to consider](possible-projects.md)
 
 ## Practicing
 
 *The following is to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions. Also, please expect interruptions and be open to feedback!*
 
-* Compare and contrast the following licenses
-* Discuss top options each student is considering. Evaluate them based on the criteria above.
+* Identify the licences being used by the following projects:
+  * [Mozilla Firefox](https://mozilla.org)
+  * [OpenSSL](https://github.com/openssl/openssl)
+  * [React web framework](https://react.dev/)
+  * [git](https://git-scm.com/)
+  * [The Linux Kernel](https://github.com/torvalds/linux)
+* Compare and contrast the licenses from those projects.  What are the similarities? What are the differences? Do you understand the meaning of the language used in the licences? 
+* Find the license being used by a project you are considering. Discuss top options each student is considering. Evaluate them based on the criteria above.
 
 ## Applying
 
-* Identify a list of 
-* Select project
+* Identify a list of project you would like to contribute to.
+* For each project:
+  * Identify the license used
+  * Identify ways that you could contribute (open issues, bug reports, feature requests, documentation, goals, etc.)
+* Select the project you want to work on.
 
 ## Reflecting
 
-* Submit choice and rationale
+* Submit a one-page description of the project you want to contribute to and the rationale behind your decision.  Your write-up should include:
+  * The name of the project and a link to its website/Github
+  * A short description of the project
+  * A description of why you chose that project
+  * A description of how you think you might contribute to the project
+  * What OSS license the project uses and the implications that might have on your contributions. 

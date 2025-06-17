@@ -4,12 +4,12 @@ The goals of this course are to help students develop a better resume (or portfo
 
 ## Learning outcomes
 
-These learning outcomes are motivated by the mission of the software engineering emphasis: *"We develop Christlike leaders in software engineering who bless others by being creative, collaborative, capable and curious."* And by the aims of a BYU education: *"A BYU education should be (1) spiritually strengthening, (2) intellectually enlarging, and (3) character building, leading to (4) lifelong learning and service."*
+These learning outcomes are motivated by the mission of the software engineering emphasis: *"We develop Christlike leaders in software engineering who bless others by being creative, collaborative, capable, and curious."* And by the aims of a BYU education: *"A BYU education should be (1) spiritually strengthening, (2) intellectually enlarging, and (3) character building, leading to (4) lifelong learning and service."*
 
 **Creative**
 
 1. Apply a structured problem-solving process (Design Thinking or CPS, say) to identify problems or opportunities, and ...
-2. Generate, evaluate and select solutions based on project priorities and constraints (**divergent** and **convergent** thinking)
+2. Generate, evaluate, and select solutions based on project priorities and constraints (**divergent** and **convergent** thinking)
 
 * *Prayerfully seek inspiration and apply creativity in solving problems professionally, personally and in service to others* 
 
@@ -23,7 +23,7 @@ These learning outcomes are motivated by the mission of the software engineering
 **Curious**
 
 5. Develop expertise in tools and techniques for investigating and understanding an existing code base
-6. Develop strategies for independently learning new programming languages, frameworks and other technology
+6. Develop strategies for independently learning new programming languages, frameworks, and other technology
 
 * *Develop the skills, confidence and desire to learn independently--including both spiritually and intellectually*
 
@@ -32,9 +32,9 @@ These learning outcomes are motivated by the mission of the software engineering
 7. Apply appropriate tools and analytical thinking to resolve complex technical problems
 8. Apply engineering skills to make meaningful, high quality contributions, following appropriate processes
 
-* *Develop talents with diligence, faith, resilience, humility and a desire to grow*
+* *Develop talents with diligence, faith, resilience, humility, and a desire to grow*
 
-Note that the spiritual learning outcomes listed under each category above are not generally assessed in the course. However, they are prominent in the reading, discussing, and reflecting parts of the course and we hope students apply them (see below).
+Note that the spiritual learning outcomes listed under each category above are not generally assessed in the course. However, they are prominent in the reading, discussing, and reflecting parts of the course, and we hope students apply them (see below).
 
 ## Course structure
 
@@ -50,13 +50,13 @@ Each full week of the course will be focused on one main topic, related to a cou
 
 5. **Reflecting:** At the end of the week students will submit a reflection on the topic based on some assigned questions. There is no "right answer" here, but reflections will be graded on the depth of insights and understanding displayed.
 
-Throughout the course we will use project X as a running example. Together we will discussion topics, practice skills, and explore tooling often in the context of project X. Independently students will apply the same ideas on an open source project of your choice.
+Throughout the course we will use project X as a running example. Together we will discuss topics, practice skills, and explore tooling often in the context of project X. Independently students will apply the same ideas on an open source project of your choice.
 
 **TODO:** What should X be? Kan? Home Assistant?
 
 ## Open source project work schedule
 
-The course schedule is designed to move students through the process of finding, joining and contributing to an open source project. We hope that the course topics will give students the skills and confidence they need to succeed in this effort. The schedule or steps we will follow are summarized below, however, students should feel free to adapt this schedule as appropriate.
+The course schedule is designed to move students through the process of finding, joining, and contributing to an open source project. We hope that the course topics will give students the skills and confidence they need to succeed in this effort. The schedule or steps we will follow are summarized below. However, students should feel free to adapt this schedule as appropriate.
 
 1. Select a project
 2. Learn about the technology
@@ -74,7 +74,7 @@ The course schedule is designed to move students through the process of finding,
 6. Contribute your work
     * Submit pull request (or similar)
     * Work through review process
-7. Continue steps 2, 3 and 4 throughout the course, and repeat steps 5 and 6 as possible
+7. Continue steps 2, 3, and 4 throughout the course, and repeat steps 5 and 6 as possible
 
 There are many ways to contribute beyond changes to the core systems. There are support systems, documentation, bug triage and reporting, answering questions, ... However, to pass this course, contributions will need to be meaningful and represent significant engineering effort.
 
@@ -103,7 +103,7 @@ We hope that after the course students will continue working on the project and 
 
 Students are encouraged to make use of any generative LLM tools they find useful. However, please consider two things:
 
-1. The use of code generation tools, needs to be consistent with the rules and culture of the open source project being contributed to. 
+1. The use of code generation tools needs to be consistent with the rules and culture of the open source project being contributed to. 
 2. Students remain responsible for the code or other artifacts they produce. Students need to ensure it meets the quality standards of the open source project (is readable, follows style guides, is well designed, defect free, etc.).
 
-The second point reflects the idea that expertise with such tools is not just about prompting, but verifying what is generated. Throughout the semester class time will include some practice with many tools (not just generative LLM tools) that we believe will be valuable to students.
+The second point reflects the idea that expertise with such tools is not just about prompting, but verifying what is generated. Throughout the semester, class time will include some practice with many tools (not just generative LLM tools) that we believe will be valuable to students.
