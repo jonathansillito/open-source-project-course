@@ -39,7 +39,7 @@ Possible discussion topics:
 
 *The following is to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions. Also, please expect interruptions and be open to feedback!*
 
-* Identify the licences being used by the following projects (pick ones that have a variety of different licences, i.e. GPL, MIT, BSD, Apache, etc):
+* Identify the licences being used by the following projects:
   * [Mozilla Firefox](https://mozilla.org)
   * [OpenSSL](https://github.com/openssl/openssl)
   * [React web framework](https://react.dev/)
