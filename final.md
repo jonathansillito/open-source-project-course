@@ -4,7 +4,7 @@ The final deliverable for this course has two parts: (1) A written report, and (
 
 ## Written submission
 
-Please submit a (maximum) two page report summarizing you contributions to an open source project.  Your report is to have the following sections:
+Please submit a (maximum) two-page report summarizing you contributions to an open source project.  Your report is to have the following sections:
 
 * Summary
 * Describe the project, and why you chose the project
