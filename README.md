@@ -29,7 +29,7 @@ These learning outcomes are motivated by the mission of the software engineering
 
 **Capable**
 
-7. Apply analytical thinking to debug, troubleshoot and resolve complex technical problems
+7. Apply appropriate tools and analytical thinking to resolve complex technical problems
 8. Apply engineering skills to make meaningful, high quality contributions, following appropriate processes
 
 * *Develop talents with diligence, faith, resilience, humility and a desire to grow*
