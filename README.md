@@ -82,7 +82,7 @@ There are many ways to contribute beyond changes to the core systems. There are 
 
 * Week 1 (Thursday only): Introduction to course and project X
 * Week 2: [Introduction to open source](modules/open-source.md) (project selection due at end of week)
-* Week 3: Learning to learn (semi-)independently
+* Week 3: [Learning to learn (semi-)independently](modules/learning)
 * Week 4: [Tools and techniques for investigating code](modules/investigating-code)
 * Week 5: Tools and processes for collaborating and managing projects
 * Week 6: [Analytical thinking](modules/analytical-thinking.md) / [Writing bug reports](modules/bug-reports.md)
