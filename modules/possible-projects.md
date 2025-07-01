@@ -9,4 +9,12 @@ The following is a list of possibly open source projects that you might consider
   * [From VIDA to SEAL](https://www.hackerfactor.com/blog/index.php?/archives/1044-From-VIDA-to-SEAL.html)
   * [SEAL of Approval](https://www.hackerfactor.com/blog/index.php?/archives/1049-SEAL-of-Approval.html)
   * [Signed and SEALed](https://www.hackerfactor.com/blog/index.php?/archives/1050-Signed-and-SEALed.html)
-* 
+* [GNU Image Manipulation Program (GIMP)](https://www.gimp.org/)
+* [Inkscape](https://inkscape.org/) - vector graphics software
+* [Valgrind](https://valgrind.org/)
+* [Mozilla Firefox](https://mozilla.org)
+* [OpenSSL](https://github.com/openssl/openssl)
+* [React web framework](https://react.dev/)
+* [git](https://git-scm.com/)
+* [The Linux Kernel](https://github.com/torvalds/linux)
+  * [Become a Linux kernel contributor - part 1 (blogpost)](https://hackerbikepacker.com/kernel-contributor-1) - first of three posts
