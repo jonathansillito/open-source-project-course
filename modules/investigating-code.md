@@ -84,9 +84,10 @@ A user reported this bug in the science analysis software distrubuted by Fermi's
 ## Tools
 There are a number of various tools you can use to help understand your codebase:
 * Your IDE - view and navigate through the code
-* Memory profilers - the valgrind suite on Linux, leaks on Mac
+* Memory profilers - the [Valgrind](https://valgrind.org/) suite on Linux, [leaks](https://developer.apple.com/library/archive/documentation/Performance/Conceptual/ManagingMemory/Articles/FindingLeaks.html) on Mac
 * AI - analyze, interpret, & summarize code
-*
+  * [Cursor](https://www.cursor.com/en)
+  * [Claude](https://claude.ai/)
 *
  
 ## Exercise
