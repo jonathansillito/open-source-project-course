@@ -18,3 +18,41 @@ The following is a list of possibly open source projects that you might consider
 * [git](https://git-scm.com/)
 * [The Linux Kernel](https://github.com/torvalds/linux)
   * [Become a Linux kernel contributor - part 1 (blogpost)](https://hackerbikepacker.com/kernel-contributor-1) - first of three posts
+
+### From Brigham Skarda (maintainer)
+
+* https://github.com/brighamskarda/chess
+
+### From Dan Smith
+
+* OpenJDK at oracle
+
+### From Epper Marshall
+
+Games
+
+* luanti (minecraft clone) https://github.com/luanti-org/luanti
+* free civ (civilization clone) https://freeciv.fandom.com/wiki/How_to_Contribute
+* tuxemon (pokemon clone) https://github.com/Tuxemon/Tuxemon
+* 0 AD (age of empires clone?) https://gitea.wildfiregames.com
+
+Art Software
+
+* blender https://www.blender.org/get-involved/
+* krita https://docs.krita.org/en/untranslatable_pages/intro_hacking_krita.html
+* godot https://github.com/godotengine/godot
+* milton https://github.com/serge-rgb/milton
+* opentoonz https://github.com/opentoonz/opentoonz
+
+Other
+
+* CyberChef https://github.com/gchq/CyberChef
+* Openmct https://github.com/nasa/openmct
+* ghidra https://github.com/NationalSecurityAgency/ghidra
+* cryptpad https://github.com/cryptpad/cryptpad
+
+Language
+
+* hedy (learn python) https://github.com/hedyorg/hedy
+* red lang https://github.com/red/red
+* gleam https://github.com/gleam-lang/gleam
