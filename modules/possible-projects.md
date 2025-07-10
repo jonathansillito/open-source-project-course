@@ -19,6 +19,30 @@ The following is a list of possibly open source projects that you might consider
 * [The Linux Kernel](https://github.com/torvalds/linux)
   * [Become a Linux kernel contributor - part 1 (blogpost)](https://hackerbikepacker.com/kernel-contributor-1) - first of three posts
 
+### From Tyler Gill
+
+* https://github.com/duplicati/duplicati
+* https://github.com/immich-app/immich (great option)
+
+### From Jacob Davis
+
+Secure Cloud Business Applications (SCuBA) Project: 
+
+* https://www.cisa.gov/resources-tools/services/secure-cloud-business-applications-scuba-project
+* https://github.com/cisagov/ScubaGear
+* https://github.com/cisagov/ScubaGoggles
+* https://github.com/cisagov/ScubaConnect
+
+Emulytics: 
+
+* https://www.sandia.gov/emulytics/
+* https://github.com/sandia-minimega/minimega
+* https://github.com/sandialabs/sceptre-phenix
+
+### From Eric Decker
+
+* https://byums-mentoring.byu.edu
+
 ### From Brigham Skarda (maintainer)
 
 * https://github.com/brighamskarda/chess

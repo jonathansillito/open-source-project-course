@@ -18,7 +18,7 @@ By discussing these topics in the context of analytical thinking our aim is to:
     * [Triage for Bugzilla](https://firefox-source-docs.mozilla.org/bug-mgmt/policies/triage-bugzilla.html)
 * IEEE Std 1044-2009, specifically the parts defining the terms *failure*, *fault* and *defect*.
 
-## Class discussion
+## Discussing
 
 #### Terminology
 
@@ -82,7 +82,7 @@ If you were the professor in these cases what other information would be helpful
 
 (PS In the first case the issue was with insufficient reserved capacity and a couple inefficiencies. In the second case the issue was that the Lambda Handler was not configured correctly. And interestingly sometimes by trying to answer my questions students identify the defect on their own.)
 
-## Exercise
+## Practicing
 
 *The following are to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions.*
 
@@ -101,7 +101,7 @@ Questions:
 * How effective is this report? What might improve it?
 * What triage work has been done so far?
 
-## Assignment and reflection
+## Applying
 
 Individually complete the following tasks to deepen your understanding of how bugs are handled in the OSS project you have selected for this course. Reporting, discussing, reproducing and fixing bugs is one important way you may be able to contribute to that project.
 
@@ -110,7 +110,9 @@ Individually complete the following tasks to deepen your understanding of how bu
 
 Note there can be important differences between documented procedures and actual project practice. Some procedures may not be documented but can be "discovered" through observation. By reading existing bug reports and discussions, for example.
 
-**Submit:** A one page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
+## Reflecting
+
+Submit a one page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
 
 * In what way is analytical thinking relevant to bug reporting and triage?
 * Briefly summarize how bug reporting and fixing is handled in your OSS project. Provide some reflection on *why* things are done the way they are.
