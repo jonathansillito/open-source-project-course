@@ -35,15 +35,11 @@ By discussing code investigation, our aim is to:
 3. Understand the need and how to communicate with others (developers, users, etc.) in order to fully understand issues and the code being studied.
 
 ## Reading
-Some possible readings. Not all of them are necessarily for the students.
-* [Software Archeology Wikipidea article](https://en.wikipedia.org/wiki/Software_archaeology)
-* [The Code Archeololgist](https://www.profocustechnology.com/software-development/the-code-archaeologist/) - More about the need to be able to dive into old code bases and the challenges you might face
-* [Code archeology. A study of how the code got to its present state.](https://craiglrock.com/code-archeology/) - Practices to get up to speed on a code base.  It is in the context of learning how the code got to where it is but applies to just understanding the code as well.
-* [CMU lecture on Code Archeology](https://cmu-313.github.io/_old/F22/assets/pdfs/04-code-archaeology.pdf) - Not necessarily a student reading but useful for lecture/discussion points.
-* [How to learn a code base quickly (reddit post)](https://www.reddit.com/r/learnprogramming/comments/89pjdy/how_to_learn_a_new_codebase_quickly/)
+
+* [The Code Archeololgist](https://www.profocustechnology.com/software-development/the-code-archaeologist/) - The need to be able to dive into old code bases and the challenges you might face
 * [How to Approach a New Codebase(blogpost)](https://amberwilson.co.uk/blog/how-to-approach-a-new-codebase/)
-* [How to understand an existing code-base(blogpost)](https://medium.com/the-curious-coder/how-to-understand-an-existing-code-base-65989642baae)
 * [How to Get Familiar with an Existing Codebase(blogpost)](https://dev.to/isaactony/how-to-get-familiar-with-an-existing-codebase-49k5)
+
 
 
 ## Class discussion
@@ -79,7 +75,7 @@ As you start to learn the code, how do you effectively navigate it and generate 
 ## An Example
 This is an example of a focused investigation looking for the source of an error reported by a user and trying to identify how to fix it.
 
-A user reported this bug in the science analysis software distrubuted by Fermi's Gamma-ray Space Telescope mission: [Memory use and delete_local_fixed](https://github.com/fermi-lat/Likelihood/issues/90).  I'd never worked with this particular part of the codebase before and had to dive in to figure out what was happening.  Here are my [notes from tracing the program flow](../docs/likelihood-90.notes.txt).  Let's walk through the entire process.  These notes were made between the 8th (Aug 25, 2020) and 9th (Sep 24, 2020) comments on the issue thread.
+A user reported this bug in the science analysis software distributed by NASA's Fermi Gamma-ray Space Telescope mission: [Memory use and delete_local_fixed](https://github.com/fermi-lat/Likelihood/issues/90).  I'd never worked with this particular part of the codebase before and had to dive in to figure out what was happening.  Here are my [notes from tracing the program flow](../docs/likelihood-90.notes.txt).  Let's walk through the entire process.  These notes were made between the 8th (Aug 25, 2020) and 9th (Sep 24, 2020) comments on the issue thread.
 
 ## Tools
 There are a number of various tools you can use to help understand your codebase:

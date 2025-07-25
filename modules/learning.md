@@ -17,7 +17,6 @@ Notes:
 ## Reading
 
 * [How to create your own self-directed learning plan](https://www.diygenius.com/how-to-create-a-self-directed-learning-plan/)
-* 
 
 ## Discussing
 
@@ -28,6 +27,8 @@ Possible discussion topics:
 * What hasn't worked?
 * Where do you go to learn?
 * Does your environment affect how you are learning?
+* Where are you on the learning curve?
+* How do you know if you learned enough?
 * How do you retain the knowledge you've acquired? 
 
 ### Building a learning plan
@@ -43,7 +44,7 @@ Possible discussion topics:
       1. It's a mental muscle. If you push just a little past this, your "endurance" will grow over time.
    3. Schedule breaks - Get up, stretch, walk around, grab some food, step away from the work.  Our brains actually remember better the things we study right after we start and right before we stop.  Plus not focusing on a topic directly allows our sub-conscious mind to process it (This works for debugging as well).
 4. Be accountable to someone - This mostly applies to larger projects.  
-   1. Your intrinsic motivations comes from knowing the "why." Having someone who knows what you are work on provides additional extrinsic motivation. 
+   1. Your intrinsic motivations comes from knowing the "why." Having someone who knows what you are working on provides additional extrinsic motivation. 
    2. They can provide encouragement when struggling and checking in with them can provide motivation to keep going. 
 5. Build something.  Often trying to build/extend/fix something is what got you here in the first place.  But when trying to learn something more abstract (e.g. new framework, language, or programming paradigm) it helps to have something concrete you are working on.  This makes the learning practical instead of strictly abstract.
 
@@ -54,15 +55,25 @@ You probably only need to explicitly go through these steps on larger learning p
 2. Take lots of notes - writing things out in your own words helps fix the ideas in your mind
 3. Experiment - Try out the things you are learning with different inputs and use cases to see how it reacts.  Does it do what you expected?  Do you understand why it did what it did?
 4. Build something - Use the skills to make something as you are learning.  Concrete practice helps cement the ideas in your mind. (And debugging the inevitable errors helps with learning as well.)
-5. 
+5. Videos, How-tos, & Tutorials - Others may have gone through the same process and created guides for other to follow. Learn from trailblazers.
 
 ## Practicing
 
 *The following is to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions. Also, please expect interruptions and be open to feedback!*
 
 
-## Applying
 
+## Applying
+Identify something significant you need to learn for your chosen project.  It could be a collaboration tool, a coding framework or build system, or even a new programming language.  It just needs to be something that you feel will take more than a few hours of work to accomplish.
+
+Build yourself a study plan to master the topic.  Identify the major tasks/goals you need to accomplish and plan out how you will meet them.  Schedule time to study and practice and identify how you will know when you are done.
+
+Write out the plan and start working on it.
 
 ## Reflecting
-
+After working through your study plan (or the first week of it if it is longer), submit your original plan along with a short reflection that addresses the following questions:
+* Why did you choose to learn this particular topic?
+* Were your goals reasonably sized or did you need to modify/refine them?
+* Was the time you blocked out reasonable? Did you feel that you could have kept going longer? Did you need to shorten the time?  What did you learn about your "study endurance" and did it change?
+* How were you accountable for your learning?
+* What did you build?
