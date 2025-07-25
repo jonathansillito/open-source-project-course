@@ -1,6 +1,9 @@
 # Learning to Learn
 
 Status: under development
+
+>  "A well-educated person never stops learning" [President Nelson]
+
 Notes:
 * Self-directed learning
 * learning curve -  where are you? where are you trying to get to? what considerations for stopping?
