@@ -11,9 +11,13 @@ RESPONSES
 * Andrew Cambridge - "I think this class will be a great addition to the program" -- booking meeting
 * Jacob Davis (and Troy Stevens and ALdan Hilton) - suggested project
 * Kevin Cook - Generally willing to help. "I think that it could be a great benefit to students." (yes to mentor)
-* David Manning - "It sounds like a neat idea"
+* David Manning - "It sounds like a neat idea"; "I wish I had some exposure to it before moving to a job where it was more central to our operations."
 * David Bluhm - Enthusiastic. Will help with anything.
-* Tyler Gill - 
+* Tyler Gill - Willing to mentor probably
+* John Eberhard - suggested projects and offered to be a mentor (well he said resource)
+* Derek Manwaring - "I think that will be such a great opportunity for students" - Help connect students to maintainers (willing to lecture remotely!) -- "Let's keep in touch"
+* Ashton Wiersdorf - "Sounds intriguing—the world runs on FOSS, and I think it's great to help students get their feet wet in this area." -- Can mentor with suggested projects
+* Brandon Clawson - "It's never too early for interested students to develop extra software skills, establish relationships with industry professionals and improve students' marketable skills." - 
 
 SUBJECT: Help Shape a New Open Source Course for CS Students
 

@@ -19,6 +19,25 @@ The following is a list of possibly open source projects that you might consider
 * [The Linux Kernel](https://github.com/torvalds/linux)
   * [Become a Linux kernel contributor - part 1 (blogpost)](https://hackerbikepacker.com/kernel-contributor-1) - first of three posts
 
+
+Ashton Wiersdorf
+
+* Rostrum: https://www.google.com/url?q=https://codeberg.org/ashton314/rostrum&source=gmail-imap&ust=1754068623000000&usg=AOvVaw0yRH_WCD04Jh4CgVYX_2qo (Sacrament meeting program builder emphasizing good typography.   Elixir using the Phoenix framework.)
+* Yeet: https://www.google.com/url?q=https://codeberg.org/ashton314/yeet&source=gmail-imap&ust=1754068623000000&usg=AOvVaw01pqQLUJ49RVHa6oyqH_eq (CLI tool to make it easy to put stuff in an S3 bucket (or   whatever) on the internet and get a link to share it. (This was   mostly an exercise in vibe-coding TBH, but it turned out OK!))
+- Ysue: https://www.google.com/url?q=https://codeberg.org/ashton314/ysue&source=gmail-imap&ust=1754068623000000&usg=AOvVaw1CDtVgwy2nKGoYtlvRmLlQ ("Yoo-sway", acronym for "You Should be Using Emacs": a text   editor written in Haskell.)
+
+### From Derek Manwaring
+
+* https://github.com/firecracker-microvm/firecracker
+* https://github.com/rust-vmm
+
+
+### From John Eberhard
+
+* https://github.com/IBM/JTOpen
+* https://github.com/Mapepire-IBMi
+
+
 ### From Tyler Gill
 
 * https://github.com/duplicati/duplicati

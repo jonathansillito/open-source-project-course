@@ -1,13 +1,13 @@
 # Learning to Learn
 
-Status: under development
-
->  "A well-educated person never stops learning" [President Nelson]
-
 Notes:
 * Self-directed learning
 * learning curve -  where are you? where are you trying to get to? what considerations for stopping?
 * How do you decide you have "learned enough?" Should you go a bit further?
+
+Status: first draft minus a practicing assignment
+
+>  "A well-educated person never stops learning" [President Nelson]
 
 ## Learning outcomes
 
@@ -17,6 +17,8 @@ Notes:
 ## Reading
 
 * [How to create your own self-directed learning plan](https://www.diygenius.com/how-to-create-a-self-directed-learning-plan/)
+* [What is the Learning Curve? The Science of Boosting Knowledge Retention](https://maestrolearning.com/blogs/what-is-the-learning-curve-2/)
+* (Optional) [Make it Stick](https://lib.byu.edu/search/byu/search?q=make%20it%20stick&scope=external) - Excellent book on how to study for retention. Link is to HBLL search results as there are lots of free online options for the book.
 
 ## Discussing
 
