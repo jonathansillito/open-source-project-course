@@ -5,14 +5,14 @@ Notes:
 * learning curve -  where are you? where are you trying to get to? what considerations for stopping?
 * How do you decide you have "learned enough?" Should you go a bit further?
 
-Status: first draft minus a practicing assignment
+Status: first draft
 
 >  "A well-educated person never stops learning" [President Nelson]
 
 ## Learning outcomes
 
-1. Gain an understanding of what resources, techniques, and practices can help the student learn new knowledge and skills.
-2. Learn how to make a self-directed study plan
+1. Understand resources, techniques, and practices for gaining new knowledge and skills
+2. Learn how to develop a self-directed learning plan
 
 ## Reading
 
@@ -63,19 +63,32 @@ You probably only need to explicitly go through these steps on larger learning p
 
 *The following is to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions. Also, please expect interruptions and be open to feedback!*
 
+You are to build a learning plan as if you were preparing to contribute to the [Ruby programming language project](https://www.ruby-lang.org/en/). The core of the language is implemented in the C programming language (C99) and building the source code involves various typical C tools. Many of the builtin libraries are implemented in Ruby. 
 
+Develop your plan by writing down answers the the following questions (in as much detail as time permits).
+
+1. *What is your overall learning goal (or your "why") and how will you know you've accomplished it?* This may involve reflecting on the (hypothetical) contributions you plan to make and how much you already know. For example, how well do you know the C programming language and associated tooling?
+2. *How could you break down your overall leaning goal into several smaller goals?* Feel free to use a stepwise refinement process as discussed. Please try to make at least a couple of your goals SMART goals, for the stake of practice!
+3. *What is a reasonable schedule for accomplishing these tasks?* Create a hypothetical schedule, including blocking off uninterrupted time for deep work.
+4. *Who could you be accountable to?* Write a note to them explaining your *why* and providing details of the support you would like to get from them.
+5. *What could you build that would support your learning?* This could be one thing or multiple smaller things.
+
+Time permitting identify available resources you would use to help support your learning plan. Are there books, online tutorials, etc. that would be most helpful?
 
 ## Applying
+
 Identify something significant you need to learn for your chosen project.  It could be a collaboration tool, a coding framework or build system, or even a new programming language.  It just needs to be something that you feel will take more than a few hours of work to accomplish.
 
-Build yourself a study plan to master the topic.  Identify the major tasks/goals you need to accomplish and plan out how you will meet them.  Schedule time to study and practice and identify how you will know when you are done.
+Build yourself a learning plan to increase your expertise in that topic.  Identify the major tasks/goals you need to accomplish and plan out how you will meet them.  Schedule time to study and practice and identify how you will know when you are done. Please share your plan with your mentor and/or an other student in the course and use them as an accountability partner.
 
-Write out the plan and start working on it.
+Write down your plan and start working on it.
 
 ## Reflecting
-After working through your study plan (or the first week of it if it is longer), submit your original plan along with a short reflection that addresses the following questions:
-* Why did you choose to learn this particular topic?
-* Were your goals reasonably sized or did you need to modify/refine them?
-* Was the time you blocked out reasonable? Did you feel that you could have kept going longer? Did you need to shorten the time?  What did you learn about your "study endurance" and did it change?
-* How were you accountable for your learning?
-* What did you build?
+
+After working through your learning plan (or the first week of it if it is longer), submit your original plan along with a short reflection that addresses the following questions:
+
+1. Why did you choose to learn this particular topic?
+2. Were your goals reasonably sized or did you need to modify/refine them?
+3. Was the time you blocked out reasonable? Did you feel that you could have kept going longer? Did you need to shorten the time?  What did you learn about your "study endurance" and did it change?
+4. How were you accountable for your learning?
+5. What did you build?
