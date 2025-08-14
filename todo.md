@@ -9,3 +9,7 @@
 * Mentoring plans and requirements [JS]
     * Student perspective (finding, project specific mentors)
     * Mentor perspective
+
+* Measurement?
+
+* Spiritual elements missing from some modules ...

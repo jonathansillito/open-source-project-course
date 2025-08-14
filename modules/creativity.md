@@ -156,7 +156,7 @@ Now that the exercise is complete, let's discuss the results as a class.
 
 ## Applying
 
-Complete the following tasks to (1) solidify your understanding of how the ideas discussed above related to software engineering work, and (2) hopefully improve your contribution(s) to an open source project.
+Complete the following tasks to (1) solidify your understanding of how the ideas discussed above relate to software engineering work, and (2) hopefully improve your contribution(s) to an open source project.
 
 * Identify a (first) contribution to make and apply the principles of stage 1 of the CPS process. Note that this will almost certainly involve discussing the problem or opportunity with other project members.
 * Apply the principles of stage 2 of the CPS process and one or more of the tools described in the pre-class reading (some of which are listed in the table above) to help you explore possible solutions. Please consider many solutions before moving on to the next task.

@@ -6,8 +6,9 @@ Status: Initial draft
 
 ## Learning outcomes
 
-1. Effectively use (project-specific) collaboration tools and processes
-2. Identify Gospel principles that are relevant in our professional interactions
+1. Effectively use Git and GitHub as collaboration tools (this will involve somewhat advanced Git)
+2. Prepare to follow the project-specific collaboration processes and tools of an open source project
+3. Identify Gospel principles that are relevant in our professional interactions
 
 ## Reading
 
@@ -19,17 +20,13 @@ We will base some of our discussion today on tools and processes used by the Lin
 * [Become a Linux kernel contributor - Part 2](https://hackerbikepacker.com/kernel-contributor-2)
 * [Become a Linux kernel contributor - Part 3](https://hackerbikepacker.com/kernel-contributor-3)
 
-Ruby
+Advanced Git commands
 
-* [Contributing to Ruby](https://docs.ruby-lang.org/en/master/contributing/contributing_md.html)
-* [Making changes to Ruby](https://docs.ruby-lang.org/en/master/contributing/making_changes_to_ruby_md.html)
-* [Making Changes To Ruby Standard Libraries](https://docs.ruby-lang.org/en/master/contributing/making_changes_to_stdlibs_md.html)
-* [Reporting Ruby bugs](https://docs.ruby-lang.org/en/master/contributing/reporting_issues_md.html)
-* [Ruby pull requests](https://github.com/ruby/ruby/pulls)
+* Branching and keeping a branch up to date
+* Cleaning up local Git history
+* Submitting a GitHub pull request
 
 ## Discussing
-
-TODO: PEP mechanisms, "what does it take to change Python"
 
 For those of you with software engineering work experience (through internships or part-time jobs, maybe), it may be interesting to compare the way collaboration and coordination happen at a typical company vs. in a typical open source project. Both the similarities and differences may be interesting. One thing that I have seen personally, is that often (not always, of course) many companies use processes to quite closely track and coordinate work (say sprint planning, daily stand up meetings, burn-down charts, etc.). Such mechanisms would be quite rare in the open source world, I suppose.
 
@@ -57,6 +54,8 @@ For those of you with software engineering work experience (through internships 
 * Discussed and approved here https://github.com/ruby/dev-meeting-log/blob/master/2025/DevMeeting-2025-07-10.md#bug-21360-inconsistent-support-for-exceptioncause-in-fiberraise-and-threadraise-ioquatix (by matz during a dev meeting)
 * Decision: merge
 
+**Example 3 (big change):** Naturally, the coordination effort for more significant changes would be, well more significant. (PEP or ...)
+
 ### Soft skills
 
 Your ability to contribute to an open source project, will be influenced by how well you connect with people in the project, and how well you understand the culture and follow the processes used by the team. Over time your ability to contribute will be enhanced as you further develop relationships and your reputation. Here are a couple additional thoughts:
@@ -67,23 +66,94 @@ Your ability to contribute to an open source project, will be influenced by how 
 
 ### Gospel principles
 
-Before getting in to the practice section, let's discuss insights from President Nelson's conference talk *Peacemakers Needed* and other gospel principles that would ...
+Before getting in to the practice section, let's discuss insights from President Nelson's conference talk *Peacemakers Needed* and other gospel principles that would how you collaborate with others. Here are a few that came to my mind:
+
+* "One of the easiest ways to identify a true follower of Jesus Christ is how compassionately that person treats other people."
+* "His true disciples build, lift, encourage, persuade, and inspire-—no matter how difficult the situation. True disciples of Jesus Christ are peacemakers."
+* "How we speak to and about others at home, at church, at work, and online really matters. Today, I am asking us to interact with others in a higher, holier way. Please listen carefully. 'If there is anything virtuous, lovely, or of good report or praiseworthy'"
+* When we humble ourselves before God and pray with all the energy of our hearts, God will grant us charity.
+
+> "My dear brothers and sisters, the best is yet to come for those who spend their lives building up others. Today I invite you to examine your discipleship within the context of the way you treat others. I bless you to make any adjustments that may be needed so that your behavior is ennobling, respectful, and representative of a true follower of Jesus Christ."
 
 ## Practicing
 
 *The following is to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions. Also, please expect interruptions and be open to feedback!*
 
-Work through the the following activities using Git and GitHub.
+Work through the the following activities using Git and GitHub. These activities reflect a generic, but plausible workflow that considers the collaborative aspects of contributing to a project. Note that we will discuss more about authoring bug reports and working through code reviews later in the course.
 
+### Step 1: Claim a task
+
+* For this exercise we will all be working on the same issue ...
+
+### Step 2: Work on a change 
+
+* Create a branch based on the mainline of the project
+* Follow project specific style guide and make changes (perhaps using multiple commits for the sake of having something to clean up in the next step)
+
+To begin work clone the repository and create a *local* branch to use for your change. There are different approaches that used of course, but for various reasons (for example, you may have more than one change on the go) it can be convenient to make your changes in a separate branch until the are tested and reviewed and merged.
+
+```
+git clone ...
+git branch issue-1234
+```
+
+As you work you can commit your work to the local branch and also synchronize your work from the master branch (as appropriate), which can limit the merge conflicts that can come if your local branch and the master branch diverge in important ways.
+
+```
+git commit -am "..."
+git checkout master
+git pull origin master
+get checkout issue-1234
+git merge master
+```
+
+Or if you want to keep your history more clean you can use rebase to make it look like your local commits are after the latest commit to master (so this is an alternative to merge). I assume that for many projects this would be appreciated for commits that have never been pushed to any shared repository.
+
+```
+git rebase master
+```
+
+### Step 3: Prepare and submit pull request
+
+* Double check style guide and other project specific instructions
+* Pull from main to make your change easier for reviewers to merge (this can be done as you go ...)
+* Clean up you commit history to make the submission as clean as possible
+
+
+### Step 4: Revise and update pull request
+
+* Use the GitHub pull request tool as a discussion forum (find something to change)
+* Revise and update pull request
+
+### Step 5: Merge
+
+* Find issue, discuss, take ownership, ...
 * Branch, build, test locally 
-* Create and submit pull request; revise and update pull request
+* Create and submit pull request; revise and update pull request (clean up your history)
 * Review other's pull request (including testing locally) and merge when ready
 
 ## Applying
 
-* Read docs
-* Trace a successful contribution
-* Trace a (un|less)successful contribution
+Complete the following tasks to develop a deeper understanding of the collaborative processes used by an open source project.
+
+1. Find and read the relevant documentation for the project. Examples of the type of documents we mean are listed below for the Ruby language project. The set of documents for your project will be different.
+2. Find a recently merged contribution for the project. Review in detail how that contribution came to be accepted, by tracing it through the various parts of the process. For example, there might be a pull request with discussion, a bug report with discussion, an email/message thread, etc.
+3. Repeat #2, but with an unsuccessful contribution. Say starting from a pull request that was closed without being merged.
+4. Install and familiarize yourself with any tools used for collaboration.
 
 ## Reflecting
 
+Submit a one page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
+
+* What are the key parts of the collaboration processes used why are they there?
+* What might differentiate a proposed contribution that is successful from one that would not be successful?
+
+## Appendix
+
+Ruby
+
+* [Contributing to Ruby](https://docs.ruby-lang.org/en/master/contributing/contributing_md.html)
+* [Making changes to Ruby](https://docs.ruby-lang.org/en/master/contributing/making_changes_to_ruby_md.html)
+* [Making Changes To Ruby Standard Libraries](https://docs.ruby-lang.org/en/master/contributing/making_changes_to_stdlibs_md.html)
+* [Reporting Ruby bugs](https://docs.ruby-lang.org/en/master/contributing/reporting_issues_md.html)
+* [Ruby pull requests](https://github.com/ruby/ruby/pulls)

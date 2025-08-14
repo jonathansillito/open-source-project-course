@@ -82,17 +82,34 @@ There are many ways to contribute beyond changes to the core systems. There are 
 
 You will notice a focus on tools (among other things) in this topic list. It is not our intention to teach you all the tools, and the specific tools, you might need to use to contribute to the open source project you have selected. That wouldn't be feasible since you will all be working on different projects with different technologies. Instead our aim is to (1) introduce you to classes of tools that are useful in many situations, and (2) encourage you to independently become proficient in the tools relevant to your selected project.
 
+Introduction
+
 * Week 1 (Thursday only): Introduction to course and project X
 * Week 2: [Introduction to open source](modules/open-source.md) (project selection due at end of week)
+
+[Curiosity and lifelong learning in software engineering](modules/curious.md)
+
 * Week 3: [Learning to learn (semi-)independently](modules/learning)
 * Week 4: [Tools and techniques for investigating code](modules/investigating-code)
-* Week 5: Tools and processes for collaborating and managing projects
-* Week 6: [Analytical thinking](modules/analytical-thinking.md) / [Writing bug reports](modules/bug-reports.md)
-* Week 7: [Creativity, defining and solving engineering problems](modules/creativity.md)
-* Week 8: [Creativity, defining and solving engineering problems](modules/creativity.md)
+
+Collaboration
+
+* Week 5: [Tools and processes for collaborating and managing projects](modules/collaboration.md)
+* Week 11: Collaboration / Code review and consensus building
+
+[Analytical thinking](modules/analytical-thinking.md)
+
+* Week 6: [Writing bug reports](modules/bug-reports.md)
+* Week 10: [Debugging tools and techniques](modules/debugging.md) 
+
+Creativity
+
+* Week 7: [Defining and solving engineering problems](modules/creativity.md)
+* Week 8: [Defining and solving engineering problems](modules/creativity.md)
+
+Extra
+
 * Week 9: Technical communication, writing effective documentation
-* Week 10: [Analytical thinking](modules/analytical-thinking.md) / [Debugging tools and techniques](modules/debugging.md) 
-* Week 11: Code review and consensus building
 * Week 12: Mentoring and being mentored
 * Week 13 (Tuesday only): Office hours (no lectures)
 * Week 14: 
