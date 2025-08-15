@@ -101,6 +101,92 @@ At least one member of the group, but ideally all members of the group should fo
 1. Download the latest release of the Ruby code base. At the moment the latest release is [3.3.9](https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-3-9-released/). 
 2. Starting with the README.md, follow the build instructions.
 
+### Generating questions
+
+Generate a list of questions about the Ruby code base. And consider how you would answer each of those questions (including what tools might be helpful). Questions about *why something is the way it is* can be some of the most interesting and difficult to answer. These are sometimes called *design rationale* questions. This is partially filled out, but please fill in the blanks as a group. Feel free to think creatively, and consider approaches and tools not discussed so far in today's class.
+
+Here are a few examples to get you thinking creatively...
+
+<table>
+    <tr>
+        <th>
+            #
+        </th>
+        <th>
+            Question
+        </th>
+        <th>
+            Possible approach/tools?
+        </th>
+    </tr>
+    <tr>
+        <td>
+        1
+        </td>
+        <td>
+            At the C level how are classes and objects implemented? 
+        </td>
+        <td>
+            In an IDE investigate the relationships between RBasic, RObject and RClass. In debugger inspect values of the structs for different classes/objects.
+        </td>
+    </tr>
+    <tr>
+        <td>
+        1
+        </td>
+        <td>
+            How are methods stored in Ruby classes/objects?
+        </td>
+        <td>
+            Start with Init_Hash to see how methods are added (rb_define_method). Statically/dynamically trace from there (warning this gets a bit complicated ...).
+        </td>
+    </tr>
+    <tr>
+        <td>
+        2
+        </td>
+        <td>
+            What are the performance characteristics of method dispatch? What optimizations are in place?
+        </td>
+        <td>
+            Identify relevant C functions, create test code, run in (platform specific) profiler. Say Instruments in macOS.
+        </td>
+    </tr>
+    <tr>
+        <td>
+        3
+        </td>
+        <td>
+            What would be the memory layout of a simple object (at the C level)? 
+        </td>
+        <td>
+            &nbsp;
+        </td>
+    </tr>
+    <tr>
+        <td>
+        4
+        </td>
+        <td>
+            &nbsp;
+        </td>
+        <td>
+            &nbsp;
+        </td>
+    </tr>
+    <tr>
+        <td>
+        5
+        </td>
+        <td>
+            &nbsp;
+        </td>
+        <td>
+            &nbsp;
+        </td>
+    </tr>
+</table>
+
 ### Investigating in an IDE
 
 Integrated development environments (IDEs) such as VS Code provide various tools for exploring a code base (navigating, searching, documentation hints, etc.). Open the Ruby code in an IDE of you choice and use its features to answer the following questions or carry out the following tasks. Don't be afraid to read documentation to help!
@@ -142,12 +228,10 @@ Now that the exercise is complete, let's discuss the results as a class.
 Complete the following tasks to develop a better understanding of an open source code base. For this you can use any tools you find helpful (including, but not limited to, the tools discussed above).
 
 1. Build the source code, learning about the build tools as needed. 
-
 2. Run the code in a debugger, learning about the relevant debugging tools as needed.
-
-3. Develop and understanding of the overall structure of the code base. What are the major components or modules and how do they fit together? 
-
+3. Develop an understanding of the overall structure of the code base. What are the major components or modules and how do they fit together? 
 4. Pick one component to investigate in detail. What are the core types and functions or methods? How are errors handled in the component? 
+5. Generate a list of questions you have about the code base (and related tools). For each question plan how you might answer that question.
 
 Note: in the above we are using the term "component" generically. In any particular code base components maybe captured as packages, subdirectories, etc.
 
@@ -157,7 +241,7 @@ Submit a one page reflection on the following questions and the result of your i
 
 1. What tools helped you in your investigation and in what way?
 2. How did you document what you learned?
-3. What else would you like to learn about the code? What next steps will you take?
+3. What else would you like to learn about the code? What next steps will you take? (You're answer to this can be based on the list of questions you were asked to generate above)
 
 Please also submit a diagram capturing the overall structure of the code base.
 
