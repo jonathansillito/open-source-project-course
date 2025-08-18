@@ -1,17 +1,14 @@
-# Analytical Thinking in Software Engineering
-
-Status: Nearly complete first draft (but see linked modules for their status)
+# Capable
 
 ## Learning outcomes
 
-By discussing analytical thinking our aim is to:
+In this module we have two main, related concerns: one help us all get better at solving complex technical problems (analytical thinking) and evaluating our engineering work. More specifically, we hope that students will be able to:
 
-1. Develop our understanding of the role of analytical thinking in software engineering.
-2. Improve our ability to apply the principles of analytical thinking in the context of bug reporting and debugging.
+1. Apply tools and techniques for evaluating work against project expectations
+2. Apply the principles of analytical thinking in the context of bug reporting and debugging
 
 ## Reading
 
-* TODO: find a nice analytical thinking overview article or book chapter
 * [Slack incident: Everyone back to work](https://slack.engineering/slacks-outage-on-january-4th-2021/) OR other?
 
 ## Class discussion

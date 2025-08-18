@@ -1,7 +1,5 @@
 # Debugging tools and techniques
 
-Status: Overview with many details missing. We need to find some code for the students to use in the debugging exercise, and we need to decide what to discuss as a class.
-
 ## Learning outcomes
 
 By discussing and practicing debugging in the context of analytical thinking our aim is to:

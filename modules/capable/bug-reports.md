@@ -1,7 +1,5 @@
 # Bugs, Bug Reporting and Triage
 
-Status: Complete first draft
-
 ## Learning outcomes
 
 By discussing these topics in the context of analytical thinking our aim is to:
