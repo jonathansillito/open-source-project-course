@@ -1,5 +1,7 @@
 # Curiosity and lifelong learning in software engineering
 
+>  "A well-educated person never stops learning" [President Nelson]
+
 ## Learning outcomes
 
 This module reflects our belief that curiosity is an important trait for a software engineering, especially (but not only) during times of disruption and rapid change. In addition to encouraging curiosity and lifelong learning generally, we have two concrete learning outcomes to pursue:

@@ -5,10 +5,6 @@ Notes:
 * learning curve -  where are you? where are you trying to get to? what considerations for stopping?
 * How do you decide you have "learned enough?" Should you go a bit further?
 
-Status: first draft
-
->  "A well-educated person never stops learning" [President Nelson]
-
 ## Learning outcomes
 
 1. Understand resources, techniques, and practices for gaining new knowledge and skills

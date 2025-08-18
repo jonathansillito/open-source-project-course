@@ -1,7 +1,5 @@
 # Investigating Code
 
-Status: Under development
-
 ## Meeting notes
 
 Topics to cover
