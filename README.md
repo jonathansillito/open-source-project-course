@@ -4,7 +4,11 @@ The goals of this course are to help students develop a better resume (or portfo
 
 ## Learning outcomes
 
-These learning outcomes are motivated by the mission of the software engineering emphasis: *"We develop Christlike leaders in software engineering who bless others by being creative, collaborative, capable, and curious."* And by the aims of a BYU education: *"A BYU education should be (1) spiritually strengthening, (2) intellectually enlarging, and (3) character building, leading to (4) lifelong learning and service."*
+These learning outcomes are motivated by the mission of the software engineering emphasis: *"We develop Christlike leaders in software engineering who bless others by being creative, collaborative, capable, and curious."* And by the aims of a BYU education: *"A BYU education should be (1) spiritually strengthening, (2) intellectually enlarging, and (3) character building, leading to (4) lifelong learning and service."* At a high level we hope that students will be able to:
+
+> Apply engineering skills to make meaningful, quality contributions, following appropriate processes
+
+We hope the following more specific learning outcomes will help you accomplish that outcome during this course, but we also hope they will provide a foundation that will allow you to improve at your ability to make meaningful contributions throughout your career. 
 
 **Creative**
 
@@ -30,11 +34,11 @@ These learning outcomes are motivated by the mission of the software engineering
 **Capable**
 
 7. Apply appropriate tools and analytical thinking to resolve complex technical problems
-8. Apply engineering skills to make meaningful, high quality contributions, following appropriate processes
+8. Evaluate and refine engineering work against project goals (correctness, design fit, efficiency, etc.)
 
 * *Develop talents with diligence, faith, resilience, humility, and a desire to grow*
 
-Note that the spiritual learning outcomes listed under each category above are not generally assessed in the course. However, they are prominent in the reading, discussing, and reflecting parts of the course, and we hope students apply them (see below).
+Note that the spiritual learning outcomes listed under each category above are not generally assessed in the course. However, they are prominent in the reading, discussing, and reflecting parts of the course, and we hope students apply them.
 
 ## Course structure
 
@@ -85,31 +89,28 @@ You will notice a focus on tools (among other things) in this topic list. It is 
 Introduction
 
 * Week 1 (Thursday only): Introduction to course and project X
-* Week 2: [Introduction to open source](modules/open-source.md) (project selection due at end of week)
 
-[Curiosity and lifelong learning in software engineering](modules/curious.md)
+* Week 2: [Introduction to open source](modules/introduction/README.md) (project selection due at end of week)
 
-* Week 3: [Learning to learn (semi-)independently](modules/learning)
-* Week 4: [Tools and techniques for investigating code](modules/investigating-code)
+* Week 3: [Curious](modules/curious//README.md) / [Learning to learn (semi-)independently](modules/curious/learning.md)
 
-Collaboration
+* Week 4: [Curious](modules/curious//README.md) / [Tools and techniques for investigating code](modules/curious/investigating-code.md)
 
-* Week 5: [Tools and processes for collaborating and managing projects](modules/collaboration.md)
-* Week 11: Collaboration / Code review and consensus building
+* Week 5: [Tools and processes for collaborating and managing projects](modules/collaborative//README.md)
 
-[Analytical thinking](modules/analytical-thinking.md)
 
-* Week 6: [Writing bug reports](modules/bug-reports.md)
-* Week 10: [Debugging tools and techniques](modules/debugging.md) 
+* Week 6: [Capable](modules/capable/README.md) / [Writing bug reports](modules/capable/bug-reports.md)
 
-Creativity
+* Week 7: Creative / [Defining and solving engineering problems](modules/creative//README.md)
 
-* Week 7: [Defining and solving engineering problems](modules/creativity.md)
-* Week 8: [Defining and solving engineering problems](modules/creativity.md)
-
-Extra
+* Week 8: Creative / [Defining and solving engineering problems](modules/creative//README.md)
 
 * Week 9: Technical communication, writing effective documentation
+
+* Week 10: [Capable](modules/capable/README.md) / [Debugging tools and techniques](modules/capable/debugging.md) 
+
+* Week 11: Collaboration / Code review and consensus building
+
 * Week 12: Mentoring and being mentored
 * Week 13 (Tuesday only): Office hours (no lectures)
 * Week 14: 

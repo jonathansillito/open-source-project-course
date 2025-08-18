@@ -1,15 +1,42 @@
-* Work on topic modules
-    * Code archeology [TS]
-    * Self-directed learning [TS]
-    * Analytic thinking/debugging [JS]
-        - Work in running example (ruby?)
-    * Tools and processes for collaborating and managing projects [JS]
-    * Technical communication, writing effective documentation [TS]
+## Modules
 
-* Mentoring plans and requirements [JS]
-    * Student perspective (finding, project specific mentors)
-    * Mentor perspective
+(Spiritual elements missing from some modules ...)
 
-* Measurement?
+Introduction
 
-* Spiritual elements missing from some modules ...
+* [] README.md
+* [] 
+
+Curious
+
+* [] README.md
+* [] 
+* [] 
+
+Creative
+
+* [] README.md
+* [] 
+* [] 
+
+Collaborative
+
+* [] README.md
+* [] 
+* [] 
+
+Capable
+
+* [] README.md
+* [] 
+* [] 
+
+## Mentoring and alum participation
+
+* Document for students (finding project specific mentors)
+* Document for mentors
+
+## Measurement
+
+* Weekly survey?
+
