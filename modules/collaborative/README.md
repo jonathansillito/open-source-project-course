@@ -1,7 +1,5 @@
 # Collaboration
 
-Status: Initial draft
-
 > "You have your agency to choose contention or reconciliation. I urge you to choose to be a peacemaker, now and always." [*Peacemakers Needed* By President Russell M. Nelson]
 
 ## Learning outcomes

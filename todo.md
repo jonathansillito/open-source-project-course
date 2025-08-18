@@ -4,8 +4,8 @@
 
 Introduction
 
-* [] README.md
-* [] 
+* [early-draft] README.md
+* [early-draft] possible-projects.md -- needs major clean up (should focus on projects we have mentors for)
 
 Curious
 
@@ -15,15 +15,11 @@ Curious
 
 Creative
 
-* [] README.md
-* [] 
-* [] 
+* [1st-draft] README.md - breakdown into an overview and two weeks worth of material (it is all in the README atm)
 
 Collaborative
 
-* [] README.md
-* [] 
-* [] 
+* [early-draft] README.md - needs to be broken down (overview and two weeks) + practicing section needs lots of work
 
 Capable
 
@@ -31,7 +27,6 @@ Capable
 * [not-started] evaluating-work.md (relates to new "evaluate" learning outcome)
 * [1st-draft] bug-reports.md - practicing section needs refining (and could switch to ruby)
 * [early-draft] debugging.md - many missing details including practicing example
-
 
 ## Mentoring and alum participation
 

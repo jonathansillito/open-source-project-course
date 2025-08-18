@@ -1,7 +1,5 @@
 # Creativity
 
-Status: Complete first draft
-
 > "The more you trust and rely upon the Spirit, the greater your capacity to create." [Happiness, Your Heritage By President Dieter F. Uchtdorf]
 
 ## Learning outcomes

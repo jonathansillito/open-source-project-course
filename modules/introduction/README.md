@@ -1,7 +1,5 @@
 # Introduction to open source software (OSS)
 
-Status: Preliminary sketch
-
 ## Learning outcomes
 
 1. Develop an understanding of the Open Source Software model and community. 
