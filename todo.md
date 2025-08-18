@@ -30,8 +30,9 @@ Capable
 
 ## Mentoring and alum participation
 
-* Document for students (finding project specific mentors)
-* Document for mentors
+* [early-draft] README.md - only rough early ideas now
+* [not-started] students.md (document with student expectations)
+* [not-started] mentors.md (document with mentor expectations)
 
 ## Measurement
 
