@@ -1,30 +1,16 @@
 # Possible Open Source Projects 
-The following is a list of possibly open source projects that you might consider contributing to as part of this class.  This is by no mean an exhaustive or restrictive list.  It is just to give you ideas or a place to start looking if you don't already have a project in mind.
+The following is a list of possible open source projects that you might consider contributing to as part of this class.  This is by no mean an exhaustive or restrictive list.  It is just to give you ideas or a place to start looking if you don't already have a project in mind.
 
-## Possible Projects
-* [Home assistant](https://www.home-assistant.io/integrations/)
-* [Grafana](https://grafana.com/docs/grafana/latest/developers/contribute/)
-* [SEAL](https://signmydata.com/?about) - **S**ecure **E**vidence **A**ttribution **L**abel (SEAL) is an open solution for assigning attribution with authentication to media. It can be easily applied to pictures, audio files, videos, documents, and other file formats. [SEAL Discord](https://discord.gg/qWt4krtTPD) Related blog posts:
-  * [VIDA: The Simple Life](https://www.hackerfactor.com/blog/index.php?/archives/1028-VIDA-The-Simple-Life.html)
-  * [From VIDA to SEAL](https://www.hackerfactor.com/blog/index.php?/archives/1044-From-VIDA-to-SEAL.html)
-  * [SEAL of Approval](https://www.hackerfactor.com/blog/index.php?/archives/1049-SEAL-of-Approval.html)
-  * [Signed and SEALed](https://www.hackerfactor.com/blog/index.php?/archives/1050-Signed-and-SEALed.html)
-* [GNU Image Manipulation Program (GIMP)](https://www.gimp.org/)
-* [Inkscape](https://inkscape.org/) - vector graphics software
-* [Valgrind](https://valgrind.org/)
-* [Mozilla Firefox](https://mozilla.org)
-* [OpenSSL](https://github.com/openssl/openssl)
-* [React web framework](https://react.dev/)
-* [git](https://git-scm.com/)
-* [The Linux Kernel](https://github.com/torvalds/linux)
-  * [Become a Linux kernel contributor - part 1 (blogpost)](https://hackerbikepacker.com/kernel-contributor-1) - first of three posts
+## Alumni Suggested Projects
+The following projects were suggested by BYU CS Department Alumni that we reached out to.  All of these projects are either ones they are working with, are familiar with, or feel would be a good place for students new to open source to contribute to.
 
+If you choose one of these projects you have a possible mentor already lined up. (Note: we will coordinate this to some extent so we don't overwhelm any of our potential mentors.) If you don't already have a project in mind, we recommend considering the options in this section first.
 
-Ashton Wiersdorf
+### From Ashton Wiersdorf
 
 * Rostrum: https://www.google.com/url?q=https://codeberg.org/ashton314/rostrum&source=gmail-imap&ust=1754068623000000&usg=AOvVaw0yRH_WCD04Jh4CgVYX_2qo (Sacrament meeting program builder emphasizing good typography.   Elixir using the Phoenix framework.)
-* Yeet: https://www.google.com/url?q=https://codeberg.org/ashton314/yeet&source=gmail-imap&ust=1754068623000000&usg=AOvVaw01pqQLUJ49RVHa6oyqH_eq (CLI tool to make it easy to put stuff in an S3 bucket (or   whatever) on the internet and get a link to share it. (This was   mostly an exercise in vibe-coding TBH, but it turned out OK!))
-- Ysue: https://www.google.com/url?q=https://codeberg.org/ashton314/ysue&source=gmail-imap&ust=1754068623000000&usg=AOvVaw1CDtVgwy2nKGoYtlvRmLlQ ("Yoo-sway", acronym for "You Should be Using Emacs": a text   editor written in Haskell.)
+* Yeet: https://www.google.com/url?q=https://codeberg.org/ashton314/yeet&source=gmail-imap&ust=1754068623000000&usg=AOvVaw01pqQLUJ49RVHa6oyqH_eq (CLI tool to make it easy to put stuff in an S3 bucket (or whatever) on the internet and get a link to share it. (This was   mostly an exercise in vibe-coding TBH, but it turned out OK!))
+* Ysue: https://www.google.com/url?q=https://codeberg.org/ashton314/ysue&source=gmail-imap&ust=1754068623000000&usg=AOvVaw1CDtVgwy2nKGoYtlvRmLlQ ("Yoo-sway", acronym for "You Should be Using Emacs": a text   editor written in Haskell.)
 
 ### From Derek Manwaring
 
@@ -99,3 +85,25 @@ Language
 * hedy (learn python) https://github.com/hedyorg/hedy
 * red lang https://github.com/red/red
 * gleam https://github.com/gleam-lang/gleam
+
+
+## Other Possible Projects
+These project are ones that came up as we were developing the class that may be of interest, you may have heard of, or may have even used.  Some might be a bit beyond the scope of what you can do in this class (We're looking at you, Linux Kernel) but maybe not.
+
+* [Home assistant](https://www.home-assistant.io/integrations/)
+* [Grafana](https://grafana.com/docs/grafana/latest/developers/contribute/)
+* [SEAL](https://signmydata.com/?about) - **S**ecure **E**vidence **A**ttribution **L**abel (SEAL) is an open solution for assigning attribution with authentication to media. It can be easily applied to pictures, audio files, videos, documents, and other file formats. Link to the [SEAL Discord](https://discord.gg/qWt4krtTPD). Some related blog posts for context:
+  * [VIDA: The Simple Life](https://www.hackerfactor.com/blog/index.php?/archives/1028-VIDA-The-Simple-Life.html)
+  * [From VIDA to SEAL](https://www.hackerfactor.com/blog/index.php?/archives/1044-From-VIDA-to-SEAL.html)
+  * [SEAL of Approval](https://www.hackerfactor.com/blog/index.php?/archives/1049-SEAL-of-Approval.html)
+  * [Signed and SEALed](https://www.hackerfactor.com/blog/index.php?/archives/1050-Signed-and-SEALed.html)
+* [GNU Image Manipulation Program (GIMP)](https://www.gimp.org/)
+* [Inkscape](https://inkscape.org/) - vector graphics software
+* [Valgrind](https://valgrind.org/)
+* [Mozilla Firefox](https://mozilla.org)
+* [OpenSSL](https://github.com/openssl/openssl)
+* [React web framework](https://react.dev/)
+* [git](https://git-scm.com/)
+* [The Linux Kernel](https://github.com/torvalds/linux)
+  * [Become a Linux kernel contributor - part 1 (blogpost)](https://hackerbikepacker.com/kernel-contributor-1) - first of three posts
+
