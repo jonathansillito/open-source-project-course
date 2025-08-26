@@ -84,6 +84,9 @@ If you were the professor in these cases what other information would be helpful
 
 *The following are to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions.*
 
+https://bugs.ruby-lang.org
+https://github.com/ruby/ruby/wiki/How-To-Report
+
 Read each of the following firefox bug reports, including the attachments and discussion comments, then answer the questions below. (TODO: this is a **random** list. Something more thoughtful would be better, including a range of bug types and report quality.)
 
 Bug reports:

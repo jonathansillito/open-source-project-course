@@ -146,7 +146,7 @@ Now that the exercise is complete, let's discuss the results as a class.
 * What tooling was most helpful in this case? What is it about this case that made those the most valuable?
 * What were the wildest ideas considered? How did those contribute to the final option considered?
 * How did you employ divergent and convergent thinking?
-* How can we apply these ideas to SE projects?
+* How can we apply these ideas to SE projects? 
 
 ## Applying
 
@@ -162,6 +162,6 @@ Complete the following tasks to (1) solidify your understanding of how the ideas
 Submit a one page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
 
 * What tools did you use when applying CPS to an open source project? What effect did that have on the outcomes? 
-* What did you lear from communicating with project members during the process?
-* What role do you see divergent and convergent thinking playing in software engineering work.
-* What areas of your person, church or professional life could benefit from creative problem solving?
+* What did you learn from communicating with project members during the process?
+* What role do you see divergent and convergent thinking playing in software engineering work?
+* What areas of your personal, church or professional life could benefit from creative problem solving?
