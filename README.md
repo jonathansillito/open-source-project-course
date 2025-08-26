@@ -93,7 +93,7 @@ Introduction
 
 * Week 2: [Introduction to open source](modules/introduction/README.md) (project selection due at end of week)
 
-* Week 3: [Curious](modules/curious//README.md) / [Learning to learn (semi-)independently](modules/curious/learning.md)
+* Week 3: [Curious](modules/curious/README.md) / [Learning to learn (semi-)independently](modules/curious/learning.md)
 
 * Week 4: [Curious](modules/curious//README.md) / [Tools and techniques for investigating code](modules/curious/investigating-code.md)
 

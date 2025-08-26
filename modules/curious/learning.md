@@ -64,12 +64,12 @@ You are to build a learning plan as if you were preparing to contribute to the [
 Develop your plan by writing down answers the the following questions (in as much detail as time permits).
 
 1. *What is your overall learning goal (or your "why") and how will you know you've accomplished it?* This may involve reflecting on the (hypothetical) contributions you plan to make and how much you already know. For example, how well do you know the C programming language and associated tooling?
-2. *How could you break down your overall leaning goal into several smaller goals?* Feel free to use a stepwise refinement process as discussed. Please try to make at least a couple of your goals SMART goals, for the stake of practice!
+2. *How could you break down your overall leaning goal into several smaller goals?* Feel free to use a stepwise refinement process as discussed. Please try to make at least a couple of your goals SMART goals, for the sake of practice!
 3. *What is a reasonable schedule for accomplishing these tasks?* Create a hypothetical schedule, including blocking off uninterrupted time for deep work.
 4. *Who could you be accountable to?* Write a note to them explaining your *why* and providing details of the support you would like to get from them.
 5. *What could you build that would support your learning?* This could be one thing or multiple smaller things.
 
-Time permitting identify available resources you would use to help support your learning plan. Are there books, online tutorials, etc. that would be most helpful?
+Finally, identify available resources you would use to help support your learning plan. Are there books, online tutorials, etc. that would be most helpful?
 
 ## Applying
 
