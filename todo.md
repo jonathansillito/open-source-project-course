@@ -15,7 +15,9 @@ Curious
 
 Creative
 
-* [1st-draft] README.md - breakdown into an overview and two weeks worth of material (it is all in the README atm)
+* [1st-draft] README.md 
+* [1st-draft] cps.md
+* [not-started] applying-in-engineering.md
 
 Collaborative
 
