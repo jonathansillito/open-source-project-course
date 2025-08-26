@@ -19,7 +19,9 @@ Creative
 
 Collaborative
 
-* [early-draft] README.md - needs to be broken down (overview and two weeks) + practicing section needs lots of work
+* [1st-draft] README.md - missing conclusion section
+* [early-draft] tools-and-processes.md - missing concrete task (add Integer.round task); one discussion examples needs more work.
+* [not-started] code-review.md
 
 Capable
 
