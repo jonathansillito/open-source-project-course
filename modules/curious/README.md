@@ -24,7 +24,7 @@ The "You Can Train Yourself to Be More Curious" article challenges the idea we h
 
 > "Personality traits aren't mysterious internal forces completely beyond our control. They're patterns of thinking, feeling, and behaving that become more automatic with repetition. Want to become more curious? Act more curious on a regular basis, and you become more curious over time."
 
-Two key question then are what might that deliberate practice involve for different areas of our life, and how can we sustain that practice?
+Two key questions then are what might that deliberate practice involve for different areas of our life, and how can we sustain that practice?
 
 ### The commandment to learn
 
@@ -41,7 +41,7 @@ What might each of us do to follow the commandment to seek learning? Here are a 
 
 ## Modules
 
-To become (and remain) a great engineer will require learning through out your life. You should (of course) not assume that what you learn in school will be enough. We will discuss (and practice and apply) these ideas further, in a software engineering context in the following modules:
+To become (and remain) a great engineer will require learning throughout your life. You should (of course) not assume that what you learn in school will be enough. We will discuss (and practice and apply) these ideas further, in a software engineering context in the following modules:
 
 * [Learning to learn (semi-)independently](learning)
 * [Tools and techniques for investigating code](investigating-code)

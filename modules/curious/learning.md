@@ -1,9 +1,7 @@
 # Learning to Learn
+You've been learning all your life.  Up to this point, most of your learning has probably been directed by someone else:  in elementary and secondary school, in college, and often even at home.  You may have also explored a number of topics of personal interest to you on your own.  But in all that have you ever given conscious thought to the process of learning?
 
-Notes:
-* Self-directed learning
-* learning curve -  where are you? where are you trying to get to? what considerations for stopping?
-* How do you decide you have "learned enough?" Should you go a bit further?
+Going forward in life, especially after graduation, most of your learning will be "self-directed."  You may pick the topics (or it may be something you need to learn for your employment), but most of the work of learning will be up to you to figure out how to do.  This lecture is about building frameworks to guide us in our self-directed learning.
 
 ## Learning outcomes
 
@@ -18,7 +16,7 @@ Notes:
 
 ## Discussing
 
-Possible discussion topics:
+Let's start by looking at how we've learned in the past.  What are the mindsets, goals, environment, and other factors that have affected our learning.
 
 * When you have to learn something new, what level of detail are you focused on?  Does that level affect how you learn?
 * What techniques have you used in the past to learn something new or develop a new skill?
@@ -28,6 +26,8 @@ Possible discussion topics:
 * Where are you on the learning curve?
 * How do you know if you learned enough?
 * How do you retain the knowledge you've acquired? 
+
+With that background, let's look at a process for developing a working plan to learn something new.  Think about classes you taken, can you see how this system fits into the assignments/process the professor was following?
 
 ### Building a learning plan
 1. Why are you learning this thing? - understanding "why?" provides both motivation and an ending point.  What is the target?  How will you know when you get there?
