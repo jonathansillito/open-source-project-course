@@ -10,19 +10,19 @@
 * [History of Free and Open-source Software](https://en.wikipedia.org/wiki/History_of_free_and_open-source_software) Wikipedia article
 * [Open-source Software](https://en.wikipedia.org/wiki/Open-source_software) Wikipedia article
 * [The GNU Manifesto](https://www.gnu.org/gnu/manifesto.en.html) - Richard Stallman
-* [Cathderal and the Bazaar](../docs/cathedral-bazaar.pdf) - Eric Raymond - 
+* [Cathderal and the Bazaar](../docs/cathedral-bazaar.pdf) - Eric Raymond
 * [Open-source License](https://en.wikipedia.org/wiki/Open-source_license) Wikipedia article
 * [Comparison of Free and Open-source Licenses](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses) Wikipedia article
 
 
 ## Discussing
 
-Possible discussion topics:
+Open source software is part of the modern computing world, but it wasn't always.  Today we want to talk about what open source software is, its advantages and disadvantages, and the licenses used by various projects.
 
 * History of open source
   * When did "open source software" start?
   * Why did we move away from it?
-  * why did we move back?
+  * Why did we move back?
 * What advantages does open source software provide?
 * What are its disadvantages?
 * Types of OSS licenses, their implications, and philosophical differences.  
@@ -48,7 +48,7 @@ Possible discussion topics:
 
 ## Applying
 
-* Identify a list of project you would like to contribute to.
+* Identify a small list of projects you would like to contribute to.
 * For each project:
   * Identify the license used
   * Identify ways that you could contribute (open issues, bug reports, feature requests, documentation, goals, etc.)
