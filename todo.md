@@ -1,3 +1,9 @@
+## Admin
+
+* Email students
+* Email and survey alum
+* Set up course canvas
+
 ## Modules
 
 (Spiritual elements missing from some modules ...)
