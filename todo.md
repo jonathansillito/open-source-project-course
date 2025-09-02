@@ -10,7 +10,7 @@
 
 Introduction
 
-* [early-draft] README.md
+* [1st-draft] README.md
 * [early-draft] possible-projects.md -- needs major clean up (should focus on projects we have mentors for)
 
 Curious

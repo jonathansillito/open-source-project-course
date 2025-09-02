@@ -7,17 +7,22 @@
 
 ## Reading
 
-* [History of Free and Open-source Software](https://en.wikipedia.org/wiki/History_of_free_and_open-source_software) Wikipedia article
-* [Open-source Software](https://en.wikipedia.org/wiki/Open-source_software) Wikipedia article
+In preparation for our class discussion, please read the following articles.
+
+* [Open-source Software](https://en.wikipedia.org/wiki/Open-source_software) - Wikipedia article
 * [The GNU Manifesto](https://www.gnu.org/gnu/manifesto.en.html) - Richard Stallman
 * [Cathderal and the Bazaar](../docs/cathedral-bazaar.pdf) - Eric Raymond
-* [Open-source License](https://en.wikipedia.org/wiki/Open-source_license) Wikipedia article
-* [Comparison of Free and Open-source Licenses](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses) Wikipedia article
+* [Open-source License](https://en.wikipedia.org/wiki/Open-source_license) - Wikipedia article
 
+Here is an optional Wikipedia article to read if you would like more details about the history of open source.
+
+* [History of Free and Open-source Software](https://en.wikipedia.org/wiki/History_of_free_and_open-source_software)
 
 ## Discussing
 
-Open source software is part of the modern computing world, but it wasn't always.  Today we want to talk about what open source software is, its advantages and disadvantages, and the licenses used by various projects.
+Open source software is part of the modern computing world, but it wasn't always. Today we want to talk about what open source software is, its advantages and disadvantages, and the licenses used by various projects.
+
+### The OSS model and its history
 
 * History of open source
   * When did "open source software" start?
@@ -25,13 +30,24 @@ Open source software is part of the modern computing world, but it wasn't always
   * Why did we move back?
 * What advantages does open source software provide?
 * What are its disadvantages?
-* Types of OSS licenses, their implications, and philosophical differences.  
-* Does the licence a project uses affect your willingness to contribute to the project?
-* Criteria for selecting an open source project for this class
-    * Your personal level of interest
-    * Activity level (i.e., avoid a "dead" project)
-    * Contribution opportunities that are tractable for newcomers (check for open issues, bug reports, ...)
-* [Example projects to consider](possible-projects.md)
+
+### OSS Licenses
+
+It may be helpful to refer to [this table comparing various OSS licenses](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses).
+
+* What are the most common OSS licenses, how do they differ, and what are the implications?
+* Does the license a project uses affect your willingness to contribute to the project?
+
+### Selecting an OSS project for this course
+
+We have assembled a [list of example projects to consider](possible-projects.md), but please note that it is more than ok to select a project not from this list. Here are a few criteria you may wish to consider:
+
+* Your personal level of interest in the project and the underlying technology
+* Activity level of the project (i.e., avoid a "dead" project)
+* Contribution opportunities that are tractable for newcomers (check for open issues, bug reports, ...)
+* How well the project fits with your current career goals, could also be a consideration.
+
+You may also which to ask yourself, whether you could imagine wanting to be involved with the project, even after the course is completed.
 
 ## Practicing
 
@@ -48,17 +64,27 @@ Open source software is part of the modern computing world, but it wasn't always
 
 ## Applying
 
-* Identify a small list of projects you would like to contribute to.
+The goal of this activity is to select a project to work on for this course. Here are some recommended steps.
+
+* Brainstorm a list of projects you would like to consider.
 * For each project:
   * Identify the license used
   * Identify ways that you could contribute (open issues, bug reports, feature requests, documentation, goals, etc.)
-* Select the project you want to work on.
+
+The (possibly considering the selection criteria discussed earlier) make a decision.
 
 ## Reflecting
 
-* Submit a one-page description of the project you want to contribute to and the rationale behind your decision.  Your write-up should include:
-  * The name of the project and a link to its website/Github
-  * A short description of the project
-  * A description of why you chose that project
-  * A description of how you think you might contribute to the project
-  * What OSS license the project uses and the implications that might have on your contributions. 
+Submit a one-page description of the project you want to contribute to and the rationale behind your decision. Your write-up should include:
+
+* The name of the project and a link to its website/Github
+* A short description of the project
+* A description of why you chose that project
+* A description of how you think you might contribute to the project
+* What OSS license the project uses
+
+If you will be using a mentor, please also provide the following information:
+
+* Who will be your mentor?
+* What are you hopes/ambitions for that mentoring relationship?
+* How will you approach mentoring (so as to accomplish what you hope)?
