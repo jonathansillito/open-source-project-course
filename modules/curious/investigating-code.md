@@ -10,21 +10,6 @@ Topics to cover
 * High-level understanding of architecture and design (including rationale)
 * Necessary domain knowledge
 
-## JS NOTES
-
-Thanks for the draft Tom. Here are some initial thoughts and/or questions.
-
-* Would it make sense to talk about learning programming languages and frameworks in this context? Or would that be better in its own module? Of course it is hard to understand a code base if you don't understand the programming languages, key frameworks, et.
-
-* One thing I was thinking about (that may be worth considering as we refine this topic) is that code archeology is a fairly general term and it may be worth considering thinking about more specific versions. So for example ...
-
-  * Questions based vs. task based vs. general familiarization vs. design rationale ...
-  * Static structure vs. control flow vs. data flow
-
-* Also, would it help to refine the exercise perhaps by giving the students a couple questions to answer or tasks to perform or ?
-
-* Consider adding: how to ask good questions (of project participants, say)
-
 ## Learning outcomes
 By discussing code investigation, our aim is to:
 
@@ -201,7 +186,7 @@ This will require recompiling the Ruby C code to include the debug information a
 
 1. What are some of the builtin classes that are created during the initialization of the Ruby VM? (Hint: start by putting a break point in the `Init_Hash` function to see where it is called from and then what else is called.
 
-Note that due to the use of C macros, it may not be so easy to use the IDE--without the debugger--to find some calls. We will spend more time working in a debugger later in the course (see the [Analytical thinking/Debugging tools and techniques](debugging.md) module).
+Note that due to the use of C macros, it may not be so easy to use the IDE--without the debugger--to find some calls. We will spend more time working in a debugger later in the course (see the [Capable/Debugging tools and techniques](../capable/debugging.md) module).
 
 ### Investigating with AI
 
