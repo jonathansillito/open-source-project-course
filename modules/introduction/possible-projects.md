@@ -4,59 +4,35 @@ The following is a list of possible open source projects that you might consider
 ## Alumni Suggested Projects
 The following projects were suggested by BYU CS Department Alumni that we reached out to.  All of these projects are either ones they are working with, are familiar with, or feel would be a good place for students new to open source to contribute to.
 
-If you choose one of these projects you have a possible mentor already lined up. (Note: we will coordinate this to some extent so we don't overwhelm any of our potential mentors.) If you don't already have a project in mind, we recommend considering the options in this section first.
+If you choose one of these projects you have a possible mentor already lined up as many of these alumni have volunteered to be mentors.  We've listed project with confirmed mentors first. If you don't already have a project in mind, we recommend considering the options in this section first.
 
-### From Ashton Wiersdorf
+### Confirmed Mentor Volunteer Projects
+The alumni suggesting these projects have confirmed that they would be able to be a mentor this semester for students picking these projects.
+
+#### From Ashton Wiersdorf
 
 * Rostrum: https://www.google.com/url?q=https://codeberg.org/ashton314/rostrum&source=gmail-imap&ust=1754068623000000&usg=AOvVaw0yRH_WCD04Jh4CgVYX_2qo (Sacrament meeting program builder emphasizing good typography.   Elixir using the Phoenix framework.)
 * Yeet: https://www.google.com/url?q=https://codeberg.org/ashton314/yeet&source=gmail-imap&ust=1754068623000000&usg=AOvVaw01pqQLUJ49RVHa6oyqH_eq (CLI tool to make it easy to put stuff in an S3 bucket (or whatever) on the internet and get a link to share it. (This was   mostly an exercise in vibe-coding TBH, but it turned out OK!))
 * Ysue: https://www.google.com/url?q=https://codeberg.org/ashton314/ysue&source=gmail-imap&ust=1754068623000000&usg=AOvVaw1CDtVgwy2nKGoYtlvRmLlQ ("Yoo-sway", acronym for "You Should be Using Emacs": a text   editor written in Haskell.)
 
-### From Derek Manwaring
+#### From Tyler Gill
+
+* https://github.com/duplicati/duplicati
+* https://github.com/immich-app/immich (great option)
+
+#### From Derek Manwaring
 
 * https://github.com/firecracker-microvm/firecracker
 * https://github.com/rust-vmm
 
 
-### From John Eberhard
+#### From John Eberhard
 
 * https://github.com/IBM/JTOpen
 * https://github.com/Mapepire-IBMi
 
-
-### From Tyler Gill
-
-* https://github.com/duplicati/duplicati
-* https://github.com/immich-app/immich (great option)
-
-### From Jacob Davis
-
-Secure Cloud Business Applications (SCuBA) Project: 
-
-* https://www.cisa.gov/resources-tools/services/secure-cloud-business-applications-scuba-project
-* https://github.com/cisagov/ScubaGear
-* https://github.com/cisagov/ScubaGoggles
-* https://github.com/cisagov/ScubaConnect
-
-Emulytics: 
-
-* https://www.sandia.gov/emulytics/
-* https://github.com/sandia-minimega/minimega
-* https://github.com/sandialabs/sceptre-phenix
-
-### From Eric Decker
-
-* https://byums-mentoring.byu.edu
-
-### From Brigham Skarda (maintainer)
-
-* https://github.com/brighamskarda/chess
-
-### From Dan Smith
-
-* OpenJDK at oracle
-
-### From Epper Marshall
+#### From Epper Marshall
+Epper has said he'd be willing to mentor on any project but suggested the following as possibly of interest to students.
 
 Games
 
@@ -86,9 +62,49 @@ Language
 * red lang https://github.com/red/red
 * gleam https://github.com/gleam-lang/gleam
 
+#### Bruce Conrad
+
+* something in https://github.com/Picolab, preferably PLAN
+
+#### Todd Beauchene
+
+* Streamlit
+* Spark
+* Superset
+
+### Other Alumni suggested projects
+These projects were suggested by some of our alumni but they have not confirmed their availability as mentors.  You can still reach out to them if interested, but they may not be able to be a mentor and you will have to pick someone else.
+
+#### From Jacob Davis
+
+Secure Cloud Business Applications (SCuBA) Project: 
+
+* https://www.cisa.gov/resources-tools/services/secure-cloud-business-applications-scuba-project
+* https://github.com/cisagov/ScubaGear
+* https://github.com/cisagov/ScubaGoggles
+* https://github.com/cisagov/ScubaConnect
+
+Emulytics: 
+
+* https://www.sandia.gov/emulytics/
+* https://github.com/sandia-minimega/minimega
+* https://github.com/sandialabs/sceptre-phenix
+
+#### From Eric Decker
+
+* https://byums-mentoring.byu.edu
+
+#### From Brigham Skarda (maintainer)
+
+* https://github.com/brighamskarda/chess
+
+#### From Dan Smith
+
+* OpenJDK at oracle
+
 
 ## Other Possible Projects
-These project are ones that came up as we were developing the class that may be of interest, you may have heard of, or may have even used.  Some might be a bit beyond the scope of what you can do in this class (We're looking at you, Linux Kernel) but maybe not.
+These project are ones that the professors came up as we were developing the class that may be of interest, you may have heard of, or may have even used.  Some might be a bit beyond the scope of what you can do in this class (We're looking at you, Linux Kernel) but maybe not.
 
 * [Home assistant](https://www.home-assistant.io/integrations/)
 * [Grafana](https://grafana.com/docs/grafana/latest/developers/contribute/)
