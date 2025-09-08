@@ -11,9 +11,17 @@ The alumni suggesting these projects have confirmed that they would be able to b
 
 #### From Ashton Wiersdorf
 
-* Rostrum: https://www.google.com/url?q=https://codeberg.org/ashton314/rostrum&source=gmail-imap&ust=1754068623000000&usg=AOvVaw0yRH_WCD04Jh4CgVYX_2qo (Sacrament meeting program builder emphasizing good typography.   Elixir using the Phoenix framework.)
-* Yeet: https://www.google.com/url?q=https://codeberg.org/ashton314/yeet&source=gmail-imap&ust=1754068623000000&usg=AOvVaw01pqQLUJ49RVHa6oyqH_eq (CLI tool to make it easy to put stuff in an S3 bucket (or whatever) on the internet and get a link to share it. (This was   mostly an exercise in vibe-coding TBH, but it turned out OK!))
-* Ysue: https://www.google.com/url?q=https://codeberg.org/ashton314/ysue&source=gmail-imap&ust=1754068623000000&usg=AOvVaw1CDtVgwy2nKGoYtlvRmLlQ ("Yoo-sway", acronym for "You Should be Using Emacs": a text   editor written in Haskell.)
+Projects owned by Ashton:
+
+* [Rostrum](https://codeberg.org/ashton314/rostrum) Sacrament meeting program builder emphasizing good typography.   Elixir using the Phoenix framework.
+* [Yeet](https://codeberg.org/ashton314/yeet) CLI tool to make it easy to put stuff in an S3 bucket (or whatever) on the internet and get a link to share it. (This was  mostly an exercise in vibe-coding TBH, but it turned out OK!)
+* [Ysue](https://codeberg.org/ashton314/ysue) "Yoo-sway", acronym for "You Should be Using Emacs": a (very simple) text editor written in Haskell.
+
+Other projects Ashton can help with:
+
+* [Veloren](https://gitlab.com/veloren/veloren/) Multiplayer voxel RPG written in Rust.
+* *Any Emacs package*
+* [Forgejo](https://forgejo.org/) FOSS, self-hostable Git forge. [Codeberg](https://codeberg.org) is a Forgejo instance.
 
 #### From Tyler Gill
 
