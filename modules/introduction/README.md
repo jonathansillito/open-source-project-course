@@ -33,7 +33,7 @@ Open source software is part of the modern computing world, but it wasn't always
 
 ### OSS Licenses
 
-It may be helpful to refer to [this table comparing various OSS licenses](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses).
+It may be helpful to refer to [this table comparing various OSS licenses](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses) and [ChooseALicense.com](https://choosealicense.com/).
 
 * What are the most common OSS licenses, how do they differ, and what are the implications?
 * Does the license a project uses affect your willingness to contribute to the project?
