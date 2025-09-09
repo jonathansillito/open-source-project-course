@@ -11,7 +11,7 @@ In preparation for our class discussion, please read the following articles.
 
 * [Open-source Software](https://en.wikipedia.org/wiki/Open-source_software) - Wikipedia article
 * [The GNU Manifesto](https://www.gnu.org/gnu/manifesto.en.html) - Richard Stallman
-* [Cathderal and the Bazaar](../docs/cathedral-bazaar.pdf) - Eric Raymond
+* [Cathderal and the Bazaar](./cathedral-bazaar.pdf) - Eric Raymond
 * [Open-source License](https://en.wikipedia.org/wiki/Open-source_license) - Wikipedia article
 
 Here is an optional Wikipedia article to read if you would like more details about the history of open source.
