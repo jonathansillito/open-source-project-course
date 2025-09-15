@@ -80,6 +80,10 @@ Language
 * Spark
 * Superset
 
+#### From Dan Smith
+
+* OpenJDK at Oracle
+
 ### Other Alumni suggested projects
 These projects were suggested by some of our alumni but they have not confirmed their availability as mentors.  You can still reach out to them if interested, but they may not be able to be a mentor and you will have to pick someone else.
 
@@ -105,10 +109,6 @@ Emulytics:
 #### From Brigham Skarda (maintainer)
 
 * https://github.com/brighamskarda/chess
-
-#### From Dan Smith
-
-* OpenJDK at oracle
 
 
 ## Other Possible Projects
