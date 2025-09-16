@@ -20,7 +20,7 @@ A little practice in this course will not make a major change for you, but we ho
 
 ### Becoming more curious?
 
-The "You Can Train Yourself to Be More Curious" article challenges the idea we humans either have certain personality traits (like curiosity) or do not. And also the idea that our level of curiosity will likely decline as we get older. We are (the article claims) "an agentic species, capable of actively shaping who we become." The key is "deliberate practice" or a focus on "concrete behaviors rather than abstract goals"
+The "You Can Train Yourself to Be More Curious" article challenges the idea we humans either have certain personality traits (like curiosity) or do not. And also the idea that our level of curiosity will likely decline as we get older. We are (the article claims) "an agentic species, capable of actively shaping who we become." The key is "deliberate practice" or a focus on "concrete behaviors rather than abstract goals."
 
 > "Personality traits aren't mysterious internal forces completely beyond our control. They're patterns of thinking, feeling, and behaving that become more automatic with repetition. Want to become more curious? Act more curious on a regular basis, and you become more curious over time."
 
