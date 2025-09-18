@@ -81,10 +81,10 @@ Write down your plan and start working on it.
 
 ## Reflecting
 
-After working through your learning plan (or the first week of it if it is longer), submit your original plan along with a short reflection that addresses the following questions:
+After working through your learning plan (or the first week of it if it is longer), submit your **original plan** along with a **short (about one page) reflection** that addresses the following questions:
 
-1. Why did you choose to learn this particular topic?
-2. Were your goals reasonably sized or did you need to modify/refine them?
-3. Was the time you blocked out reasonable? Did you feel that you could have kept going longer? Did you need to shorten the time?  What did you learn about your "study endurance" and did it change?
-4. How were you accountable for your learning?
-5. What did you build?
+1. Why did you choose to learn this particular topic and what is the topic?
+2. Were your goals reasonably sized or did you need to modify/refine them? Explain why and what you learned about goal setting.
+3. Was the time you blocked out reasonable? Did you feel that you could have kept going longer? Did you need to shorten the time? What did you learn about your "study endurance" and did it change?
+4. How were you accountable for your learning? How did that accountability influence your learning?
+5. What did you build? How did that "building" work influence your learning?
