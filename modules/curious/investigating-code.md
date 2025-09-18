@@ -220,13 +220,13 @@ Note: in the above we are using the term "component" generically. In any particu
 
 ## Reflecting
 
-Submit a one page reflection on the following questions and the result of your investigation. 
+Submit a (about one page) reflection on the following questions and the result of your investigation. 
 
 1. What tools helped you in your investigation and in what way?
 2. How did you document what you learned?
 3. What else would you like to learn about the code? What next steps will you take? (You're answer to this can be based on the list of questions you were asked to generate above)
 
-Please also submit a diagram capturing the overall structure of the code base.
+Please also submit a diagram capturing the overall structure of the code base--with a particular focus on what you have investigated/learned. We are not interested in a diagram that captures all the types, functions, classes ... of the entire code base.
 
 ## Appendix
 
