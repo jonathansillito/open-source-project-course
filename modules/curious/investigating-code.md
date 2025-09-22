@@ -1,15 +1,5 @@
 # Investigating Code
 
-## Meeting notes
-
-Topics to cover
-
-* Focus on tools and techniques for code investigation
-* How is a feature implemented
-* How and where should this new feature be implemented
-* High-level understanding of architecture and design (including rationale)
-* Necessary domain knowledge
-
 ## Learning outcomes
 By discussing code investigation, our aim is to:
 
@@ -50,7 +40,7 @@ Before you can start making changes to code, you need to understand it.  There a
 As you start to learn the code, how do you effectively navigate it and generate understanding?
 * **Evaluate your Assumptions** - Were the things you assumed about the code correct?  What did you learn that was different?
 * **Use your IDE's tools** - "Go to Definitions" and "Go to Uses" are going to be your friends.
-* **Run the code** - See how it behaves, run it through profilers to see what classes/functions are heavily used, run it in the debugger and step through to the program flow.
+* **Run the code** - See how it behaves, run it through profilers to see what classes/functions are heavily used, run it in the debugger and step through to understand the program flow.
 * **Look at the tests** - These can often indicate what the developers felt were the most important aspects or the things they struggled with, especially if the project lacks 100% test coverage. (Or they might just be what was easiest to test.)
 * **Take copious notes** - Record the things you learn.
 * **Ask Questions** - Reach out to the user who reported the bug/requested the feature. Reach out to the original developers.
@@ -69,7 +59,7 @@ There are a number of various tools you can use to help understand your codebase
 * AI - analyze, interpret, & summarize code
   * [Cursor](https://www.cursor.com/en)
   * [Claude](https://claude.ai/)
-  * Warp
+  * [Warp](https://www.warp.dev/code)
  
 ## Practicing
 
