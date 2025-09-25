@@ -50,7 +50,7 @@ Once you have a possible mentor selected, you will need to reach out to them to 
 * If they are not one of our pre-prepared alumni, you should share this page (and the expectations pages) with them so they know what the arrangement involves. We've already shared it with the alumni volunteers on our list.
 
 ## Working with Your Mentor
-Once you've found someone to server as your mentor, take advantage of it. Try to meet weekly, come with questions, ask for their help, listen to their advice and suggestions, report on successes and challenges, and develop a lasting relationship. 
+Once you've found someone to serve as your mentor, take advantage of it. Try to meet weekly, come with questions, ask for their help, listen to their advice and suggestions, report on successes and challenges, and develop a lasting relationship. 
 
 ## Reporting on the Mentoring Experience
 At the end of the semester, the student will write a reflection on their mentoring relationship, and we will be soliciting feedback from the mentors on what worked and what didn't.  The mentor feedback will in no way affect the student's course grade but rather is designed to help us improve the process and instruction for future semesters.
