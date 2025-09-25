@@ -238,7 +238,7 @@ puts "hello world"
 
 ### Configuring a C debugger in VS Code
 
-Install an appropriate debugger extension. I'm running VS Code on macOS and chose the CodeLLDB extension.
+Install an appropriate debugger extension. I'm running VS Code on macOS and chose the [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) extension.
 
 Next, create a build task in `.vscode/tasks.json`. Something like this should work:
 
