@@ -240,7 +240,7 @@ puts "hello world"
 
 Install an appropriate debugger extension. I'm running VS Code on macOS and chose the CodeLLDB extension.
 
-Next, create a build task in `.vscode/tasks.rb`. Something like this should work:
+Next, create a build task in `.vscode/tasks.json`. Something like this should work:
 
 ```
 {
