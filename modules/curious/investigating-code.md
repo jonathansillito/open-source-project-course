@@ -224,15 +224,15 @@ Please also submit a diagram capturing the overall structure of the code base--w
 
 Follow the usual build steps (including creating a build subdirectory), but use the following options when running the configuration command. This will enable various debug-related environment variables when building (`--enable-debug-env`), include source-level debugging information (`-g`), and make sure functions are not being optimized away (`-O0`).
 
-```
-> cd build
-> ../configure CFLAGS='-g -O0' --enable-debug-env --disable-install-doc
-> make
+```sh
+cd build
+../configure CFLAGS='-g -O0' --enable-debug-env --disable-install-doc
+make
 ```
 
 It will also be helpful to create a simple Ruby program to execute during debugging, which conventionally is called `test.rb`. Start with something simple, like the following and add code as needed.
 
-```
+```ruby
 puts "hello world"
 ```
 
@@ -242,7 +242,7 @@ Install an appropriate debugger extension. I'm running VS Code on macOS and chos
 
 Next, create a build task in `.vscode/tasks.json`. Something like this should work:
 
-```
+```json
 {
     "version": "2.0.0",
     "tasks": [
@@ -264,7 +264,7 @@ Next, create a build task in `.vscode/tasks.json`. Something like this should wo
 
 Finally, create a launch configuration in `.vscode/launch.json`. Here are a couple notes: (1) This references to build task defined above, and (2) Will run a file `test.rb` by passing it as an argument to the ruby executable.
 
-```
+```json
 {
     "version": "0.2.0",
     "configurations": [
