@@ -12,7 +12,6 @@
 ## Reading
 
 * [Peacemakers Needed](https://www.churchofjesuschrist.org/study/general-conference/2023/04/47nelson?lang=eng) by President Nelson
-* [Amazon Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles)
 
 We will base our class discussion and practice examples on the Ruby project, and so here some documents to read before class. These are short documents. Should be a very quick read.
 
@@ -71,27 +70,6 @@ Your ability to contribute to an open source project, will be influenced by how 
 * Not all processes are written down in sufficient detail. You learn by being involved. This might especially be true of the importance of **socializing a (coming) change**. This is true in open source projects and closed source projects too. By socializing a change we mean ...
 
 * Developing a **reputation** as someone who cares about the project, makes quality contributions and will be around to maintain those contribution overtime will enhance your influence and ability to contribute. *How can you build or hurt your reputation?*
-
-### Amazon leadership principles
-
-At Amazon there are a set of leadership principles intended to shape how people work and collaborate. I believe that many companies have similar lists of principles, but it is worth noting that at Amazon they are used heavily (during interviews and promotion cases, for example) and there is a concerted effort to maintain a culture based on those principles. Which of the following are possibly relevant to collaboration in open source projects generally, and code-review specifically?
-
-* Customer obsession
-* Ownership
-* Invent and simplify
-* Are right, a lot
-* Learn and be curious
-* Hire and develop the best
-* Insist on the highest standards
-* Think big
-* Bias for action
-* Frugality
-* Earn trust
-* Dive deep
-* Have backbone; disagree and commit
-* Deliver results
-* Strive to be earth's best employer (new)
-* Success and scale bring broad responsibility (new)
 
 ### Gospel principles
 

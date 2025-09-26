@@ -38,7 +38,7 @@ To introduce these ideas we will discuss the Slack incident linked above, which 
 
 In software engineering, analytical thinking is needed when debugging code, assessing pros and cons of a design decision, troubleshooting a system (as just discussed), and in other contexts. In this course we will discuss the following activities more specifically.
 
-1. Evaluating work, including the performance implications of changes
+1. Evaluating work, including the performance implications of changes (testing, running test suites, ...)
 2. [Debugging tools and techniques](debugging.md)
 
 ## Conclusion

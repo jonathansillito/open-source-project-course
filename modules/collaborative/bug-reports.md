@@ -2,8 +2,6 @@
 
 ## Learning outcomes
 
-By discussing these topics in the context of analytical thinking our aim is to:
-
 1. Strengthen our ability to reason about and report on bugs in software systems.
 2. Build some relevant communication and collaborative problem-solving skills.
 
