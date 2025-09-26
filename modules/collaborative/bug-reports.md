@@ -41,12 +41,12 @@ We will begin our brief class discussion by reviewing some definitions so that w
 
 * **Triage:** The process of reviewing, categorizing, prioritizing and assigning bug reports. The goal is to improve communication, ensure effort is well spent.
 
-An example from the IEEE standard
+Here is an example from the IEEE standard:
 
 > Problem 1: Sue calls service desk and reports she cannot log in to timesheet system because the password
-field is missing from the login screen. *In this example, Sue has a problem in that she cannot log in, caused by a failure wherein the password field did not appear on the login screen, which was in turn caused by a defect inserted during coding of the Login.tsx artifact.*
+field is missing from the login screen. 
 
-Spot the *error*, *defect* and *fault* and *failure* in the following example. What type of defect is this?
+Spot the *error*, *defect* and *fault* and *failure* in the following example. What type of defect is this? *In this example, Sue has a problem in that she cannot log in, caused by a failure wherein the password field did not appear on the login screen, which was in turn caused by a defect inserted during coding of the Login.tsx artifact.*
 
 > A software developer misunderstands a requirement and puts the wrong condition in an if statement for a compound interest calculation website. In a particular situation the wrong code is executed (due to the faulty logic in the conditional) and so the wrong calculation is performed. As a result of that incorrect calculation by the software the output displayed to the user is incorrect.
 
@@ -54,14 +54,14 @@ Spot the *error*, *defect* and *fault* and *failure* in the following example. W
 
 Next let's discuss together the Mozilla documents linked above. Some of the details in those documents are specific to the Mozilla project but many of the principles are generally applicable. We do not have time to discuss all of the details, but here are a few key ideas worth highlighting.
 
-* Some guidelines are to avoid wasting triage and development time. For example, before filing check for duplicate reports and confirm bug in latest version.
-* For the developer who is assigned to fix the bug report, sufficient detail to reproduce the failure is important. Many defects are only activated in fairly specific circumstances (particular settings, platform, ...). Carefully narrowing this down will be appreciated.
+* Some guidelines are to avoid wasting triage and development time. For example, before filing check for **duplicate reports** and confirm bug in latest version.
+* For the developer who is assigned to fix the bug report, sufficient detail to **reproduce** the failure is important. Many defects are only activated in fairly specific circumstances (particular settings, platform, ...). Carefully narrowing this down will be appreciated.
 * The information needed will vary based on the type of defect, which may require some careful thought when filing. 
-* Etiquette specifics may vary between projects, but generally "vibrant debate" is good, and it is appropriate to "criticize things" but "not people".
+* Etiquette specifics may vary between projects, but generally **vibrant debate** is good, and it is appropriate to "criticize things" but "not people".
 
 #### Student emails
 
-Consider the following emails from CS 340 students. Recall that the 340 Tweeter project has multiple parts (a frontend implemented using a layered architecture, an API defined in Amazon API Gateway, AWS Lambda's running the layered backend code, DynamoDB tables, and SQS queues to support asynchronous handling of feed updates).
+Consider the following emails from CS 340 students. Recall that the 340 Tweeter project has multiple parts (a frontend implemented using a layered architecture, an API defined in Amazon API Gateway, AWS Lambda's running layered backend code, DynamoDB tables, and SQS queues to support asynchronous handling of feed updates).
 
 > "Hello professor. I have an api gateway issue that I have been trying to debug for a while now. All of the TA's who have tried to help me are sending me to you, so here I am. Sometimes my api gateway works, other times it doesn't. I've made some test gates with test lambdas, and have tried to use postman to hit my endpoints. 30% of the time is a 200, the rest are 500's. That goes for all of my endpoints"
 
@@ -81,12 +81,9 @@ If you were the professor in these cases what other information would be helpful
 
 ## Practicing
 
-*The following are to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions.*
+*The following is to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions. Also, please expect interruptions and be open to feedback!*
 
-https://bugs.ruby-lang.org
-https://github.com/ruby/ruby/wiki/How-To-Report
-
-Read each of the following firefox bug reports, including the attachments and discussion comments, then answer the questions below. (TODO: this is a **random** list. Something more thoughtful would be better, including a range of bug types and report quality.)
+Read each of the following firefox bug reports, including the attachments and discussion comments, then answer the questions below. 
 
 Bug reports:
 
@@ -105,7 +102,7 @@ Questions:
 
 Individually complete the following tasks to deepen your understanding of how bugs are handled in the OSS project you have selected for this course. Reporting, discussing, reproducing and fixing bugs is one important way you may be able to contribute to that project.
 
-* Find and review any documented policies around how to write good bug reports. Review several open and/or recently closed defects. 
+* Find and review any documented policies around how to write good bug reports. Review several open and/or recently closed reports. 
 * Begin helping with *triage* or *bug fixing* work in the project. This is optional as you may decide to select other ways to contribute.
 
 Note there can be important differences between documented procedures and actual project practice. Some procedures may not be documented but can be "discovered" through observation. By reading existing bug reports and discussions, for example.
@@ -114,7 +111,6 @@ Note there can be important differences between documented procedures and actual
 
 Submit a one page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
 
-* In what way is analytical thinking relevant to bug reporting and triage?
 * Briefly summarize how bug reporting and fixing is handled in your OSS project. Provide some reflection on *why* things are done the way they are.
 * What (if any) opportunities do you see for contributing to bug reporting and handling in your OSS project?
 

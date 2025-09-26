@@ -13,7 +13,7 @@
 
 * [Peacemakers Needed](https://www.churchofjesuschrist.org/study/general-conference/2023/04/47nelson?lang=eng) by President Nelson
 
-We will base our class discussion and practice examples on the Ruby project, and so here some documents to read before class. These are short documents. Should be a very quick read.
+We will base our class discussion and practice examples on the Ruby project, and so here are some documents to read before class. These are short documents. Should be a very quick read.
 
 * [Contributing to Ruby](https://docs.ruby-lang.org/en/master/contributing/contributing_md.html)
 * [Making changes to Ruby](https://docs.ruby-lang.org/en/master/contributing/making_changes_to_ruby_md.html)
@@ -23,7 +23,7 @@ We will base our class discussion and practice examples on the Ruby project, and
 
 For those of you with software engineering work experience (through internships or part-time jobs, say), it may be interesting to compare the way collaboration and coordination happen at a typical company vs. in a typical open source project. Both the similarities and differences may be interesting. One thing that I have seen personally, is that often (not always, of course) many companies use processes to quite closely track and coordinate work (say sprint planning, daily stand up meetings, burn-down charts, etc.). Such mechanisms would be quite rare in the open source world, I suppose. *However, many collaboration related skills, tools and processes apply equally to open and closed source projects.*
 
-For some context on collaboration, let's consider a couple example contributions to the Ruby project (the first of which was not accepted).
+For some context on collaboration, let's consider a couple example contributions to the Ruby project.
 
 **Example 1:** The following is an example of a contribution to the Ruby project (ZJIT, in particular) that was not accepted. Though it was called a "good PR", the maintainer (reviewer) decided that it introduced too much complexity. Instead the submitter was directed to the [issue tracker](https://github.com/Shopify/ruby/issues) and recommended the reviewer get some feedback before starting on an issue. Note that this is not the general ruby issue tracker but the ZJIT project specifically. A key comment from the maintainer was: 
 
@@ -39,7 +39,7 @@ Note: many larger projects have smaller sub-projects with separate maintainers.
 
 * Pull request: [Support cause: in Thread#raise and Fiber#raise](https://github.com/ruby/ruby/pull/13967)
 * Reported as bug: https://bugs.ruby-lang.org/issues/21360 and the related: https://bugs.ruby-lang.org/issues/21359 (which @matz commented on)
-* Discussed and approved here https://github.com/ruby/dev-meeting-log/blob/master/2025/DevMeeting-2025-07-10.md#bug-21360-inconsistent-support-for-exceptioncause-in-fiberraise-and-threadraise-ioquatix (by matz during a dev meeting)
+* Discussed and approved here: https://github.com/ruby/dev-meeting-log/blob/master/2025/DevMeeting-2025-07-10.md#bug-21360-inconsistent-support-for-exceptioncause-in-fiberraise-and-threadraise-ioquatix (by matz during a dev meeting)
 * Decision: merge
 
 We will not discuss this now, but just for reference, here is an example of a more significant (language level change).
@@ -58,8 +58,8 @@ Naturally there is significant and interesting variation in the ways that even d
 
 We will discuss concrete tools and processes in two submodules:
 
-* [Collaborative tools and processes](tools-and-processes.md)
-* [Engaging constructively in the code review process](code-review.md)
+* [Bugs, bug reporting and triage](bug-reports.md)
+* [Engaging constructively in the code review process](repositories-and-review)
 
 However, before we do we will discuss some *soft skills* and Gospel principles that can shape how you collaborate in professional settings, including open source projects.
 
@@ -67,7 +67,7 @@ However, before we do we will discuss some *soft skills* and Gospel principles t
 
 Your ability to contribute to an open source project, will be influenced by how well you connect with people in the project, and how well you understand the culture and follow the processes used by the team. Over time your ability to contribute will be enhanced as you further develop relationships and your reputation. Here are a couple additional thoughts:
 
-* Not all processes are written down in sufficient detail. You learn by being involved. This might especially be true of the importance of **socializing a (coming) change**. This is true in open source projects and closed source projects too. By socializing a change we mean ...
+* Not all processes are written down in sufficient detail. You learn by being involved. This might especially be true of the importance of **socializing a (coming) change**. This is true in open source projects and closed source projects too. *What does it mean to socialize a change?*
 
 * Developing a **reputation** as someone who cares about the project, makes quality contributions and will be around to maintain those contribution overtime will enhance your influence and ability to contribute. *How can you build or hurt your reputation?*
 
