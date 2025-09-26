@@ -2,7 +2,7 @@
 
 ## Learning outcomes
 
-In this module we have two main, related concerns: one help us all get better at solving complex technical problems (analytical thinking) and evaluating our engineering work. More specifically, we hope that students will be able to:
+The capability we are focusing on our this module is analytical thinking, with the goal of helping us all get better at solving complex technical problems. More specifically, we hope that students will be able to:
 
 1. Apply tools and techniques for evaluating work against project expectations
 2. Apply the principles of analytical thinking in the context of bug reporting and debugging
