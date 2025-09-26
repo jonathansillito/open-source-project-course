@@ -15,6 +15,7 @@ By discussing these topics in the context of analytical thinking our aim is to:
     * [Bugzilla Etiquette](https://bugzilla.mozilla.org/page.cgi?id=etiquette.html)
     * [Triage for Bugzilla](https://firefox-source-docs.mozilla.org/bug-mgmt/policies/triage-bugzilla.html)
 * IEEE Std 1044-2009, specifically the parts defining the terms *failure*, *fault* and *defect*.
+* [Reporting Ruby bugs](https://docs.ruby-lang.org/en/master/contributing/reporting_issues_md.html)
 
 ## Discussing
 
