@@ -19,7 +19,7 @@
 
 #### Terminology
 
-We will begin our brief class discussion by reviewing some definitions so that we can be more precise in our thinking and in our discussion. This precision can help with the analytic thinking involved in "bug" reporting, debugging, fixing and troubleshooting, in part because these terms remind us of the chain of reasoning often involved in understanding a problem well enough to address it effectively.
+We will begin our brief class discussion by reviewing some definitions so that we can be more precise in our thinking and in our discussion. This precision can help with the analytic thinking involved in "bug" reporting, debugging, fixing and troubleshooting, in part because these terms remind us of the chain of reasoning often involved in understanding a problem well enough to address it effectively. (We will discuss more about [analytical thinking](../capable/debugging.md) later in the course.)
 
 * **Error:** A human action that produces an incorrect result. That is, a human makes a mistake, such as misunderstanding the specification while writing code.
 
@@ -46,7 +46,9 @@ Here is an example from the IEEE standard:
 > Problem 1: Sue calls service desk and reports she cannot log in to timesheet system because the password
 field is missing from the login screen. 
 
-Spot the *error*, *defect* and *fault* and *failure* in the following example. What type of defect is this? *In this example, Sue has a problem in that she cannot log in, caused by a failure wherein the password field did not appear on the login screen, which was in turn caused by a defect inserted during coding of the Login.tsx artifact.*
+Spot the *error*, *defect* and *fault* and *failure* in the above example. *In this example, Sue has a problem in that she cannot log in, caused by a failure wherein the password field did not appear on the login screen, which was in turn caused by a defect inserted during coding of the Login.tsx artifact.*
+
+Here is another example from the IEEE standard:
 
 > A software developer misunderstands a requirement and puts the wrong condition in an if statement for a compound interest calculation website. In a particular situation the wrong code is executed (due to the faulty logic in the conditional) and so the wrong calculation is performed. As a result of that incorrect calculation by the software the output displayed to the user is incorrect.
 
@@ -103,7 +105,7 @@ Questions:
 Individually complete the following tasks to deepen your understanding of how bugs are handled in the OSS project you have selected for this course. Reporting, discussing, reproducing and fixing bugs is one important way you may be able to contribute to that project.
 
 * Find and review any documented policies around how to write good bug reports. Review several open and/or recently closed reports. 
-* Begin helping with *triage* or *bug fixing* work in the project. This is optional as you may decide to select other ways to contribute.
+* Begin helping with *triage* or *bug fixing* work in the project. This is **optional** as you may decide to select other ways to contribute.
 
 Note there can be important differences between documented procedures and actual project practice. Some procedures may not be documented but can be "discovered" through observation. By reading existing bug reports and discussions, for example.
 
@@ -122,7 +124,7 @@ Additional email conversation with 340 student. Instructor questions in bold.
 
 > It was just in the UI but I found someone had a similar issue in slack and it was a rendering issue that needed to be resolved.
 
-> **Not updating correctly or not updating at all? I guess the feed table can’t be updated properly without the followers/followees table being updated correctly? Right? Though I guess maybe only the “followers” are needed. I get the two mixed up ... **
+> **Not updating correctly or not updating at all? I guess the feed table can’t be updated properly without the followers/followees table being updated correctly? Right? Though I guess maybe only the “followers” are needed. I get the two mixed up ...**
 
 > This actually ended up being an issue similar to one I had before. I noticed the request was sending a user object instead of a UserDto object so I fixed that in the front end. This fixed a lot of the issues I was having.
 
@@ -134,10 +136,10 @@ Additional email conversation with 340 student. Instructor questions in bold.
 
 > I forgot to check the actual requests and responses which helped me figure out that it was a data type issue between the client and server. After checking the requests, I was able to resolve the issue for the followees list. Once I got that working, I was able to figure out some of the logic issues I had with the feed table never getting updated with each post status.
 
-> This should work as long as you are looking at the correct “log group”. That is, you need to find the log group for the particular lambda function that was called. Is that not what you are finding. 
-Though as always, if you can debug by running the server (services, say) on your laptop that’s easiest. 
+> **This should work as long as you are looking at the correct “log group”. That is, you need to find the log group for the particular lambda function that was called. Is that not what you are finding. 
+Though as always, if you can debug by running the server (services, say) on your laptop that’s easiest.** 
 
-> In addition to the cloud watch logs, I would also consider checking the monitoring tab for your DynamoDB tables and lambdas. I’m not sure that is relevant in this case, but can be useful in general. For example, you can see if DB reads or writes are being “throttled”.
+> **In addition to the cloud watch logs, I would also consider checking the monitoring tab for your DynamoDB tables and lambdas. I’m not sure that is relevant in this case, but can be useful in general. For example, you can see if DB reads or writes are being “throttled”.**
 
 > In some cases, I was throwing an error before the console.log statement which meant the program stopped before it reached the print code. I'll try using the monitor tab as well in DynamoDB. Eventually, I was able to find the console.log statements — I was checking the wrong lambda function at times as well so that helped to double check that! It also really helped to be reminded to check the requests and responses for each lambda call. I was able to work out most of the bugs.
 

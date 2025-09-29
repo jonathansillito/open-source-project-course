@@ -29,7 +29,7 @@ For some context on collaboration, let's consider a couple example contributions
 
 > "We're tracking our current issues at this [issue tracker](https://github.com/Shopify/ruby/issues). If you are interested, feel free to comment on some issue listed there and I can tell you if I think it's a good fit."
 
-* Pull request: [ZJIT - Add SmallBitSet and LargeBitSet](https://github.com/ruby/ruby/pull/14029)
+* Pull request: [ZJIT - Add SmallBitSet and LargeBitSet](https://github.com/ruby/ruby/pull/14023)
 * Originated as a project TODO
 * Decision: close without merge
 
@@ -49,23 +49,23 @@ We will not discuss this now, but just for reference, here is an example of a mo
 
 ### Tools and processes
 
-Naturally there is significant and interesting variation in the ways that even different open source projects manage collaboration, though for many projects, the collaboration revolves around tools (and associated processes) such as:
+Naturally there is significant and interesting variation in the ways that even different open source projects manage collaboration, though for many projects, the collaboration revolves around tool types (and associated processes) such as:
 
 1. A discussion tool such as an email list
-2. An issue or bug tracking systems that may be used for features not just defects
+2. An issue or bug tracking systems for features requests and bug reports
 3. A source code management system and repository
-4. Code review
+4. Code review tool (e.g., GitHub pull requests)
 
 We will discuss concrete tools and processes in two submodules:
 
 * [Bugs, bug reporting and triage](bug-reports.md)
-* [Engaging constructively in the code review process](repositories-and-review)
+* [Managing code and participating in code review](repositories-and-review)
 
 However, before we do we will discuss some *soft skills* and Gospel principles that can shape how you collaborate in professional settings, including open source projects.
 
 ### Soft skills
 
-Your ability to contribute to an open source project, will be influenced by how well you connect with people in the project, and how well you understand the culture and follow the processes used by the team. Over time your ability to contribute will be enhanced as you further develop relationships and your reputation. Here are a couple additional thoughts:
+Your ability to contribute to an open source project, will be influenced by how well you connect with people in the project, and how well you understand the culture and follow the processes used by the team. Over time your ability to contribute will be enhanced as you further develop relationships and build your reputation. Here are a couple additional thoughts:
 
 * Not all processes are written down in sufficient detail. You learn by being involved. This might especially be true of the importance of **socializing a (coming) change**. This is true in open source projects and closed source projects too. *What does it mean to socialize a change?*
 
