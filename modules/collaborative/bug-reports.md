@@ -85,6 +85,8 @@ If you were the professor in these cases what other information would be helpful
 
 *The following is to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions. Also, please expect interruptions and be open to feedback!*
 
+### Reviewing existing bug reports
+
 Read each of the following firefox bug reports, including the attachments and discussion comments, then answer the questions below. 
 
 Bug reports:
@@ -99,6 +101,37 @@ Questions:
 * What type of defect is described?
 * How effective is this report? What might improve it?
 * What triage work has been done so far?
+
+### Writing a new bug report
+
+Download (and build) the ruby code from this [temporary GitHub repository](https://github.com/jonathansillito/CS301R-Ruby) (which is something of a fork of the official ruby repository).
+
+The `round` method is used to round a numeric value (Float, Integer, or Rational) to the nearest whole number or to a specified number of decimal places. For example:
+
+```ruby
+12.466.round # => 12
+12.round # => 12
+12.466.round(1) # => 12.5
+```
+
+However, there seems to be an issue with some calls to round (and **hint** a few other related calls):
+
+```ruby
+2.round(1) # => 2.0 (should be an Integer)
+(10**25).round(2).to_i # => 10000000000000000905969664
+```
+
+Your job is to create an issue in the GitHub project reporting the "bug", with appropriate details. To help write the bug report, consider questions such as:
+
+* Are other related numeric methods affected by the defect?
+* What works and what doesn't? Can you narrow it down any?
+* Can you learn something from exploring the 
+
+Don't worry about fixing the bug right now. *Note: this is a real defect that was fixed in an earlier version of the code and reintroduced for the sake of this exercise. I believe the error was caused by a change in (or misunderstanding of) the language specification.*
+
+### Triaging bug reports
+
+Once you have submitted an issue, take a look at the issues created by other teams. How effective are those issues? How could they be improved? Feel free to add comments to the issue that you feel would help with the triage process.
 
 ## Applying
 
