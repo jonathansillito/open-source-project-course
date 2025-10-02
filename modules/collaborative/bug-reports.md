@@ -125,7 +125,7 @@ Your job is to create an issue in the GitHub project reporting the "bug", with a
 
 * Are other related numeric methods affected by the defect?
 * What works and what doesn't? Can you narrow it down any?
-* Can you learn something from exploring the 
+* Can you learn something from exploring the code?
 
 Don't worry about fixing the bug right now. *Note: this is a real defect that was fixed in an earlier version of the code and reintroduced for the sake of this exercise. I believe the error was caused by a change in (or misunderstanding of) the language specification.*
 
