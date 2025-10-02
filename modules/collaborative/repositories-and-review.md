@@ -8,16 +8,22 @@ In this module we will discuss collaboration from the perspective of source code
 2. Contribute effectively to a code review process (and similar review processes)
 
 ## Reading
- 
-* Google code review guide
-* [Ruby pull requests](https://github.com/ruby/ruby/pulls)
-* [Amazon Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles)
+
+* [Google code review guide](https://google.github.io/eng-practices/) (please read all linked documents)
 
 ## Discussing
 
 Collaboration around code changes, generally revolves around a source code repository such as Git/GitHub. The specifics of the process for contributing code varies between projects, but often involves a code review process.
 
+Also many types of code reviews ...
+
+Example project specific guide:
+
+* [Ruby pull requests](https://github.com/ruby/ruby/pulls)
+
 ### Amazon leadership principles
+
+* [Amazon Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles)
 
 At Amazon there are a set of leadership principles intended to shape how people work and collaborate. I believe that many companies have similar lists of principles, but it is worth noting that at Amazon they are used heavily (during interviews and promotion cases, for example) and there is a concerted effort to maintain a culture based on those principles. Which of the following are possibly relevant to collaboration in open source projects generally, and code-review specifically?
 
