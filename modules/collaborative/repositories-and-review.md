@@ -15,7 +15,17 @@ In this module we will discuss collaboration from the perspective of source code
 
 Collaboration around code changes, generally revolves around a source code repository such as Git/GitHub. The specifics of the process for contributing code varies between projects, but often involves a code review process.
 
-Also many types of code reviews ...
+### The Git Workflow
+
+### Code Reviews
+* Why do code reviews? What benefits do we gain?
+* Are there any drawbacks/issues with doing code reviews?
+* What experience do you have with code reviews?
+
+There are many different types of code reviews.  The Google guide describes one of them, focused reviews on small changes.  But not everyone has a large codebase that they are making small changes on.  Sometimes you have a large collection of new code.  What might be different in that kind of situation?  What would be the same?
+
+Sometimes code reviews are performed "live" with everyone in the room.  This probably doesn't happen as much today with all the collaboration tools available to us, but it does happen in some places.  How might this change the dynamic or the interaction?
+
 
 Example project specific guide:
 
@@ -48,13 +58,22 @@ At Amazon there are a set of leadership principles intended to shape how people 
 
 *The following is to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions. Also, please expect interruptions and be open to feedback!*
 
-Work through the the following activities using Git and GitHub. These activities reflect a generic, but plausible workflow that considers the collaborative aspects of contributing to a project. Topics to consider:
+There will be two different practice exercises for this module.
 
-* Cloning, branching, ...
-* Options for merging (and keeping clean histories)
-* Creating and iterating on code reviews
+### git practice
+Practice using the git workflow discussed in class by doing the following:
+1. Clone/fork the [class repository](https://github.com/jonathansillito/open-source-project-course).
+2. Create a new branch
+3. Edit the [selected-mentors.md](../../mentoring/selected-mentors.md) file in your branch to include the information from the members of your group.
+4. Create a pull request to merge your changes into the actual repository.
 
-## Applying [TODO]
+Once everyone has done that, we'll merge all the pull requests as a group.
+
+### Code Review practice
+
+
+
+## Applying
 
 Complete the following tasks to develop a deeper understanding of the collaborative processes used by an open source project.
 
