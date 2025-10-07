@@ -17,7 +17,51 @@ Collaboration around code changes, generally revolves around a source code repos
 
 ### The Git Workflow
 
+Here is a simple example workflow for making a change to an open-source project. But remember, every project is different! We will diagram this workflow and discuss all the nuances in class.
+
+1. Fork the repository
+    * If you are not an owner or collaborator on the project, you will need to fork your own copy of the project before you can make changes.
+
+2. Create a branch
+    * It is good practice to put all of your related changes on a new branch to keep them organized.
+
+3. Add your commits
+    * You can put all of your changes in the same commit, or split them into logical chunks. This choice can be influenced by the merge strategy you plan to use (see the step 8). Also, the project community may have a preference -- if so, always defer to it.
+
+4. Create a PR
+    * Request to merge changes from your branch on your fork into the main branch in the parent repository.
+    * Pay close attention to any requirements the project has for how to format your PR.
+    * This is your chance to explain your changes -- the problem you're addressing, what you did, why you did it that way, etc.
+    * You may wish to create a draft PR if your changes are not complete but you want others to take a look.
+
+5. Deal with any new commits on main
+    * While you've been developing, they may have been new commits on the main branch and your branch will be behind. There are multiple ways to address this:
+
+    1. Ignore them
+        * This is only possible if there are no merge conflicts. It's also risky -- [logical merge conflicts](https://medium.com/@elischleifer/what-is-a-logical-merge-conflict-c6525acead85) do not prevent merging, but still create bugs. Some projects require PRs to be up-to-date before merging. Even if not, it doesn't hurt to be safe.
+    
+    2. Merge main into your branch
+        * This creates a new merge commit on your branch with all the commits from main. Your branch history will be a little messier now, which may interfere with reviewers who like to review changes by commit, but it avoids rewriting the commit history.
+    
+    3. Rebase your branch on main
+        * Rebasing is like removing all of your commits from the branch, syncing the branch with main, and then placing the commits back on top. It makes it look like your branch was created from the latest version of main. This completely rewrites your branch history and requires force-pushing to your branch, which is potentially dangerous. However, your commit history will remain clean and clear.
+
+6. Make sure status checks pass
+    * Many projects will have automated status checks that must pass before merging. These include unit tests, linting, code security scanning, etc. A project with good status checks can help you identify issues with your PR and give you confidence that it is safe to merge.
+
+7. Pass code review
+    * There's a lot to say about code reviews. We've got a whole section on it -- see below.
+
+8. Merge
+    * This will often be done by a project maintainer (someone with permissions to merge) once they are satisfied with your PR.
+    * There are multiple merge strategies and every project has a different preference. You should investigate what your project uses because it may affect the best way to organize your commits.
+        1. Standard merge
+            * This will create a merge commit on main and join the two branches together. This can result in a complicated, nonlinear commit history on main. Every commit on your branch will appear on the main branch of the project, so if the project uses this merge strategy, it may be advisable to put all of your changes into one commit (or only a few commits) to avoid cluttering main.
+        2. Squash and merge
+            * This will squash all of your commits together into one commit on main. A project that uses squash-and-merge will have a clean, linear commit history on main, with each commit representing a different PR / logical change (this has many benefits, such as auto-generating release changelogs, and making bisecting easier). If the project uses this merge strategy, you can organize your changes into as many commits as you want, knowing it'll all be squashed together in the end.
+
 ### Code Reviews
+
 * Why do code reviews? What benefits do we gain?
 * Are there any drawbacks/issues with doing code reviews?
 * What experience do you have with code reviews?
@@ -61,6 +105,7 @@ At Amazon there are a set of leadership principles intended to shape how people 
 There will be two different practice exercises for this module.
 
 ### git practice
+
 Practice using the git workflow discussed in class by doing the following:
 1. Clone/fork the [class repository](https://github.com/jonathansillito/open-source-project-course).
 2. Create a new branch
