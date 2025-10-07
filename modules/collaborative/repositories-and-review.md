@@ -36,15 +36,12 @@ Here is a simple example workflow for making a change to an open-source project.
 
 5. Deal with any new commits on main
     * While you've been developing, they may have been new commits on the main branch and your branch will be behind. There are multiple ways to address this:
-
-    1. Ignore them
-        * This is only possible if there are no merge conflicts. It's also risky -- [logical merge conflicts](https://medium.com/@elischleifer/what-is-a-logical-merge-conflict-c6525acead85) do not prevent merging, but still create bugs. Some projects require PRs to be up-to-date before merging. Even if not, it doesn't hurt to be safe.
-    
-    2. Merge main into your branch
-        * This creates a new merge commit on your branch with all the commits from main. Your branch history will be a little messier now, which may interfere with reviewers who like to review changes by commit, but it avoids rewriting the commit history.
-    
-    3. Rebase your branch on main
-        * Rebasing is like removing all of your commits from the branch, syncing the branch with main, and then placing the commits back on top. It makes it look like your branch was created from the latest version of main. This completely rewrites your branch history and requires force-pushing to your branch, which is potentially dangerous. However, your commit history will remain clean and clear.
+        1. Ignore them
+            * This is only possible if there are no merge conflicts. It's also risky -- [logical merge conflicts](https://medium.com/@elischleifer/what-is-a-logical-merge-conflict-c6525acead85) do not prevent merging, but still create bugs. Some projects require PRs to be up-to-date before merging. Even if not, it doesn't hurt to be safe. 
+        2. Merge main into your branch
+            * This creates a new merge commit on your branch with all the commits from main. Your branch history will be a little messier now, which may interfere with reviewers who like to review changes by commit, but it avoids rewriting the commit history.
+        3. Rebase your branch on main
+            * Rebasing is like removing all of your commits from the branch, syncing the branch with main, and then placing the commits back on top. It makes it look like your branch was created from the latest version of main. This completely rewrites your branch history and requires force-pushing to your branch, which is potentially dangerous. However, your commit history will remain clean and clear.
 
 6. Make sure status checks pass
     * Many projects will have automated status checks that must pass before merging. These include unit tests, linting, code security scanning, etc. A project with good status checks can help you identify issues with your PR and give you confidence that it is safe to merge.
