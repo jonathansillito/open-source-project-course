@@ -67,11 +67,6 @@ There are many different types of code reviews.  The Google guide describes one 
 
 Sometimes code reviews are performed "live" with everyone in the room.  This probably doesn't happen as much today with all the collaboration tools available to us, but it does happen in some places.  How might this change the dynamic or the interaction?
 
-
-Example project specific guide:
-
-* [Ruby pull requests](https://github.com/ruby/ruby/pulls)
-
 ### Amazon leadership principles
 
 * [Amazon Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles)
@@ -113,7 +108,13 @@ Once everyone has done that, we'll merge all the pull requests as a group.
 
 ### Code Review practice
 
+The basis of our pull request and code review will be this GitHub issue (which includes a hint or starting point for the fix).
 
+* https://github.com/jonathansillito/CS301R-Ruby/issues/3
+
+Using that issue as a starting point, following the work flow discussed above, fix the issue and create a pull request (referencing the issue).
+
+Each group of students will perform a code review of another group's work. While performing the code review, use this as [a checklist](https://google.github.io/eng-practices/review/). Groups are to then respond to pull request comments, updating their change as appropriate. 
 
 ## Applying
 
