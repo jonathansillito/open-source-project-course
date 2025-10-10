@@ -127,8 +127,11 @@ Complete the following tasks to develop a deeper understanding of the collaborat
 
 ## Reflecting
 
-Submit a one page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
+Submit a one-page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
 
 * What are the key parts of the collaboration processes used in your open source project? Why are they there?
 * What might differentiate a proposed contribution that is successful (i.e., accepted) from one that would not be successful?
+* How has this exercise helped you develop your skills relative to the module's learning outcomes, to
+  1. Effectively use (project-specific) collaboration tools and processes
+  2. Communicate clearly and persuasively about technical topics, while engaging constructively with feedback 
 
