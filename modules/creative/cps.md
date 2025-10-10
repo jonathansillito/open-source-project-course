@@ -159,9 +159,9 @@ Complete the following tasks to (1) solidify your understanding of how the ideas
 
 ## Reflecting
 
-Submit a one page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
+Submit a one-page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
 
 * What tools did you use when applying CPS to an open source project? What effect did that have on the outcomes? 
 * What did you learn from communicating with project members during the process?
-* What role do you see divergent and convergent thinking playing in software engineering work?
-* What areas of your personal, church or professional life could benefit from creative problem solving?
+* What role do you see divergent and convergent thinking playing in software engineering work in general and specifically in your work in the future?
+* What areas of your personal, church or professional life could benefit from creative problem-solving?
