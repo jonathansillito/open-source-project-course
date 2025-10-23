@@ -4,12 +4,13 @@
 
 The capability we are focusing on our this module is analytical thinking, with the goal of helping us all get better at solving complex technical problems. More specifically, we hope that students will be able to:
 
-1. Apply tools and techniques for evaluating work against project expectations
-2. Apply the principles of analytical thinking in the context of debugging
+1. Apply the principles of analytical thinking in the context of debugging and troubleshooting
+2. Communicate technical ideas through effective writing
 
 ## Reading
 
-* [Slack incident: Everyone back to work](https://slack.engineering/slacks-outage-on-january-4th-2021/) OR other?
+* [Slack incident: Everyone back to work](https://slack.engineering/slacks-outage-on-january-4th-2021/)
+* Other reading ...
 
 ## Class discussion
 
@@ -38,8 +39,8 @@ To introduce these ideas we will discuss the Slack incident linked above, which 
 
 In software engineering, analytical thinking is needed when debugging code, assessing pros and cons of a design decision, troubleshooting a system (as just discussed), and in other contexts. In this course we will discuss the following activities more specifically.
 
-1. Evaluating work, including the performance implications of changes (testing, running test suites, ...)
-2. [Debugging tools and techniques](debugging.md)
+1. [Debugging tools and techniques](debugging.md)
+2. [Writing and communication](communication.md)
 
 ## Conclusion
 
