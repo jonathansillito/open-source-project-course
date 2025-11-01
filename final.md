@@ -1,10 +1,10 @@
 # Final reflection
 
-The final deliverable for this course has two parts: (1) A written report, and (2) and oral presentation. We hope that after the course you will continue working on the project and especially that you will maintain the relationships you have developed. You are welcome to use AI tools to help you with your writing, if you find those useful.
+The final deliverable for this course has two parts: a written report and an oral presentation. We hope that after the course you will continue working on the project and especially that you will maintain the relationships you have developed. You are welcome to use AI tools to help you with your writing, if you find those useful.
 
-## Written submission
+## Written report
 
-Please submit a (maximum) two-page report summarizing you contributions to an open source project.  Your report is to have the following sections:
+Please submit a (maximum) two-page report summarizing your contributions to an open source project. Your report is to have the following sections:
 
 * Summary
 * Describe the project, and why you chose the project
@@ -16,5 +16,8 @@ Please submit a (maximum) two-page report summarizing you contributions to an op
 
 ## Oral presentation
 
-This will serve the role of a "final exam" for the course and the presentations will take place during finals week. In explaining your contributions, please assume your audience is *not* familiar with project. The content of the presentation should be similar to the written report, but note that you will only have 5 minutes to present.
+This will serve the role of a "final exam" for the course. Presentations will take place during the last week of class and finals week.
 
+The content of the presentation should be similar to the written report. When explaining your contributions, please assume your audience is *not* familiar with your project.
+
+You will have 1 minute to set up, 7 minutes to present, and 2 minutes for questions (10 minutes total).
