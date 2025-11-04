@@ -34,8 +34,8 @@ Discussion topics:
 
 Let's looks at some other examples:
 
-* Python Enhancement Proposals (PEPs)
-* React Documentation
+* [Python Enhancement Proposals (PEPs)](https://peps.python.org/)
+* [React Documentation](https://react.dev/reference/react)
 
 ## Practicing
 
@@ -45,14 +45,14 @@ For this exercise, you are going to write three small pieces technical communica
 
 * **Bug report** - You are the user who discovered the bug and are reporting it to the Ruby team.
 * **Pull request** - You are the developer that has fixed the bug and are writing a description of the fix in preparation for the fix to be reviewed and accepted.
-* "**Incident report**" - After the bug has been fixed and patched, you are writing a synopsis of the issue and how it was fixed "upper management" which possibly includes people without a deep technical understanding of the code.
+* "**Incident report**" - After the bug has been fixed and patched, you are writing a synopsis of the issue and how it was fixed for "upper management" which possibly includes people without a deep technical understanding of the code.
 
 As you are writing, think about the following items:
 
 * **Intended audience** - Who is this communication for?  Are you using appropriate terminology? How does the audience affect what you write?
 * **Content** - Have you provided all the necessary information?  Have you provided it at the right level of detail?  Is there any unnecessary information that can be removed? Are there known holes in the content that you need to call out explicitly or find the information for?
 * **Clarity** - Is the content easy to read and understand?  Are there things you need to expand on to clarify?  This needs to be checked against the assumptions about your audience.
-* **Tone** - How does what you wrote "sound?" Is it too passive? To agressive? Confrontational? Condescending?  How would someone you've never met before interpret your writing?
+* **Tone** - How does what you wrote "sound?" Is it too passive? To aggressive? Confrontational? Condescending?  How would someone you've never met before interpret your writing?
 
 We'll share some of these and discuss/review them as a class so be ready to share.
 
