@@ -215,8 +215,7 @@ Submit a (about one page) reflection on the following questions and the result o
 1. What tools helped you in your investigation and in what way?
 2. How did you document what you learned?
 3. What else would you like to learn about the code? What next steps will you take? (You're answer to this can be based on the list of questions you were asked to generate above)
-
-Please also submit a diagram capturing the overall structure of the code base--with a particular focus on what you have investigated/learned. We are not interested in a diagram that captures all the types, functions, classes ... of the entire code base.
+4. Submit a diagram capturing the overall structure of the code base--with a particular focus on what you have investigated/learned. We are not interested in a diagram that captures all the types, functions, classes ... of the entire code base.
 
 ## Appendix
 
