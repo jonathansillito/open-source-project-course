@@ -11,6 +11,9 @@ This page is for tracking the projects and mentors selected by the students duri
 | Josh Clancy | Hedy | https://github.com/hedyorg/hedy | Evan Child |
 | Preston Ford | React.js | https://github.com/facebook/react | Eric Jensen |
 | Than Gerlek  | Zod | https://github.com/colinhacks/zod | Michael Gardanier |
+| Tony Johnson | hedy | https://github.com/hedyorg | Lucas Castro |
 | Dave Kartchner | Duplicati | https://github.com/duplicati/duplicati | Tyler Gill |
+| Molly Remer | hedy | https://github.com/hedyorg | Angela Rogers |
+| Andrew Slade | rustc | https://github.com/rust-lang/rust | Ashton Wiersdorf |
 | Daniel Spiesman | grafana | https://github.com/grafana/grafana | Ben Hansen |
 | Ethan Wagstaff | Parser | https://github.com/alphanome-ai/sec-parser | Kevin Hoffman |
