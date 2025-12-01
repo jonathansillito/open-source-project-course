@@ -148,6 +148,9 @@ Submit a one page reflection on the following questions. There is no "right answ
 
 * Briefly summarize how bug reporting and fixing is handled in your OSS project. Provide some reflection on *why* things are done the way they are.
 * What (if any) opportunities do you see for contributing to bug reporting and handling in your OSS project?
+* How has this exercise helped you develop your skills relative to the module's learning outcomes, to
+  1. Effectively use (project-specific) collaboration tools and processes
+  2. Communicate clearly and persuasively about technical topics, while engaging constructively with feedback
 
 ## Appendix
 
