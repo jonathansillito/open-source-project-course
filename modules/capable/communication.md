@@ -78,7 +78,7 @@ For your open source project do the following:
 
 Submit a one-page reflection on your experience looking at the documentation and technical communication for your project. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
 
-* What types of documentation and techcnical communication did you find?
+* What types of documentation and technical communication did you find?
 * What was the quality?  What were the good and bad things you found?
 * How important do you feel that good communication and writing skills are to your success in the project? In your career?
 * Are there areas you recognize that you need to improve on?  What are they and what can you do to increase your skill?
