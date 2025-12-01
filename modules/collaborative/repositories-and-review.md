@@ -67,11 +67,6 @@ There are many different types of code reviews.  The Google guide describes one 
 
 Sometimes code reviews are performed "live" with everyone in the room.  This probably doesn't happen as much today with all the collaboration tools available to us, but it does happen in some places.  How might this change the dynamic or the interaction?
 
-
-Example project specific guide:
-
-* [Ruby pull requests](https://github.com/ruby/ruby/pulls)
-
 ### Amazon leadership principles
 
 * [Amazon Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles)
@@ -113,7 +108,13 @@ Once everyone has done that, we'll merge all the pull requests as a group.
 
 ### Code Review practice
 
+The basis of our pull request and code review will be this GitHub issue (which includes a hint or starting point for the fix).
 
+* https://github.com/jonathansillito/CS301R-Ruby/issues/3
+
+Using that issue as a starting point, following the work flow discussed above, fix the issue and create a pull request (referencing the issue).
+
+Each group of students will perform a code review of another group's work. While performing the code review, use this as [a checklist](https://google.github.io/eng-practices/review/). Groups are to then respond to pull request comments, updating their change as appropriate. 
 
 ## Applying
 
@@ -126,8 +127,11 @@ Complete the following tasks to develop a deeper understanding of the collaborat
 
 ## Reflecting
 
-Submit a one page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
+Submit a one-page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
 
 * What are the key parts of the collaboration processes used in your open source project? Why are they there?
 * What might differentiate a proposed contribution that is successful (i.e., accepted) from one that would not be successful?
+* How has this exercise helped you develop your skills relative to the module's learning outcomes, to
+  1. Effectively use (project-specific) collaboration tools and processes
+  2. Communicate clearly and persuasively about technical topics, while engaging constructively with feedback 
 
