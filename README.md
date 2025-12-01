@@ -33,8 +33,8 @@ We hope the following more specific learning outcomes will help you accomplish t
 
 **Capable**
 
-7. Evaluate and refine engineering work against project goals (correctness, design fit, efficiency, etc.)
-8. Apply appropriate tools and analytical thinking to resolve complex technical problems
+7. Apply the principles of analytical thinking in the context of debugging and troubleshooting
+8. Communicate technical ideas through effective writing
 
 * *Develop talents with diligence, faith, resilience, humility, and a desire to grow*
 

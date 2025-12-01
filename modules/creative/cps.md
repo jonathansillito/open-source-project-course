@@ -12,7 +12,6 @@ Please read the following article before class:
 
 * [Osborn-Parnes Creative Problem Solving Process](https://brdo.berkeley.edu/sites/default/files/cps_handbook.pdf)
 
-
 ## Discussing
 
 Solving problems is an important part of software engineering. Various structured processes exist which aim to help people *creatively* solve problems. *Creative* solutions are those with an element of newness or innovation to them. For the sake of time, we will focus on just one process: the *Osborn-Parnes Creative Problem Solving Process* or *CPS*. For reference, other examples include: Design Thinking and TRIZ (Theory of Inventive Problem Solving).
@@ -23,13 +22,13 @@ As we discuss CPS, it may help to have in the back of your mind a problem you wo
 
 The CPS process has four (sometimes written out as six) stages as follows:
 
-*#1 Clarification:* Explore the problem space, collect data and facts, and generate problems (or questions). Select the most intriguing or fruitful problem(s) to address. By *problem space* we mean the current (or initial) state that presents some opportunities. Some important breakthroughs come from reframing the problem, and certainly the framing of the problem can affect the stages that follow.
+1. *Clarification:* Explore the problem space, collect data and facts, and generate problems (or questions). Select the most intriguing or fruitful problem(s) to address. By *problem space* we mean the current (or initial) state that presents some opportunities. Some important breakthroughs come from reframing the problem, and certainly the framing of the problem can affect the stages that follow.
 
-*#2 Ideation:* Generate ideas by deferring judgement, prefer quantity to quality, look for unusual ideas, build on ideas. The output from this stage is a list of ideas, with no ranking ("every idea is equal"). 
+2. *Ideation:* Generate ideas by deferring judgement, prefer quantity to quality, look for unusual ideas, build on ideas. The output from this stage is a list of ideas, with no ranking ("every idea is equal"). 
 
-*#3 Development:* Develop ideas by applying affirmative judgement, keeping novelty alive and staying focused on your objectives. In the SE context during the clarification phase and the development phase, project priorities and constraints become important, though they can be in tension with the novelty.
+3. *Development:* Develop ideas by applying affirmative judgement, keeping novelty alive and staying focused on your objectives. In the SE context during the clarification phase and the development phase, project priorities and constraints become important, though they can be in tension with the novelty.
 
-*#4. Implementation:* Planning for implementation and action. Be flexible when needed. Note that in many organizations the effort involved in "socializing" an idea is important part of having a contribution accepted. This is true for both open and closed source projects.
+4. *Implementation:* Planning for implementation and action. Be flexible when needed. Note that in many organizations the effort involved in "socializing" an idea is important part of having a contribution accepted. This is true for both open and closed source projects.
 
 ### Ways of thinking
 
@@ -159,9 +158,9 @@ Complete the following tasks to (1) solidify your understanding of how the ideas
 
 ## Reflecting
 
-Submit a one page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
+Submit a one-page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
 
 * What tools did you use when applying CPS to an open source project? What effect did that have on the outcomes? 
 * What did you learn from communicating with project members during the process?
-* What role do you see divergent and convergent thinking playing in software engineering work?
-* What areas of your personal, church or professional life could benefit from creative problem solving?
+* What role do you see divergent and convergent thinking playing in software engineering work in general and specifically in your work in the future?
+* What areas of your personal, church or professional life could benefit from creative problem-solving?
