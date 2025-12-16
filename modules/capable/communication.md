@@ -1,7 +1,5 @@
 # Technical Communication and Writing Good Documentation
 
-Status: WIP
-
 ## Learning outcomes
 
 1. Understand why writing is important
