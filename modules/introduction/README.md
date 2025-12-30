@@ -75,6 +75,9 @@ The (possibly considering the selection criteria discussed earlier) make a decis
 
 ## Reflecting
 
+You will submit two reflections for this part of the course, one about the project you are selecting and another about your mentor.
+
+### Project Selection Reflection
 Submit a one-page description of the project you want to contribute to and the rationale behind your decision. Your write-up should include:
 
 * The name of the project and a link to its website/Github
@@ -83,8 +86,9 @@ Submit a one-page description of the project you want to contribute to and the r
 * A description of how you think you might contribute to the project
 * What OSS license the project uses
 
-If you will be using a mentor, please also provide the following information:
+### Mentor Selection Reflection
+Submit a one-page reflection on mentoring.  Your write-up should include:
 
-* Who will be your mentor?
+* Who will be your mentor (name, email address, etc.)?
 * What are you hopes/ambitions for that mentoring relationship?
 * How will you approach mentoring (so as to accomplish what you hope)?
