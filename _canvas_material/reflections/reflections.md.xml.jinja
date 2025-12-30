@@ -1,0 +1,24 @@
+{% for r in args %}
+<assignment
+    id="R_{{ r['Id'] }}"
+    title = "Reflection - {{ r['Title'] }}"
+    due_at = "{{ r['Due_Date'] }}, {{ Year }}, 11:59 PM"
+    available_from="{{ Sem_Start }}, {{ Year }}, 12:00 AM"
+    available_to="{{ Last_Day_Of_Classes }}, {{ Year }}, 11:59 PM"
+    allowed_attempts="-1"
+    assignment_group="Reflections"
+    points_possible="5"
+    submission_types="online_upload, online_text_entry"
+    allowed_extensions="docx, pdf"
+    published="true"
+>
+<description>
+    ## Instructions
+
+    <include path="{{ r['Instructions_Path'] }}" lines="{{ r['Lines'] }}" usediv="False"/>
+</description>
+
+
+</assignment>
+
+{% endfor %}

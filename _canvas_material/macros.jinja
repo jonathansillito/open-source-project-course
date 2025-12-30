@@ -1,0 +1,22 @@
+{% macro box_maker(type, title) %}
+  {% if type == "tip" %}
+    {% set icon = '<i class="fas fa-lightbulb"><span class="dp-icon-content" style="display: none;">&nbsp;</span></i>' %}
+  {% elif type == "note" %}
+    {% set icon = '<i class="fas fa-info-circle"><span class="dp-icon-content" style="display: none;">&nbsp;</span></i>' %}
+  {% elif type == "important" %}
+    {% set icon = '<i class="fas fa-exclamation-circle"><span class="dp-icon-content" style="display: none;">&nbsp;</span></i>' %}
+  {% elif type == "warning" %}
+    {% set icon = '<i class="fas fa-exclamation-triangle"><span class="dp-icon-content" style="display: none;">&nbsp;</span></i>' %}
+  {% elif type == "caution" %}
+    {% set icon = '<i class="fas fa-stop-circle"><span class="dp-icon-content" style="display: none;">&nbsp;</span></i>' %}
+  {% endif %}
+<div class="{{ type }}"><strong class="{{ type }}">{{ icon }} {{ title }}</strong>
+  <p>{{ caller() }}</p>
+</div>
+{% endmacro %}
+
+{% macro spoiler(title) %}
+<details><summary>▶ <strong>{{ title }}</strong></summary>
+  <p>{{ caller() }}</p>
+</details>
+{% endmacro %}

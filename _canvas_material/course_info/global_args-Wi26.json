@@ -1,0 +1,39 @@
+{
+  "Sem_Start": "Jan 7",
+  "Last_Day_Of_Classes": "Apr 15",
+  "Reading_Day": "Apr 16",
+  "Sem_End": "Apr 22",
+  "Year": "2026",
+  "Term_Code": "20261",
+  "Final": "Apr 20",
+
+  "Group_Weights": {
+      "Reflections" : 50,
+      "Progress Reports" : 20,
+      "Final" : 30
+  },
+
+  "R_Project":        "Jan 20",
+  "R_Mentor":         "Jan 20",
+  "R_Communication":  "Feb 2",
+  "R_LearningPlan":   "Feb 9",
+  "R_Investigating":  "Feb 17",
+  "R_IssueTracking":  "Feb 23",
+  "R_Repositories":   "Mar 2",
+  "R_ProblemSolving": "Mar 9",
+  "R_Debugging":      "Mar 23",
+
+  "W02_PR": "Jan 16",
+  "W03_PR": "Jan 23",
+  "W04_PR": "Jan 30",
+  "W05_PR": "Feb 6",
+  "W06_PR": "Feb 13",
+  "W07_PR": "Feb 20",
+  "W08_PR": "Feb 27",
+  "W09_PR": "Mar 6",
+  "W10_PR": "Mar 13",
+  "W11_PR": "Mar 19",
+  "W12_PR": "Mar 27",
+  "W13_PR": "Apr 3",
+  "W14_PR": "Apr 10"
+}

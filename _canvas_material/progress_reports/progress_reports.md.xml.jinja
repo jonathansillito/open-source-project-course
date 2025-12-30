@@ -1,0 +1,39 @@
+{% for pr in args %}
+<quiz
+    id = "PR_{{ pr['Id'] }}"
+    title = "Week {{ pr['Id'] }} Progress Report"
+    due_at = "{{ pr['Due_Date'] }}, {{ Year }}, 11:59 PM"
+    available_from="{{ Sem_Start }}, {{ Year }}, 12:00 AM"
+    available_to="{{ Last_Day_Of_Classes }}, {{ Year }}, 11:59 PM"
+    allowed_attempts="-1"
+    assignment_group="Progress Reports"
+>
+    <description>
+        Please summarize the work you have done for the class and contributions you have made to your open source project during this week. For contributions you have made, include a short description of the contribution and link to the contribution. Example contribution types include:
+
+        * Work in the issue tracking/bug tracking system. This can include triage, replication, reporting, etc.
+        * Documentation improvements/additions.
+        * Testing and test suite contributions.
+        * Source code changes, pull requests you have opened, etc.
+        * Work on code reviews of other contributors.
+        * And others we haven't thought of.
+
+        Please also tell us what contribution(s) you have planned next.
+
+        **Note**: If you have not made any specific contributions this week, that is fine but please still tell us what you have planned and what work you have done.
+    </description>
+    <questions>
+        <question type="numerical" numerical_answer_type="range" points="1">
+            How much time (in hours) did you spend this week on work for this course outside of class lecture attendance?
+            <correct answer_range_start="0" answer_range_end="164"/>
+        </question>
+        <question type="essay" points="4">
+            Please describe your work and contributions from the past week.
+        </question>
+        <question type="essay" points="0">
+            If you have any feedback on the course so far, feel free to share below.
+    </question>
+    </questions>
+</quiz>
+
+{% endfor %}
