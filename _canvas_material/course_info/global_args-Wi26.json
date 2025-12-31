@@ -13,6 +13,18 @@
       "Final" : 30
   },
 
+  "D_Intro":         "Jan 07",
+  "D_OpenSource":    "Jan 12",
+  "D_Communication": "Jan 14",
+  "D_LearningPlan":  "Jan 26",
+  "D_Investigating": "Feb 2",
+  "D_Issues":        "Feb 9",
+  "D_CodeReview":    "Feb 17",
+  "D_CPS":           "Feb 23",
+  "D_Engineering":   "Mar 2",
+  "D_Debugging":     "Mar 9",
+
+
   "R_Project":        "Jan 20",
   "R_Mentor":         "Jan 20",
   "R_Communication":  "Feb 2",

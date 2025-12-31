@@ -1,0 +1,12 @@
+{% for p in args %}
+<page
+    id="{{ p['Id'] }}"
+    title="{{ p['Title'] }}"
+    student_todo_at="{{ p["Date"] }}, {{ Year }}, 1:00 PM"
+>
+
+    <include path="{{ p['MD'] }}" lines="2:200" usediv="false"/>
+
+</page>
+
+{% endfor %}
