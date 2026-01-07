@@ -40,14 +40,14 @@ It may be helpful to refer to [this table comparing various OSS licenses](https:
 
 ### Selecting an OSS project for this course
 
-We have assembled a [list of example projects to consider](possible-projects.md), but please note that it is more than ok to select a project not from this list. Here are a few criteria you may wish to consider:
+We have assembled a <course-link type="page" id="P_Projects">list of example projects to consider</course-link>, but please note that it is more than ok to select a project not from this list. Here are a few criteria you may wish to consider:
 
 * Your personal level of interest in the project and the underlying technology
 * Activity level of the project (i.e., avoid a "dead" project)
 * Contribution opportunities that are tractable for newcomers (check for open issues, bug reports, ...)
 * How well the project fits with your current career goals, could also be a consideration.
 
-You may also which to ask yourself, whether you could imagine wanting to be involved with the project, even after the course is completed.
+You may also which to ask yourself whether you could imagine wanting to be involved with the project, even after the course is completed.
 
 ## Practicing
 
@@ -77,7 +77,7 @@ The (possibly considering the selection criteria discussed earlier) make a decis
 
 You will submit two reflections for this part of the course, one about the project you are selecting and another about your mentor.
 
-### Project Selection Reflection
+### <course-link type="assignment" id="R_Project">Project Selection Reflection</course-link>
 Submit a one-page description of the project you want to contribute to and the rationale behind your decision. Your write-up should include:
 
 * The name of the project and a link to its website/Github
@@ -86,9 +86,3 @@ Submit a one-page description of the project you want to contribute to and the r
 * A description of how you think you might contribute to the project
 * What OSS license the project uses
 
-### Mentor Selection Reflection
-Submit a one-page reflection on mentoring.  Your write-up should include:
-
-* Who will be your mentor (name, email address, etc.)?
-* What are you hopes/ambitions for that mentoring relationship?
-* How will you approach mentoring (so as to accomplish what you hope)?

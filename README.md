@@ -42,11 +42,11 @@ Note that the spiritual learning outcomes listed under each category above are n
 
 ## Course structure
 
-Each full week of the course will be focused on one main topic, related to a course learning outcome. Outside of class time, student work in the course will primarily involve contributing to an open source project of their choice. The open source project is how students *apply* what is discussed and practiced during class time. A typical week will look something like the following (beginning on **Tuesday** and then spilling into **Thursday**).
+Each full week of the course will be focused on one main topic, related to a course learning outcome. Outside of class time, student work in the course will primarily involve contributing to an open source project of their choice. The open source project is how students *apply* what is discussed and practiced during class time. A typical week will look something like the following (beginning on **Monday** and then spilling into **Wednesday**).
 
 1. **Reading:** Each week students will be assigned some reading of substance. We expect that students who do the reading *in advance* will get far more out of the class.
 
-2. **Discussing:** Tuesday class will begin with a discussion of the topic, in part based on the reading. We hope students will come prepared to ask questions and contribute to the discussion.
+2. **Discussing:** Monday's class will begin with a discussion of the topic, in part based on the reading. We hope students will come prepared to ask questions and contribute to the discussion.
 
 3. **Practicing:** Next, students will break into small groups to practice skills related to the topic. Practice will be highly interactive, with interruptions for class *discussion* and *feedback*.
 
@@ -54,7 +54,7 @@ Each full week of the course will be focused on one main topic, related to a cou
 
 5. **Reflecting:** On a somewhat flexible schedule, students will submit a reflection on the topic based on some assigned questions. There is no "right answer" here, but reflections will be graded on the depth of insights and understanding displayed.
 
-Throughout the course we will use the Ruby Programming Language project as a running example. Together we will discuss topics, practice skills, and explore tooling often in the context of the Ruby project. Independently students will apply the same ideas on an open source project of their choice.
+Throughout the course we will use the Ruby Programming Language project as a running example. Together we will discuss topics, practice skills, and explore tooling often in the context of the Ruby project. Independently, students will apply the same ideas on an open source project of their choice.
 
 ## Open source project work schedule
 

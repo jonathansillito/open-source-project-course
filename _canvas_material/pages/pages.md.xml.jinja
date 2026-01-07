@@ -2,7 +2,9 @@
 <page
     id="{{ p['Id'] }}"
     title="{{ p['Title'] }}"
+    {% if p["Date"]%}
     student_todo_at="{{ p["Date"] }}, {{ Year }}, 1:00 PM"
+    {% endif %}
 >
 
     <include path="{{ p['MD'] }}" lines="2:200" usediv="false"/>

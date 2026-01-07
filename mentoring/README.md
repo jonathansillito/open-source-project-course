@@ -53,6 +53,23 @@ Once you have a possible mentor selected, you will need to reach out to them to 
 Once you've found someone to serve as your mentor, take advantage of it. Try to meet weekly, come with questions, ask for their help, listen to their advice and suggestions, report on successes and challenges, and develop a lasting relationship. 
 
 ## Reporting on the Mentoring Experience
-At the end of the semester, the student will write a reflection on their mentoring relationship, and we will be soliciting feedback from the mentors on what worked and what didn't.  The mentor feedback will in no way affect the student's course grade but rather is designed to help us improve the process and instruction for future semesters.
+You will submit two different reflections related to mentoring.  The first will be at the beginning of the semster identifying your mentor and your expectations/goals.  At the end of the semester, you will write a reflection on your mentoring relationship, and we will be soliciting feedback from the mentors on what worked and what didn't.  The mentor feedback will in no way affect the student's course grade but rather is designed to help us improve the process and instruction for future semesters.
+
+### <course-link type="assignment" id="R_Mentor">Mentor Selection Reflection</course-link>
+Submit a one-page reflection on your mentor and mentoring expectations.  Your write-up should include:
+
+* Who will be your mentor (name, email address, etc.)?
+* What are you hopes/ambitions for that mentoring relationship?
+* How will you approach mentoring (so as to accomplish what you hope)?
+
+### <course-link type="assignment" id="R_Mentoring">Mentoring Experience Reflection</course-link>
+Submit a one-page reflection on your mentoring experience.  Your write-up should include:
+
+* How frequently did you meet with your mentor and your feelings about the frequence/length of your sessions?
+* How prepared were you for your sessions?
+* What was your experience with the mentoring relationship? e.g. What worked? What didn't? Was it helpful or not?
+* What could have made it better?
+* Other thoughts you had about the experience.
+
 
 
