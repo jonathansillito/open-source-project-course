@@ -10,23 +10,23 @@
 
 * [Why programmers don't write documentation](https://kislayverma.com/programming/why-programmers-dont-write-documentation/)
 * [How to write software documentation](https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
-* [A deep dive into software documentation best practices](https://devdynamics.ai/blog/a-deep-dive-into-software-documentation-best-practices/)
+* [A deep dive into software documentation best practices](https://blog2.devdynamics.ai/blog/a-deep-dive-into-software-documentation-best-practices/)
 * [Knowledge Software Documentation Best Practices \[With Examples\]](https://helpjuice.com/blog/software-documentation)
 
 
 ## Discussing
 Discussion topics:
 
-* The readings were focused on documentation, but technical communication is a much broader topic.  
-  * What do you think falls under the umbrella of *technical communication*?
-  * How important are each of these to a successful project?
-  * Let's look at this page: [Current Drafts of FSSC Documents](https://fermi.gsfc.nasa.gov/ssc/dev/current_documents/) - This lists the top level documents for just the Fermi (formerly GLAST) Science Support Center (There were similar documents for the overall project, the two instruments, the spacecraft itself, and the mission operations center).  What type of documents to you see here?
+* The readings were focused on documentation, but technical communication is a much broader topic.
+    * What do you think falls under the umbrella of *technical communication*?
+    * How important are each of these to a successful project?
+    * Let's look at this page: [Current Drafts of FSSC Documents](https://fermi.gsfc.nasa.gov/ssc/dev/current_documents/) - This lists the top level documents for just the Fermi (formerly GLAST) Science Support Center (There were similar documents for the overall project, the two instruments, the spacecraft itself, and the mission operations center).  What type of documents to you see here?
 * How much time (% of work) do you think a typical developer spends on technical communication?
-  * How do you think that varies between *corporate* and *open-source* work?
-  * How much do you spend when working on class assignments?
+    * How do you think that varies between *corporate* and *open-source* work?
+    * How much do you spend when working on class assignments?
 * What makes technical communication *good* or *successful*? 
-  * What examples do you have of *good* technical communication?
-  * What about *bad* examples?
+    * What examples do you have of *good* technical communication?
+    * What about *bad* examples?
 * What types of technical communication do you think are particularly relevant for open source projects?
 * How do you think your ability to write will impact your interactions within an open source project? In your career?
 
@@ -39,9 +39,9 @@ Let's looks at some other examples:
 
 *The following is to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions. Also, please expect interruptions and be open to feedback!*
 
-For this exercise, you are going to write three small pieces technical communication.  For each of these, you will be writing about the Ruby buffer overflow bug we looked at last week.  In your groups, write each of the following items:
+For this exercise, you are going to write three small pieces technical communication.  For each of these, you will be writing about a bug that was discovered and fixed. Think back to some error you discovered in code you have written and write about that.  It could be something you are currently facing or maybe something you've already fixed. In your groups, write each of the following items:
 
-* **Bug report** - You are the user who discovered the bug and are reporting it to the Ruby team.
+* **Bug report** - You are the user who discovered the bug and are reporting it to the team mantaining the software.
 * **Pull request** - You are the developer that has fixed the bug and are writing a description of the fix in preparation for the fix to be reviewed and accepted.
 * "**Incident report**" - After the bug has been fixed and patched, you are writing a synopsis of the issue and how it was fixed for "upper management" which possibly includes people without a deep technical understanding of the code.
 
@@ -71,9 +71,7 @@ For your open source project do the following:
   * What good attributes/practices can you find?
   * Where could it use improvement?
 
-
-## Reflecting
-
+## <course-link type="assignment" id="R_Communication">Technical Communication Reflection</course-link>
 Submit a one-page reflection on your experience looking at the documentation and technical communication for your project. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
 
 * What types of documentation and technical communication did you find?
