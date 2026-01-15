@@ -34,7 +34,7 @@ As students work through each of these stages in their projects, they are bound 
 ## Selecting a Mentor
 During the first few weeks of the semester, students should be selecting and contacting their mentor.  It is the student's responsibility to initiate this connection.  Students will coordinate the mentor selection with the instructors of the class so as not to overwhelm any one mentor with too many students.
 
-If the student has selected a project suggested by one of our alumni (see the [Possible Projects](../modules/introduction/possible-projects.md) page) then they have a potential mentor already lined up.  Talk with the instructors to get the alumnus's contact information and reach out to them to ask them to be your mentor.
+If the student has selected a project suggested by one of our alumni (see the <course-link type="page" id="P_Projects">Possible Projects</course-link> page) then they have a potential mentor already lined up.  Talk with the instructors to get the alumnus's contact information and reach out to them to ask them to be your mentor.
 
 If the student has a project not suggested by one of our alumni, they should work with the professors to identify a possible mentor.  The professors have a list of alumni willing to mentor regardless of project or the student may have someone specific in mind already.  Once they have selected a possible mentor, the student should reach out to them to ask them to be your mentor.
 
