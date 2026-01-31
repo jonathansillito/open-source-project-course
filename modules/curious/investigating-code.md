@@ -10,8 +10,8 @@ By discussing code investigation, our aim is to:
 ## Reading
 
 * [The Code Archeololgist](https://www.profocustechnology.com/software-development/the-code-archaeologist/) - The need to be able to dive into old code bases and the challenges you might face
-* [How to Approach a New Codebase(blogpost)](https://amberwilson.co.uk/blog/how-to-approach-a-new-codebase/)
-* [How to Get Familiar with an Existing Codebase(blogpost)](https://dev.to/isaactony/how-to-get-familiar-with-an-existing-codebase-49k5)
+* [How to Approach a New Codebase (blogpost)](https://amberwilson.co.uk/blog/how-to-approach-a-new-codebase/)
+* [How to Get Familiar with an Existing Codebase (blogpost)](https://dev.to/isaactony/how-to-get-familiar-with-an-existing-codebase-49k5)
 
 
 ## Discussing
@@ -174,7 +174,7 @@ Integrated development environments (IDEs) such as VS Code provide various tools
 
 This will require recompiling the Ruby C code to include the debug information and also properly setting up C/C++ debugging for your IDE of choice. Some partial instructions for VS Code are included at the end of this file. Once debugging is setup, please use the debugger to answer the following questions.
 
-1. What are some of the builtin classes that are created during the initialization of the Ruby VM? (Hint: start by putting a break point in the `Init_Hash` function to see where it is called from and then what else is called.
+1. What are some of the builtin classes that are created during the initialization of the Ruby VM? (Hint: start by putting a break point in the `Init_Hash` function to see where it is called from and then what else is called.)
 
 Note that due to the use of C macros, it may not be so easy to use the IDE--without the debugger--to find some calls. We will spend more time working in a debugger later in the course (see the [Capable/Debugging tools and techniques](../capable/debugging.md) module).
 
@@ -215,7 +215,7 @@ Submit a (about one page) reflection on the following questions and the result o
 1. What tools helped you in your investigation and in what way?
 2. How did you document what you learned?
 3. What else would you like to learn about the code? What next steps will you take? (You're answer to this can be based on the list of questions you were asked to generate above)
-4. Submit a diagram capturing the overall structure of the code base--with a particular focus on what you have investigated/learned. We are not interested in a diagram that captures all the types, functions, classes ... of the entire code base.
+4. Submit a diagram capturing the overall structure of the code base, with a particular focus on what you have investigated/learned. We are not interested in a diagram that captures all the types, functions, classes, etc of the entire code base.
 
 ## Appendix
 
