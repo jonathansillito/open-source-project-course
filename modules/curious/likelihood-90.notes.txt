@@ -11,7 +11,7 @@ in Minuit constructor (which takes the SummedLikelihood object as a parameter):
 
 back in _errors() :
 - call myOpt.find_min:
-  - this is just a delagate to the minimize() function
+  - this is just a delegate to the minimize() function
   - minimize() seem to just be calling a bunch of C functions to do the fit.  Will double check the C++ calls if memory use not found elsewhere
 - call myOpt.getUncertainty():
   - calls computeHessian()

@@ -142,15 +142,15 @@ Individually complete the following tasks to deepen your understanding of how bu
 
 Note there can be important differences between documented procedures and actual project practice. Some procedures may not be documented but can be "discovered" through observation. By reading existing bug reports and discussions, for example.
 
-## Reflecting
+## <course-link type="assignment" id="R_IssueTracking">Issue Tracking Reflection</course-link>
 
 Submit a one page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
 
 * Briefly summarize how bug reporting and fixing is handled in your OSS project. Provide some reflection on *why* things are done the way they are.
 * What (if any) opportunities do you see for contributing to bug reporting and handling in your OSS project?
 * How has this exercise helped you develop your skills relative to the module's learning outcomes, to
-  1. Effectively use (project-specific) collaboration tools and processes
-  2. Communicate clearly and persuasively about technical topics, while engaging constructively with feedback
+    1. Effectively use (project-specific) collaboration tools and processes
+    2. Communicate clearly and persuasively about technical topics, while engaging constructively with feedback
 
 ## Appendix
 

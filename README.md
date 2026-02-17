@@ -6,7 +6,7 @@ The goals of this course are to help students develop a better resume (or portfo
 
 These learning outcomes are motivated by the mission of the software engineering emphasis: *"We develop Christlike leaders in software engineering who bless others by being creative, collaborative, capable, and curious."* And by the aims of a BYU education: *"A BYU education should be (1) spiritually strengthening, (2) intellectually enlarging, and (3) character building, leading to (4) lifelong learning and service."* At a high level, we hope that students will be able to:
 
-> Apply engineering skills to make meaningful, quality contributions, following appropriate processes
+> **Apply engineering skills to make meaningful, quality contributions, following appropriate processes**
 
 We hope the following more specific learning outcomes will help you accomplish that outcome during this course, but we also hope they will provide a foundation that will allow you to improve at your ability to make meaningful contributions throughout your career. 
 
@@ -15,28 +15,28 @@ We hope the following more specific learning outcomes will help you accomplish t
 1. Apply a structured problem-solving process (Design Thinking or CPS, say) to identify problems or opportunities, and ...
 2. Generate, evaluate, and select solutions based on project priorities and constraints (**divergent** and **convergent** thinking)
 
-* *Prayerfully seek inspiration and apply creativity in solving problems professionally, personally, and in service to others* 
+> *Prayerfully seek inspiration and apply creativity in solving problems professionally, personally, and in service to others* 
 
 **Collaborative**
 
 3. Effectively use (project-specific) collaboration tools and processes
 4. Communicate clearly and persuasively about technical topics, while engaging constructively with feedback 
 
-* *Be an uplifting influence and an example of a believer in professional and personal relationships and collaborations*
+> *Be an uplifting influence and an example of a believer in professional and personal relationships and collaborations*
 
 **Curious**
 
 5. Develop expertise in tools and techniques for investigating and understanding an existing code base
 6. Develop strategies for independently learning new programming languages, frameworks, and other technology
 
-* *Develop the skills, confidence, and desire to learn independently--including both spiritually and intellectually*
+> *Develop the skills, confidence, and desire to learn independently--including both spiritually and intellectually*
 
 **Capable**
 
 7. Apply the principles of analytical thinking in the context of debugging and troubleshooting
 8. Communicate technical ideas through effective writing
 
-* *Develop talents with diligence, faith, resilience, humility, and a desire to grow*
+> *Develop talents with diligence, faith, resilience, humility, and a desire to grow*
 
 Note that the spiritual learning outcomes listed under each category above are not generally assessed in the course. However, they are prominent in the reading, discussing, and reflecting parts of the course, and we hope students apply them.
 

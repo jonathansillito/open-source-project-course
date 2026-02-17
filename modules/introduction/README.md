@@ -11,7 +11,7 @@ In preparation for our class discussion, please read the following articles.
 
 * [Open-source Software](https://en.wikipedia.org/wiki/Open-source_software) - Wikipedia article
 * [The GNU Manifesto](https://www.gnu.org/gnu/manifesto.en.html) - Richard Stallman
-* [Cathderal and the Bazaar](./cathedral-bazaar.pdf) - Eric Raymond
+* [Cathderal and the Bazaar](https://github.com/jonathansillito/open-source-project-course/blob/main/modules/introduction/cathedral-bazaar.pdf) - Eric Raymond
 * [Open-source License](https://en.wikipedia.org/wiki/Open-source_license) - Wikipedia article
 
 Here is an optional Wikipedia article to read if you would like more details about the history of open source.
@@ -25,9 +25,9 @@ Open source software is part of the modern computing world, but it wasn't always
 ### The OSS model and its history
 
 * History of open source
-  * When did "open source software" start?
-  * Why did we move away from it?
-  * Why did we move back?
+    * When did "open source software" start?
+    * Why did we move away from it?
+    * Why did we move back?
 * What advantages does open source software provide?
 * What are its disadvantages?
 
@@ -54,11 +54,11 @@ You may also which to ask yourself whether you could imagine wanting to be invol
 *The following is to be completed in groups of two or three students. While you are practicing, please feel free to ask questions and start impromptu class discussions. Also, please expect interruptions and be open to feedback!*
 
 * Identify the licences being used by the following projects:
-  * [Mozilla Firefox](https://mozilla.org)
-  * [OpenSSL](https://github.com/openssl/openssl)
-  * [React web framework](https://react.dev/)
-  * [git](https://git-scm.com/)
-  * [The Linux Kernel](https://github.com/torvalds/linux)
+    * [Mozilla Firefox](https://mozilla.org)
+    * [OpenSSL](https://github.com/openssl/openssl)
+    * [React web framework](https://react.dev/)
+    * [git](https://git-scm.com/)
+    * [The Linux Kernel](https://github.com/torvalds/linux)
 * Compare and contrast the licenses from those projects.  What are the similarities? What are the differences? Do you understand the meaning of the language used in the licences? 
 * Find the license being used by a project you are considering. Discuss top options each student is considering. Evaluate them based on the criteria above.
 
@@ -68,8 +68,8 @@ The goal of this activity is to select a project to work on for this course. Her
 
 * Brainstorm a list of projects you would like to consider.
 * For each project:
-  * Identify the license used
-  * Identify ways that you could contribute (open issues, bug reports, feature requests, documentation, goals, etc.)
+    * Identify the license used
+    * Identify ways that you could contribute (open issues, bug reports, feature requests, documentation, goals, etc.)
 
 The (possibly considering the selection criteria discussed earlier) make a decision.
 

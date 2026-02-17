@@ -5,9 +5,9 @@
 ## Learning outcomes
 
 1. Effectively use (project-specific) collaboration tools and processes
-3. Communicate clearly and persuasively about technical topics, while engaging constructively with feedback 
+2. Communicate clearly and persuasively about technical topics, while engaging constructively with feedback 
 
-* *Be an uplifting influence and an example of a believer in professional and personal relationships and collaborations*
+> *Be an uplifting influence and an example of a believer in professional and personal relationships and collaborations*
 
 ## Reading
 
@@ -38,14 +38,14 @@ Note: many larger projects have smaller sub-projects with separate maintainers.
 **Example 2:** Despite some initial concerns from @matz (the creator of Ruby), this was approved and merged after discussion in a dev meeting. Note the use of temporary branches to test and then merge changes into the mainline.
 
 * Pull request: [Support cause: in Thread#raise and Fiber#raise](https://github.com/ruby/ruby/pull/13967)
-* Reported as bug: https://bugs.ruby-lang.org/issues/21360 and the related: https://bugs.ruby-lang.org/issues/21359 (which @matz commented on)
-* Discussed and approved here: https://github.com/ruby/dev-meeting-log/blob/master/2025/DevMeeting-2025-07-10.md#bug-21360-inconsistent-support-for-exceptioncause-in-fiberraise-and-threadraise-ioquatix (by matz during a dev meeting)
+* Reported as bug: [https://bugs.ruby-lang.org/issues/21360](https://bugs.ruby-lang.org/issues/21360) and the related: [https://bugs.ruby-lang.org/issues/21359](https://bugs.ruby-lang.org/issues/21359) (which @matz commented on)
+* Discussed and approved here: [https://github.com/ruby/dev-meeting-log/blob/master/2025/DevMeeting-2025-07-10.md#bug-21360-inconsistent-support-for-exceptioncause-in-fiberraise-and-threadraise-ioquatix](https://github.com/ruby/dev-meeting-log/blob/master/2025/DevMeeting-2025-07-10.md#bug-21360-inconsistent-support-for-exceptioncause-in-fiberraise-and-threadraise-ioquatix) (by matz during a dev meeting)
 * Decision: merge
 
 We will not discuss this now, but just for reference, here is an example of a more significant (language level change).
 
-* https://bugs.ruby-lang.org/issues/12912 (adding endless range)
-* https://ruby-doc.org/core-2.6/Range.html#class-Range-label-Endless+Ranges
+* [https://bugs.ruby-lang.org/issues/12912](https://bugs.ruby-lang.org/issues/12912) (adding endless range)
+* [https://ruby-doc.org/core-2.6/Range.html#class-Range-label-Endless+Ranges](https://ruby-doc.org/core-2.6/Range.html#class-Range-label-Endless+Ranges)
 
 ### Tools and processes
 
@@ -58,8 +58,8 @@ Naturally there is significant and interesting variation in the ways that even d
 
 We will discuss concrete tools and processes in two submodules:
 
-* [Bugs, bug reporting and triage](bug-reports.md)
-* [Managing code and participating in code review](repositories-and-review)
+* <course-link type="page" id="P_Issues">Bugs, bug reporting and triage</course-link>
+* <course-link type="page" id="P_CodeReview">Managing code and participating in code review</course-link>
 
 However, before we do we will discuss some *soft skills* and Gospel principles that can shape how you collaborate in professional settings, including open source projects.
 

@@ -43,5 +43,5 @@ What might each of us do to follow the commandment to seek learning? Here are a 
 
 To become (and remain) a great engineer will require learning throughout your life. You should (of course) not assume that what you learn in school will be enough. We will discuss (and practice and apply) these ideas further, in a software engineering context in the following modules:
 
-* [Learning to learn (semi-)independently](learning.md)
-* [Tools and techniques for investigating code](investigating-code.md)
+* <course-link type="page" id="P_LearningPlan">Learning to learn (semi-)independently</course-link>
+* <course-link type="page" id="P_Investigating">Tools and techniques for investigating code</course-link>

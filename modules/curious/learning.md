@@ -32,18 +32,18 @@ With that background, let's look at a process for developing a working plan to l
 ### Building a learning plan
 1. *Why are you learning this thing?* Understanding "why?" provides both motivation and an ending point.  What is the target?  How will you know when you get there?
 2. *Set goals.* The scope here can vary widely.  Maybe it is just learning how to use a function, maybe you're trying to learn a new style of programming or a new language.  
-   1. For a small target, they may just be a single, small goal
-   2. For larger projects you may need to break the final target down into smaller chunks.  Stepwise refinement works just as well here as it does breaking down a programming problem.  You have the skills, use them.
-   3. Set deadlines and give yourself rewards for meeting them.
-   4. Use the **SMART** method for setting goals on larger projects. You want goals that are **S**pecific, **M**easurable, **A**chievable, **R**elevant, and **T**imed.
+     1. For a small target, they may just be a single, small goal
+     2. For larger projects you may need to break the final target down into smaller chunks.  Stepwise refinement works just as well here as it does breaking down a programming problem.  You have the skills, use them.
+     3. Set deadlines and give yourself rewards for meeting them.
+     4. Use the **SMART** method for setting goals on larger projects. You want goals that are **S**pecific, **M**easurable, **A**chievable, **R**elevant, and **T**imed.
 3. *Make a schedule*
-   1. Block out time to do the learning, practicing, or other activities.
-   2. Know your limits - How long can you focus before you need a break?
-      1. It's a mental muscle. If you push just a little past this, your "endurance" will grow over time.
-   3. Schedule breaks - Get up, stretch, walk around, grab some food, step away from the work.  Our brains actually remember better the things we study right after we start and right before we stop.  Plus not focusing on a topic directly allows our sub-conscious mind to process it. (This helps with debugging as well.)
+     1. Block out time to do the learning, practicing, or other activities.
+     2. Know your limits - How long can you focus before you need a break?
+          1. It's a mental muscle. If you push just a little past this, your "endurance" will grow over time.
+     3. Schedule breaks - Get up, stretch, walk around, grab some food, step away from the work.  Our brains actually remember better the things we study right after we start and right before we stop.  Plus not focusing on a topic directly allows our sub-conscious mind to process it. (This helps with debugging as well.)
 4. *Be accountable to someone.* This mostly applies to larger projects.  
-   1. Your intrinsic motivations comes from knowing the "why." Having someone who knows what you are working on provides additional extrinsic motivation. 
-   2. They can provide encouragement when struggling and checking in with them can provide motivation to keep going. 
+     1. Your intrinsic motivations comes from knowing the "why." Having someone who knows what you are working on provides additional extrinsic motivation. 
+     2. They can provide encouragement when struggling and checking in with them can provide motivation to keep going. 
 5. *Build something.* Often trying to build/extend/fix something is what got you here in the first place.  But when trying to learn something more abstract (e.g. new framework, language, or programming paradigm) it helps to have something concrete you are working on.  This makes the learning practical instead of strictly abstract.
 
 You probably only need to explicitly go through these steps on larger learning projects.  For smaller items, they may be intuitive or unnecessary.  But each of them apply every time, and being conscious of the steps can help.
@@ -79,7 +79,7 @@ Build yourself a learning plan to increase your expertise in that topic.  Identi
 
 Write down your plan and start working on it.
 
-## Reflecting
+## <course-link type="assignment" id="R_LearningPlan">Learning Plan Reflection</course-link>
 
 After working through your learning plan (or the first week of it if it is longer), submit your **original plan** along with a **short (about one page) reflection** that addresses the following questions:
 

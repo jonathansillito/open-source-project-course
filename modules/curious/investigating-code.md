@@ -17,19 +17,22 @@ By discussing code investigation, our aim is to:
 ## Discussing
 
 Questions to start class:
+
 * What does it mean to you when you hear the phrase "code archeology?"
 * Have you ever had to dive into and use or edit code you didn't write?  
-  * What was the context?
-  * What problems/challenges/hurdles did you have to overcome?
-  * What tool/techniques did you use to get up to speed?
+    * What was the context?
+    * What problems/challenges/hurdles did you have to overcome?
+    * What tool/techniques did you use to get up to speed?
 
 When we start looking at existing code we may be doing so for a number of different reasons:
+
 1. To figure out how to get it to build and run
 1. To understand the overall architecture/design
 1. To identify the location and cause of a bug
 1. To identify how to implement a desired new feature or modify an existing one
 
 Before you can start making changes to code, you need to understand it.  There are a number of things to look at when you are trying to understand a new code base:
+
 * **Context** - Why was the code written? What is its purpose? What expectations are there about its use?
 * **Design & Architecture** - How is the project organized?  Are there patterns?  What external dependencies exist?  What internal dependencies?
 * **Documentation** - How is the code documented?  Is external documentation up-to-date?  Where can you find it?  Is the code commented cleanly?
@@ -38,6 +41,7 @@ Before you can start making changes to code, you need to understand it.  There a
 * **Domain Knowledge** - Is there specialized domain knowledge the code relies on or assumes the developer/user understands?
 
 As you start to learn the code, how do you effectively navigate it and generate understanding?
+
 * **Evaluate your Assumptions** - Were the things you assumed about the code correct?  What did you learn that was different?
 * **Use your IDE's tools** - "Go to Definitions" and "Go to Uses" are going to be your friends.
 * **Run the code** - See how it behaves, run it through profilers to see what classes/functions are heavily used, run it in the debugger and step through to understand the program flow.
@@ -49,17 +53,18 @@ As you start to learn the code, how do you effectively navigate it and generate 
 
 This is an example of a focused investigation looking for the source of an error reported by a user and trying to identify how to fix it.
 
-A user reported this bug in the science analysis software distributed by NASA's Fermi Gamma-ray Space Telescope mission: [Memory use and delete_local_fixed](https://github.com/fermi-lat/Likelihood/issues/90).  I'd never worked with this particular part of the codebase before and had to dive in to figure out what was happening.  Here are my [notes from tracing the program flow](../docs/likelihood-90.notes.txt).  Let's walk through the entire process.  These notes were made between the 8th (Aug 25, 2020) and 9th (Sep 24, 2020) comments on the issue thread.
+A user reported this bug in the science analysis software distributed by NASA's Fermi Gamma-ray Space Telescope mission: [Memory use and delete_local_fixed](https://github.com/fermi-lat/Likelihood/issues/90).  I'd never worked with this particular part of the codebase before and had to dive in to figure out what was happening.  Here are [my notes from tracing the program flow](https://github.com/jonathansillito/open-source-project-course/blob/main/modules/curious/likelihood-90.notes.txt).  Let's walk through the entire process.  These notes were made between the 8th (Aug 25, 2020) and 9th (Sep 24, 2020) comments on the issue thread.
 
 ### Tools
 
 There are a number of various tools you can use to help understand your codebase:
+
 * Your IDE - view and navigate through the code
 * Memory profilers - the [Valgrind](https://valgrind.org/) suite on Linux, [leaks](https://developer.apple.com/library/archive/documentation/Performance/Conceptual/ManagingMemory/Articles/FindingLeaks.html) on Mac
 * AI - analyze, interpret, & summarize code
-  * [Cursor](https://www.cursor.com/en)
-  * [Claude](https://claude.ai/)
-  * [Warp](https://www.warp.dev/code)
+    * [Cursor](https://www.cursor.com/en)
+    * [Claude](https://claude.ai/)
+    * [Warp](https://www.warp.dev/code)
  
 ## Practicing
 
@@ -67,7 +72,7 @@ There are a number of various tools you can use to help understand your codebase
 
 Our goal is to investigate the parts of the Ruby programming language that are implemented in the C programming language. In the process we will get some practice with a few tools.
 
-### Preparation (could be done before class)
+### Preparation (should be done before class)
 
 At least one member of the group, but ideally all members of the group should follow the following steps:
 
@@ -208,13 +213,13 @@ Complete the following tasks to develop a better understanding of an open source
 
 Note: in the above we are using the term "component" generically. In any particular code base components maybe captured as packages, subdirectories, etc.
 
-## Reflecting
+## <course-link type="assignment" id="R_Investigating">Investigating Code Reflection</course-link>
 
 Submit a (about one page) reflection on the following questions and the result of your investigation. 
 
 1. What tools helped you in your investigation and in what way?
 2. How did you document what you learned?
-3. What else would you like to learn about the code? What next steps will you take? (You're answer to this can be based on the list of questions you were asked to generate above)
+3. What else would you like to learn about the code? What next steps will you take? (Your answer to this can be based on the list of questions you were asked to generate above)
 4. Submit a diagram capturing the overall structure of the code base--with a particular focus on what you have investigated/learned. We are not interested in a diagram that captures all the types, functions, classes ... of the entire code base.
 
 ## Appendix
@@ -279,4 +284,4 @@ Finally, create a launch configuration in `.vscode/launch.json`. Here are a coup
 }
 ```
 
-Now you an create breakpoints in VS Code and run ruby in the lldb debugger.
+Now you can create breakpoints in VS Code and run ruby in the lldb debugger.

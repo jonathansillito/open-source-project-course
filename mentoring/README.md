@@ -7,10 +7,12 @@ In addition to the instructors, each student will have an alumnus (or other expe
 * Mentors are to maintain confidentiality, allowing students to be honest and vulnerable, without worrying their grades will be impacted.
 
 Details of what is expected for both mentors and students can be found on the following pages:
-* [Expectations for Mentors](mentors.md)
-* [Expectations for Students](mentees.md)
+
+* <course-link type=page id="P_Mentor">Mentoring Expectations for Mentors</course-link>
+* <course-link type=page id="P_Mentee">Mentoring Expectations for Students</course-link>
 
 The course is organized around the following process (from the course README):
+
 1. Select a project
 2. Learn about the technology
     * Programming languages and relevant frameworks
@@ -40,6 +42,7 @@ If the student has a project not suggested by one of our alumni, they should wor
 
 ### Reaching out to a possible mentor
 Once you have a possible mentor selected, you will need to reach out to them to verify that they are willing to serve as your mentor.  In your initial contact, you should include the following information:
+
 * Why you are reaching out to them
   * Tell them about the class and your need for a mentor
   * Tell them about the project you are working on
