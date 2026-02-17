@@ -101,7 +101,7 @@ There will be two different practice exercises for this module.
 Practice using the git workflow discussed in class by doing the following:
 1. Clone/fork the [class repository](https://github.com/jonathansillito/open-source-project-course).
 2. Create a new branch
-3. Edit the [selected-mentors.md](../../mentoring/selected-mentors.md) file in your branch to include the information from the members of your group.
+3. Edit the [selected-mentors.md](https://github.com/jonathansillito/open-source-project-course/blob/main/mentoring/selected-mentors.md) file in your branch to include the information from the members of your group.
 4. Create a pull request to merge your changes into the actual repository.
 
 Once everyone has done that, we'll merge all the pull requests as a group.
@@ -110,7 +110,7 @@ Once everyone has done that, we'll merge all the pull requests as a group.
 
 The basis of our pull request and code review will be this GitHub issue (which includes a hint or starting point for the fix).
 
-* https://github.com/jonathansillito/CS301R-Ruby/issues/3
+* [CS301R-Ruby#3](https://github.com/jonathansillito/CS301R-Ruby/issues/3)
 
 Using that issue as a starting point, following the work flow discussed above, fix the issue and create a pull request (referencing the issue).
 
