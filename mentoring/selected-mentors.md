@@ -4,4 +4,4 @@ This page is for tracking the projects and mentors selected by the students duri
 
 | Student Name | Project | Project URL | Mentor's Name |
 |--------------|---------|-------------|---------------|
-Caleb Calderwood | Ladybird | https://github.com/LadybirdBrowser/ladybird/blob/master/Documentation/BuildInstructionsLadybird.md | Tommy Williams
+Caleb Calderwood | Ladybird | https://github.com/LadybirdBrowser/ladybird/tree/master | Tommy Williams
