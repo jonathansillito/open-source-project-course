@@ -16,7 +16,7 @@ Please read the following article before class:
 
 Solving problems is an important part of software engineering. Various structured processes exist which aim to help people *creatively* solve problems. *Creative* solutions are those with an element of newness or innovation to them. For the sake of time, we will focus on just one process: the *Osborn-Parnes Creative Problem Solving Process* or *CPS*. For reference, other examples include: Design Thinking and TRIZ (Theory of Inventive Problem Solving).
 
-As we discuss CPS, it may help to have in the back of your mind a problem you would like to solve or an opportunity you would like to pursue. This could be personal problem, a relationship you would like to strengthen, church calling related, a struggle with a class, or work related.
+As we discuss CPS, it may help to have in the back of your mind a problem you would like to solve or an opportunity you would like to pursue. This could be a personal problem, a relationship you would like to strengthen, church-calling related, a struggle with a class, or work-related.
 
 ### Steps in the process
 
@@ -132,7 +132,7 @@ The objective is to evaluate and improve the best ideas from brainstorming. Cons
 
 ### Stage 4: Implementation
 
-The objective of this stage is to build and test the solution. We don't have time in this class to prototype and test out the ideas, but if we did we could be guided by questions such as:
+The objective of this stage is to build and test the solution. We don't have time in this class to prototype and test out the ideas, but if we did, we could be guided by questions such as:
 
 * What worked? 
 * What didn't? 
@@ -156,7 +156,7 @@ Complete the following tasks to (1) solidify your understanding of how the ideas
 * Apply the principles of stage 3 of the CPS process and one or more of the tools described in the pre-class reading (again, some of which are listed in the table above) to help you develop the most promising solution(s). A deep understanding of project priorities, constraints, culture, etc. may help.
 * Share what you consider the most promising solution(s) with project members, including your views on the pros and concerns.
 
-## Reflecting
+## <course-link type="assignment" id="R_ProblemSolving">Creative Problem Solving Reflection</course-link>
 
 Submit a one-page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
 

@@ -42,11 +42,11 @@ To introduce these ideas we will discuss the Slack incident linked above. This i
 
 In the following module we will discuss and practice analytical thinking in the context of debugging code:
 
-1. [Debugging tools and techniques](debugging.md)
+* <course-link type="page" id="P_Debugging">Debugging tools and techniques</course-link>
 
-In the second module we will discuss communication:
+Earlier in the semester we discussed communication:
 
-2. [Technical communication and writing good documentation](communication.md)
+* <course-link type="page" id="P_Communication">Technical communication and writing good documentation</course-link>
 
 ## Conclusion
 

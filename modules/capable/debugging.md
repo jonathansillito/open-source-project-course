@@ -9,7 +9,7 @@ By discussing and practicing debugging in the context of analytical thinking our
 
 ## Reading (class preparation)
 
-* Before class, please download [this zip file](ruby-with-issues.zip), build it and run the code in a debugger of your choice. 
+* Before class, please download <file path="ruby-with-issues.zip"></file>, build it and run the code in a debugger of your choice. 
 * Some instructions for running ruby in the VS code debugger can be found at the end of the [investigating code module](../curious/investigating-code.md).
 
 ## Discussing
@@ -27,13 +27,13 @@ Think about difficult debugging problems you have faced in the past. What made t
 
 *The following are to be completed in groups of two (or three) students. While you are practicing, please feel free to ask questions and start impromptu class discussions. Also, please expect interruptions and be open to feedback!*
 
-[This zip file](ruby-with-issues.zip) contains a version of the c ruby code with (at least) two issues, described below (and also described in test.rb). For each issue, use the crash report (see below for one example), the code, the debugger, etc. and do the following in a loop (you do not need to follow a strict order).
+The <file path="ruby-with-issues.zip"></file> file contains a version of the c ruby code with (at least) two issues, described below (and also described in test.rb). For each issue, use the crash report (see below for one example), the code, the debugger, etc. and do the following in a loop (you do not need to follow a strict order).
 
 1. Generate one or more hypotheses (read code, ...)
 2. Test and investigate methodically (vary inputs, use debugger, write test cases)
 3. Review results and (newly) available information
 
-Continue with the above activities until you can (1) isolate the defect, (2) explain the circumstances under which it is activated, and (3) propose a fix. Time permitting you can make the fix and test it.
+Continue with the above activities until you can (1) isolate the defect, (2) explain the circumstances under which it is activated, and (3) propose a fix. Time permitting, you can make the fix and test it.
 
 ### Issue #1
 
@@ -76,11 +76,11 @@ Individually complete the following tasks to deepen your understanding of how to
 * Identify the key (top level) error handling strategies used by the software.
 * (Optionally) find a bug in the issue tracking system and identify defect and possible solutions.
 
-## Reflecting
+## <course-link type="assignment" id="R_Debugging">Debugging Tools & Techniques Reflection</course-link>
 
-Submit a one page reflection on your experience applying analytical thinking to your project. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
+Submit a one-page reflection on your experience applying analytical thinking to your project. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
 
-* Explain the logging and error handling strategies you identified.
+* Explain the logging and error handling strategies you identified in your open source project.
 * What aspects of analytical thinking are easier or more natural for you? Which are more difficult?
 * (Optional) Tell us about the bug you investigated and what you learned.
 

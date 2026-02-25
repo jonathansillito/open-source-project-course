@@ -13,7 +13,7 @@ When executing ruby code, the C implementation of ruby compiles the code to a ru
 ruby --dump=insns -e "2+3"
 ```
 
-Below is the (slightly simplified) bytecode. The basic format is: an instruction offset (ex: `0002`), the instruction name (ex: `opt_plus`), followed by any arguments (ex: the int literal `2`).
+Below is the (slightly simplified) bytecode. The basic format is: an instruction offset (ex: `0002`), the instruction name (ex: `putobject`), followed by any arguments (ex: the int literal `2`).
 
 ```
 == disasm: #<ISeq:<main>@-e:1 (1,0)-(1,3)>
@@ -43,7 +43,7 @@ def foo(state)
 end
 ```
 
-Our goal here is to design an improvement to the ruby implementation (not the language) that would improve the (runtime) performance of the case statement. A naive performance the performance is `O(n)` where `n` is the number of `when` conditions and of course related to the costs of checking for equality.
+Our goal here is to design an improvement to the ruby implementation (not the language) that would improve the (runtime) performance of the case statement. For a naive implementation the performance is `O(n)` where `n` is the number of `when` conditions and of course related to the costs of checking for equality.
 
 Before starting, let's invest some time together as a class on the *clarification* step of the CPS process. Then we will break into groups for *ideation* and *development* steps of the process. Please be sure you consider those separate steps. Recall that:
 
@@ -63,7 +63,7 @@ Before starting, let's invest some time together as a class on the *clarificatio
 
 For the solution used in Ruby today see:
 
-* https://bugs.ruby-lang.org/issues/11769, and 
+* [https://bugs.ruby-lang.org/issues/11769](https://bugs.ruby-lang.org/issues/11769), and 
 * The opt_case_dispatch bytecode instruction
 
 The basic idea is to use a jump table (when the opt_case_dispatch instruction can be used) rather than the equivalent to a sequence of if/else statements (more specifically using checkmatch/branchunless instructions).

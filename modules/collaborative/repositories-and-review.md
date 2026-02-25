@@ -99,6 +99,7 @@ There will be two different practice exercises for this module.
 ### git practice
 
 Practice using the git workflow discussed in class by doing the following:
+
 1. Clone/fork the [class repository](https://github.com/jonathansillito/open-source-project-course).
 2. Create a new branch
 3. Edit the [selected-mentors.md](https://github.com/jonathansillito/open-source-project-course/blob/main/mentoring/selected-mentors.md) file in your branch to include the information from the members of your group.
@@ -110,7 +111,7 @@ Once everyone has done that, we'll merge all the pull requests as a group.
 
 The basis of our pull request and code review will be this GitHub issue (which includes a hint or starting point for the fix).
 
-* [CS301R-Ruby#3](https://github.com/jonathansillito/CS301R-Ruby/issues/3)
+* [CS301R-Ruby issue 10](https://github.com/jonathansillito/CS301R-Ruby/issues/10)
 
 Using that issue as a starting point, following the work flow discussed above, fix the issue and create a pull request (referencing the issue).
 
@@ -125,7 +126,7 @@ Complete the following tasks to develop a deeper understanding of the collaborat
 3. Repeat #2, but with an unsuccessful contribution. Say starting from a pull request that was closed without being merged.
 4. Familiarize yourself with any tools used for collaboration.
 
-## Reflecting
+## <course-link type="assignment" id="R_Repositories">Code Review Reflection</course-link>
 
 Submit a one-page reflection on the following questions. There is no "right answer" here, but you will be graded on how insightful your answers are and the depth of understanding displayed.
 
